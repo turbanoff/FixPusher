@@ -1,0 +1,9 @@
+net.sourceforge.fixpusher.control
+net.sourceforge.fixpusher.model
+net.sourceforge.fixpusher.model.log
+net.sourceforge.fixpusher.model.message
+net.sourceforge.fixpusher.view
+net.sourceforge.fixpusher.view.dialog
+net.sourceforge.fixpusher.view.document
+net.sourceforge.fixpusher.view.log
+net.sourceforge.fixpusher.view.message

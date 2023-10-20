@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><fixpusher>
+	<last name="Acceptor Example FIX 5.0SP2"/>
+
+	
+	
+	
+<project name="Initiator Example FIX 5.0SP2">
+		<property name="hide_optional_fields" value="false"/>
+		<property name="hide_empty_fields" value="false"/>
+		<property name="hide_header" value="false"/>
+		<property name="hide_heartbeats" value="false"/>
+		<property name="hide_received" value="false"/>
+		<property name="hide_sent" value="false"/>
+		<property name="tree_width" value="387"/>
+		<property name="table_height" value="673"/>
+		<property name="heartbeat" value="60"/>
+		<property name="begin_string" value="FIXT.1.1"/>
+		<property name="refresh_message_store" value="N"/>
+		<property name="socket_port" value="4711"/>
+		<property name="connection_type" value="initiator"/>
+		<property name="sender_comp_id" value="COUNTERPARTY"/>
+		<property name="target_comp_id" value="FIXPUSHER"/>
+		<property name="file_log_path" value="./log/Initiator Example FIX 5.0SP2"/>
+		<property name="file_store_path" value="./log/Initiator Example FIX 5.0SP2"/>
+		<property name="data_dictionary" value="./conf/FIX50SP2.xml"/>
+		<property name="transport_data_dictionary" value="./conf/FIXT11.xml"/>
+		<property name="socket_adress" value="localhost"/>
+	</project><project name="Initiator Example FIX 4.4">
+		<property name="hide_optional_fields" value="false"/>
+		<property name="hide_empty_fields" value="false"/>
+		<property name="hide_header" value="false"/>
+		<property name="hide_heartbeats" value="false"/>
+		<property name="hide_received" value="false"/>
+		<property name="hide_sent" value="false"/>
+		<property name="tree_width" value="381"/>
+		<property name="table_height" value="703"/>
+		<property name="heartbeat" value="60"/>
+		<property name="begin_string" value="FIX.4.4"/>
+		<property name="refresh_message_store" value="N"/>
+		<property name="socket_port" value="4711"/>
+		<property name="connection_type" value="initiator"/>
+		<property name="sender_comp_id" value="COUNTERPARTY"/>
+		<property name="target_comp_id" value="FIXPUSHER"/>
+		<property name="file_log_path" value="./log/Initiator Example FIX 4.4"/>
+		<property name="file_store_path" value="./log/Initiator Example FIX 4.4"/>
+		<property name="data_dictionary" value="./conf/FIX44.xml"/>
+		<property name="transport_data_dictionary" value="./conf/FIXT11.xml"/>
+		<property name="socket_adress" value="localhost"/>
+	</project><project name="Acceptor Example FIX 4.4">
+		<property name="hide_optional_fields" value="false"/>
+		<property name="hide_empty_fields" value="true"/>
+		<property name="hide_header" value="false"/>
+		<property name="hide_heartbeats" value="false"/>
+		<property name="hide_received" value="false"/>
+		<property name="hide_sent" value="false"/>
+		<property name="tree_width" value="358"/>
+		<property name="table_height" value="614"/>
+		<property name="heartbeat" value="60"/>
+		<property name="begin_string" value="FIX.4.4"/>
+		<property name="refresh_message_store" value="N"/>
+		<property name="socket_port" value="4711"/>
+		<property name="connection_type" value="acceptor"/>
+		<property name="sender_comp_id" value="FIXPUSHER"/>
+		<property name="target_comp_id" value="COUNTERPARTY"/>
+		<property name="file_log_path" value="./log/Acceptor Example FIX 4.4"/>
+		<property name="file_store_path" value="./log/Acceptor Example FIX 4.4"/>
+		<property name="data_dictionary" value="./conf/FIX44.xml"/>
+		<property name="transport_data_dictionary" value="./conf/FIXT11.xml"/>
+		<property name="socket_adress" value="localhost"/>
+	</project><project name="Acceptor Example FIX 5.0SP2">
+		<property name="hide_optional_fields" value="false"/>
+		<property name="hide_empty_fields" value="false"/>
+		<property name="hide_header" value="false"/>
+		<property name="hide_heartbeats" value="false"/>
+		<property name="hide_received" value="false"/>
+		<property name="hide_sent" value="false"/>
+		<property name="tree_width" value="387"/>
+		<property name="table_height" value="700"/>
+		<property name="heartbeat" value="60"/>
+		<property name="begin_string" value="FIXT.1.1"/>
+		<property name="refresh_message_store" value="N"/>
+		<property name="socket_port" value="4711"/>
+		<property name="connection_type" value="acceptor"/>
+		<property name="sender_comp_id" value="FIXPUSHER"/>
+		<property name="target_comp_id" value="COUNTERPARTY"/>
+		<property name="file_log_path" value="./log/Acceptor Example FIX 5.0SP2"/>
+		<property name="file_store_path" value="./log/Acceptor Example FIX 5.0SP2"/>
+		<property name="data_dictionary" value="./conf/FIX50SP2.xml"/>
+		<property name="transport_data_dictionary" value="./conf/FIXT11.xml"/>
+		<property name="socket_adress" value="localhost"/>
+	</project></fixpusher>

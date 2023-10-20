@@ -1,0 +1,4011 @@
+<fields>
+	<field number="5000" name="OrdStatusReqType" />
+	<field number="5001" name="ExchangeQuoteID" />
+	<field number="5002" name="BidVolMultiplier" />
+	<field number="5003" name="OfferVolMultiplier" />
+	<field number="5004" name="BidVolLimit" />
+	<field number="5005" name="OfferVolLimit" />
+	<field number="5006" name="QuoteStatusReqType" />
+	<field number="5007" name="LockStatus" />
+	<field number="5008" name="DepositoryID" />
+	<field number="5009" name="DepositoryIDSource" />
+	<field number="5010" name="SecuritySuspended" />
+	<field number="5011" name="OrderMaxValue" />
+	<field number="5012" name="OrderMinValue" />
+	<field number="5013" name="TradeSequence" />
+	<field number="5014" name="TradeMode" />
+	<field number="5015" name="TickBandLow" />
+	<field number="5016" name="TickBandHigh" />
+	<field number="5017" name="TickBandType" />
+	<field number="5018" name="OrderBookID" />
+	<field number="5019" name="TradingSessionID2" />
+	<field number="5020" name="SettlDate" />
+	<field number="5021" name="ReportToOCS" />
+	<field number="5022" name="NoTickBands" />
+	<field number="5023" name="TickSize" />
+	<field number="5024" name="InternalSeqNo" />
+	<field number="5025" name="InternalAcknowledgementSw" />
+	<field number="5026" name="DaylightSavingSw" />
+	<field number="5027" name="ExchangeSymbolName" />
+	<field number="5028" name="BlkOrderDesk" />
+	<field number="5029" name="BlkOrderDeskNo" />
+	<field number="5030" name="BlockOrderID" />
+	<field number="5031" name="ExpireTime" />
+	<field number="5032" name="SecurityType" />
+	<field number="5033" name="IsForeignBroker" />
+	<field number="5034" name="IsTaxable" />
+	<field number="5035" name="Custodian Code" />
+	<field number="5036" name="OldQty" />
+	<field number="5037" name="OldPrice" />
+	<field number="5038" name="CMSText" />
+	<field number="5039" name="ClientOrderIDFormat" />
+	<field number="5040" name="JIWAYTradingStatus" />
+	<field number="5041" name="ExchangeTradingStatus" />
+	<field number="5042" name="MatchMultipleQty" />
+	<field number="5043" name="AltHandlInst" />
+	<field number="5044" name="Long Name" />
+	<field number="5045" name="Password" />
+	<field number="5046" name="SLEUID" />
+	<field number="5047" name="AllocBrokerAccountID" />
+	<field number="5048" name="OrdSubStatus" />
+	<field number="5049" name="Deal Link Reference" />
+	<field number="5050" name="TransStampStat" />
+	<field number="5051" name="InstructNoInstruct" />
+	<field number="5052" name="Maturity" />
+	<field number="5053" name="TradeType2" />
+	<field number="5054" name="ClientMarketInd" />
+	<field number="5055" name="TransReport" />
+	<field number="5056" name="ClientCharID" />
+	<field number="5057" name="AvgPxInd" />
+	<field number="5058" name="StampConsid" />
+	<field number="5059" name="Coupon" />
+	<field number="5060" name="PSBidPrice" />
+	<field number="5061" name="PSOfferPrice" />
+	<field number="5062" name="PriceSource" />
+	<field number="5063" name="FundingCharge" />
+	<field number="5064" name="FundingConsideration" />
+	<field number="5065" name="BidFundingCharge" />
+	<field number="5066" name="BidFundingConsideration" />
+	<field number="5067" name="DropID" />
+	<field number="5068" name="OfferFundingCharge" />
+	<field number="5069" name="OfferFundingConsideration" />
+	<field number="5070" name="UseSettlement" />
+	<field number="5071" name="TickBandNoDecPlaces" />
+	<field number="5072" name="ExchangeName" />
+	<field number="5073" name="SpreadMonicker" />
+	<field number="5074" name="FundCommissionOption" />
+	<field number="5075" name="FundCommissionWaiver" />
+	<field number="5076" name="FundReInvestIncome" />
+	<field number="5077" name="FundNomineeAccount" />
+	<field number="5078" name="FundSpecialDealDiscount" />
+	<field number="5079" name="FundSellAll" />
+	<field number="5080" name="AsOfIndicator" />
+	<field number="5081" name="AsOfTime" />
+	<field number="5082" name="QuoteType" />
+	<field number="5083" name="DripInterval" />
+	<field number="5084" name="DripQty" />
+	<field number="5085" name="FundValuationDate" />
+	<field number="5086" name="FundValuationSSM" />
+	<field number="5087" name="FundExternalRef" />
+	<field number="5088" name="BidDelta" />
+	<field number="5089" name="AskDelta" />
+	<field number="5090" name="FundInitialCharge" />
+	<field number="5091" name="AllocationIndicator" />
+	<field number="5092" name="CrossVariant" />
+	<field number="5093" name="CrossQualifier" />
+	<field number="5094" name="AmntBought" />
+	<field number="5095" name="AmntSold" />
+	<field number="5096" name="DeltaAmnt" />
+	<field number="5097" name="NoParam" />
+	<field number="5098" name="ParamType" />
+	<field number="5099" name="ParamValue" />
+	<field number="5100" name="FundSecurityType" />
+	<field number="5101" name="FundManagerName" />
+	<field number="5102" name="FundUnitType" />
+	<field number="5103" name="FundBuyableFromDate" />
+	<field number="5104" name="FundBuyableToDate" />
+	<field number="5105" name="FundValuationPoint" />
+	<field number="5106" name="FundDesignation" />
+	<field number="5107" name="FundGroup1Units" />
+	<field number="5108" name="FundGroup2Units" />
+	<field number="5109" name="WaitPrimaryExchange" />
+	<field number="5110" name="QuoteDepthOfMarket" />
+	<field number="5111" name="Contributor" />
+	<field number="5112" name="IssueDenomination" />
+	<field number="5113" name="CreditRatingAgency" />
+	<field number="5114" name="NoCreditRating" />
+	<field number="5115" name="UnderlyingCreditRatingAgency " />
+	<field number="5116" name="NoUnderlyingCreditRating" />
+	<field number="5117" name="LegCreditRatingAgency" />
+	<field number="5118" name="NoLegCreditRating" />
+	<field number="5119" name="NoRFQs" />
+	<field number="5120" name="FilterSource" />
+	<field number="5121" name="Filter" />
+	<field number="5122" name="FilterReqID" />
+	<field number="5123" name="FilterID" />
+	<field number="5124" name="ConversionTick" />
+	<field number="5125" name="TradeNotificationID" />
+	<field number="5126" name="CMSInternalData" />
+	<field number="5127" name="Post" />
+	<field number="5128" name="TurnAroundNumber" />
+	<field number="5129" name="NoIOIs" />
+	<field number="5130" name="TotNoIOIs" />
+	<field number="5131" name="PendingAllocation" />
+	<field number="5132" name="ContraOrderOrigin" />
+	<field number="5133" name="Omnibus" />
+	<field number="5134" name="MaxBestBidSize" />
+	<field number="5135" name="MaxBestOfferSize" />
+	<field number="5136" name="MaxQuotableBidSize" />
+	<field number="5137" name="MaxQuotableOfferSize" />
+	<field number="5138" name="SingleConversionQty" />
+	<field number="5139" name="AggregateConversionQty" />
+	<field number="5140" name="ExecBy" />
+	<field number="5141" name="PriceImprovementSide" />
+	<field number="5142" name="AltRule80A" />
+	<field number="5143" name="CCPTradeSuffixNumber" />
+	<field number="5144" name="CCPOrderCompletionFlag" />
+	<field number="5145" name="NettingLevel" />
+	<field number="5146" name="DealInstBroker" />
+	<field number="5147" name="NumExec" />
+	<field number="5148" name="TradOrdNum" />
+	<field number="5149" name="Memo" />
+	<field number="5150" name="UserIDCmd" />
+	<field number="5151" name="TickSizeDenominator" />
+	<field number="5152" name="BoothID" />
+	<field number="5153" name="SalesInstBroker" />
+	<field number="5154" name="CXFlag" />
+	<field number="5155" name="InstitutionID" />
+	<field number="5156" name="UnreleasedDate" />
+	<field number="5157" name="UnreleasedTime" />
+	<field number="5158" name="UnreleasedText" />
+	<field number="5159" name="ClearingCode" />
+	<field number="5160" name="ClearingAccountNDS" />
+	<field number="5161" name="AccountNDS" />
+	<field number="5162" name="TriggerType" />
+	<field number="5163" name="StabilisationPx" />
+	<field number="5164" name="SecondaryTransactTime" />
+	<field number="5165" name="SettlInstBroker" />
+	<field number="5166" name="NoTriggers" />
+	<field number="5167" name="TriggerPrice" />
+	<field number="5168" name="TriggerMaxFloor" />
+	<field number="5169" name="TriggerDate" />
+	<field number="5170" name="TriggerDelay" />
+	<field number="5171" name="TriggerTradSesStat" />
+	<field number="5172" name="TriggerSymbol" />
+	<field number="5173" name="TriggerIDSource" />
+	<field number="5174" name="TriggerSecurityIDSource" />
+	<field number="5175" name="Recycle" />
+	<field number="5176" name="ExTransactionType" />
+	<field number="5177" name="Source" />
+	<field number="5178" name="Dealer" />
+	<field number="5179" name="TradeTime" />
+	<field number="5180" name="CATStrategy" />
+	<field number="5181" name="CATExecStyle" />
+	<field number="5182" name="MaxPercentVol" />
+	<field number="5183" name="MinPercentVol" />
+	<field number="5184" name="PingAllECN" />
+	<field number="5185" name="AutoReplace" />
+	<field number="5186" name="CheapECN" />
+	<field number="5187" name="Reserved" />
+	<field number="5188" name="BidForwardPointsDelta" />
+	<field number="5189" name="OfferForwardPointsDelta" />
+	<field number="5190" name="LegLastSpotRate" />
+	<field number="5191" name="LegLastForwardPoints" />
+	<field number="5192" name="LegSplitTradeFlag" />
+	<field number="5193" name="LegMarketType" />
+	<field number="5194" name="NYSE Direct +" />
+	<field number="5195" name="FMCNOE" />
+	<field number="5196" name="PrevFMCNOE" />
+	<field number="5197" name="GUID" />
+	<field number="5198" name="FMC Trade Block number" />
+	<field number="5199" name="FMC Settlement Block" />
+	<field number="5200" name="IOIAvailQty" />
+	<field number="5201" name="AutoExSize" />
+	<field number="5202" name="TradeThruTime" />
+	<field number="5203" name="TradeThruSize" />
+	<field number="5204" name="TradeThruPrice" />
+	<field number="5205" name="AdjustedPriceInd" />
+	<field number="5206" name="SatisfactionOrdDisp" />
+	<field number="5207" name="ExecReceiptTime" />
+	<field number="5208" name="OriginalOrderTime" />
+	<field number="5209" name="OLAOrdRejReason" />
+	<field number="5210" name="NonDirectedBrokerFINS1" />
+	<field number="5211" name="NonDirectedBrokerFINS2" />
+	<field number="5212" name="ExecBrokerFINS" />
+	<field number="5213" name="OrderOrigin" />
+	<field number="5214" name="MKTXTargetLevel" />
+	<field number="5215" name="MKTXAllowPartialFill" />
+	<field number="5216" name="MKTXSpottingProcess" />
+	<field number="5217" name="StateSecurityID" />
+	<field number="5218" name="MKTXInquiryTimerDuration" />
+	<field number="5219" name="MKTXRevealNumberOfDealers" />
+	<field number="5220" name="ValidateOrd" />
+	<field number="5221" name="MKTXDesiredDueAtTime" />
+	<field number="5222" name="MKTXActualDueAtTime" />
+	<field number="5223" name="ApplyIOIEdits" />
+	<field number="5224" name="CircleInd" />
+	<field number="5225" name="SACrossType" />
+	<field number="5226" name="FutSettDate" />
+	<field number="5227" name="FutSettDate2" />
+	<field number="5228" name="BidForwardPoints" />
+	<field number="5229" name="OfferForwardPoints" />
+	<field number="5230" name="BidForwardPoints2" />
+	<field number="5231" name="OfferForwardPoints2" />
+	<field number="5232" name="Currency" />
+	<field number="5233" name="OrderQty" />
+	<field number="5234" name="OrderQty2" />
+	<field number="5235" name="SpotRate" />
+	<field number="5236" name="MKTXLegBenchmarkSecurityID" />
+	<field number="5237" name="MKTXLegBenchmarkSecurityIDSource" />
+	<field number="5238" name="MKTXLegTargetLevel" />
+	<field number="5239" name="Reserved" />
+	<field number="5240" name="OrderSequence" />
+	<field number="5241" name="Reserved" />
+	<field number="5242" name="Reserved" />
+	<field number="5243" name="Reserved" />
+	<field number="5244" name="Reserved" />
+	<field number="5245" name="Reserved" />
+	<field number="5246" name="Reserved" />
+	<field number="5247" name="Reserved" />
+	<field number="5248" name="Reserved" />
+	<field number="5249" name="SpotOptions" />
+	<field number="5250" name="CustomerType" />
+	<field number="5251" name="TimeInForce" />
+	<field number="5252" name="QtyParam" />
+	<field number="5253" name="OrdTypeExt" />
+	<field number="5254" name="OrigOrderID" />
+	<field number="5255" name="StopPxCondition" />
+	<field number="5256" name="AccountOriginType" />
+	<field number="5257" name="NoPrompts" />
+	<field number="5258" name="SLCptyNetCredit" />
+	<field number="5259" name="SLCptyGrossCredit" />
+	<field number="5260" name="SLCptyID" />
+	<field number="5261" name="SLSecClassification" />
+	<field number="5262" name="SLRate" />
+	<field number="5263" name="SLTerm" />
+	<field number="5264" name="SLMargin" />
+	<field number="5265" name="SLRnd" />
+	<field number="5266" name="SLLocateID" />
+	<field number="5267" name="SLPositionID" />
+	<field number="5268" name="Reserved" />
+	<field number="5269" name="Reserved" />
+	<field number="5270" name="IsSLMessage" />
+	<field number="5271" name="SLMsgType" />
+	<field number="5272" name="SLBasis" />
+	<field number="5273" name="SLFee" />
+	<field number="5274" name="SLOfferID" />
+	<field number="5275" name="SLMsgID" />
+	<field number="5276" name="SLQuoteType" />
+	<field number="5277" name="Reserved" />
+	<field number="5278" name="Reserved" />
+	<field number="5279" name="Reserved" />
+	<field number="5280" name="FXall MDFilterInd1" />
+	<field number="5281" name="FXall MDFilterInd2" />
+	<field number="5282" name="FXall CrossExclusionInd" />
+	<field number="5283" name="FXall ContingentInd" />
+	<field number="5284" name="FXall Indicator_4" />
+	<field number="5285" name="FXall Indicator_5" />
+	<field number="5286" name="FXall Indicator_6" />
+	<field number="5287" name="FXall Indicator_7" />
+	<field number="5288" name="FXall Indicator_8" />
+	<field number="5289" name="FXall Indicator_9" />
+	<field number="5290" name="ShortCode" />
+	<field number="5291" name="FXall Indicator_11" />
+	<field number="5292" name="BidMarketSize" />
+	<field number="5293" name="AskMarketSize" />
+	<field number="5294" name="NoOfMarketMakers" />
+	<field number="5295" name="UnderlyingNumber" />
+	<field number="5296" name="SeriesNumber" />
+	<field number="5297" name="SendingTimeJavaEpoch" />
+	<field number="5298" name="4WayAgreement" />
+	<field number="5299" name="MustRefresh" />
+	<field number="5300" name="ContraID" />
+	<field number="5301" name="PSMM Flag" />
+	<field number="5302" name="MM Quote Open Time" />
+	<field number="5303" name="MM Quote Close Time" />
+	<field number="5304" name="MM First Effective Date" />
+	<field number="5305" name="MM Last Effective Date" />
+	<field number="5306" name="MM Aut o Quote Refresh Parameter." />
+	<field number="5307" name="Lock /Cross Indicator" />
+	<field number="5308" name="Reserved" />
+	<field number="5309" name="Reserved" />
+	<field number="5310" name="MMBidSize" />
+	<field number="5311" name="MMOfferSize" />
+	<field number="5312" name="MMBidSizeType" />
+	<field number="5313" name="MMOfferSizeType" />
+	<field number="5314" name="BDBidSize" />
+	<field number="5315" name="BDBidSizeType" />
+	<field number="5316" name="BDOfferSize" />
+	<field number="5317" name="BDOfferSizeType" />
+	<field number="5318" name="Branch" />
+	<field number="5319" name="CrossMktProtection" />
+	<field number="5320" name="CustBidSizeType" />
+	<field number="5321" name="CustOfferSizeType" />
+	<field number="5322" name="FirmID" />
+	<field number="5323" name="IssueID" />
+	<field number="5324" name="IsVolOnePct" />
+	<field number="5325" name="IsVolTwoPct" />
+	<field number="5326" name="LockMktProtection" />
+	<field number="5327" name="AORThreshold" />
+	<field number="5328" name="AutoReplace" />
+	<field number="5329" name="MinPxVar" />
+	<field number="5330" name="OrigQuoteID" />
+	<field number="5331" name="OwnerID" />
+	<field number="5332" name="ScriptLevel" />
+	<field number="5333" name="SeriesID" />
+	<field number="5334" name="IssueStatus" />
+	<field number="5335" name="Tick" />
+	<field number="5336" name="UnderlyingID" />
+	<field number="5337" name="UpperLimit" />
+	<field number="5338" name="OPRAClassCode" />
+	<field number="5339" name="OriginalSize" />
+	<field number="5340" name="NBBOStepUpMode" />
+	<field number="5341" name="MPRequestID" />
+	<field number="5342" name="NoSteps" />
+	<field number="5343" name="DisseminatedStatus" />
+	<field number="5344" name="StepPosition" />
+	<field number="5345" name="SecDefnReqType" />
+	<field number="5346" name="NonCustSize" />
+	<field number="5347" name="NoExchanges" />
+	<field number="5348" name="QuoteScriptDataType" />
+	<field number="5349" name="QuoteStatusRequestType" />
+	<field number="5350" name="ReinitiateConfig" />
+	<field number="5351" name="OPRAStrikeCode" />
+	<field number="5352" name="PCXQuoteID" />
+	<field number="5353" name="IsFastFirm" />
+	<field number="5354" name="OptPxDenominator" />
+	<field number="5355" name="NoTick" />
+	<field number="5356" name="OrderReqType" />
+	<field number="5357" name="NoQuoteSizes" />
+	<field number="5358" name="ResponseID" />
+	<field number="5359" name="MktSize" />
+	<field number="5360" name="OrigOwnerID" />
+	<field number="5361" name="NoScriptLevel" />
+	<field number="5362" name="FMCNETTradeNumber" />
+	<field number="5363" name="PrevFMCNETTradeNumber" />
+	<field number="5364" name="MemberName" />
+	<field number="5365" name="MemberAddress" />
+	<field number="5366" name="ContactFax" />
+	<field number="5367" name="AltPhone1" />
+	<field number="5368" name="AltPhone2" />
+	<field number="5369" name="NoBranch" />
+	<field number="5370" name="BranchID" />
+	<field number="5371" name="Reserved" />
+	<field number="5372" name="Reserved" />
+	<field number="5373" name="Reserved" />
+	<field number="5374" name="Reserved" />
+	<field number="5375" name="Reserved" />
+	<field number="5376" name="Reserved" />
+	<field number="5377" name="Reserved" />
+	<field number="5378" name="Reserved" />
+	<field number="5379" name="Reserved" />
+	<field number="5380" name="Reserved" />
+	<field number="5381" name="ShortSecurityDesc" />
+	<field number="5382" name="EncodedShortSecurityDescLen" />
+	<field number="5383" name="EncodedShortSecurityDesc" />
+	<field number="5384" name="AccruedInterestAmt" />
+	<field number="5385" name="MarketCode" />
+	<field number="5386" name="MinPriceIncrement" />
+	<field number="5387" name="MktShareLimit" />
+	<field number="5388" name="MktShareThreshold" />
+	<field number="5389" name="MaxOrdersVolume" />
+	<field number="5390" name="SettlVenue" />
+	<field number="5391" name="SettlAccType" />
+	<field number="5392" name="SenderGroupID" />
+	<field number="5393" name="Reserved" />
+	<field number="5394" name="Reserved" />
+	<field number="5395" name="Reserved" />
+	<field number="5396" name="Reserved" />
+	<field number="5397" name="Reserved" />
+	<field number="5398" name="Reserved" />
+	<field number="5399" name="Reserved" />
+	<field number="5400" name="CashOrCredit" />
+	<field number="5401" name="TradeType" />
+	<field number="5402" name="LocalOrForeign" />
+	<field number="5403" name="ForeignerID" />
+	<field number="5404" name="ClassiOfForInv" />
+	<field number="5405" name="ExecPrice" />
+	<field number="5406" name="InvestorCode" />
+	<field number="5407" name="Non-memberID" />
+	<field number="5408" name="ProgramTrade" />
+	<field number="5409" name="ShortSaleType" />
+	<field number="5410" name="OrderRoutingMethod" />
+	<field number="5411" name="PriceIndi" />
+	<field number="5412" name="TradePurpose" />
+	<field number="5413" name="ReceiptTime" />
+	<field number="5414" name="NearestSeies Price" />
+	<field number="5415" name="FurthestSeriesPrice" />
+	<field number="5416" name="OrderDate" />
+	<field number="5417" name="AccountType" />
+	<field number="5418" name="ContractTime" />
+	<field number="5419" name="BasketID" />
+	<field number="5420" name="CouponFrequency" />
+	<field number="5421" name="CallDate" />
+	<field number="5422" name="ReliabilityIndicator" />
+	<field number="5423" name="ModelType" />
+	<field number="5424" name="PortfolioID" />
+	<field number="5425" name="SerialNo" />
+	<field number="5426" name="BrokerSeqNo" />
+	<field number="5427" name="InstrAttribType" />
+	<field number="5428" name="AdjTargetLevel" />
+	<field number="5429" name="NumberItems" />
+	<field number="5430" name="SpotPrice" />
+	<field number="5431" name="SpotYield" />
+	<field number="5432" name="CurveName" />
+	<field number="5433" name="CurvePoint" />
+	<field number="5434" name="AdjSpread" />
+	<field number="5435" name="FeeAdjToSpread" />
+	<field number="5436" name="AdjYield" />
+	<field number="5437" name="OldPrice" />
+	<field number="5438" name="ReferenceID" />
+	<field number="5439" name="OldReferenceID" />
+	<field number="5440" name="ClearingStatus" />
+	<field number="5441" name="ClearingMatchID" />
+	<field number="5442" name="MatchingSlipID" />
+	<field number="5443" name="ClearingSlipID" />
+	<field number="5444" name="LegReport" />
+	<field number="5445" name="DownloadRequestID" />
+	<field number="5446" name="RequestType" />
+	<field number="5447" name="RequestID" />
+	<field number="5448" name="NumMsg" />
+	<field number="5449" name="ReqResponseTo" />
+	<field number="5450" name="MDElementName (string data type)" />
+	<field number="5451" name="MDStatScope (int data type)" />
+	<field number="5452" name="MDCountType" />
+	<field number="5453" name="TraderCount" />
+	<field number="5454" name="MarketZone" />
+	<field number="5455" name="SmoothRateSrc" />
+	<field number="5456" name="MDStdDeviation" />
+	<field number="5457" name="PriceTimestamp" />
+	<field number="5458" name="MDDelayed" />
+	<field number="5459" name="SettlType" />
+	<field number="5460" name="AggressorIndicator" />
+	<field number="5461" name="TicketStatus" />
+	<field number="5462" name="PrimeDealIndicator" />
+	<field number="5463" name="TradeID" />
+	<field number="5464" name="SecondaryTradeID" />
+	<field number="5465" name="CstmApplVerID" />
+	<field number="5466" name="MDBookType" />
+	<field number="5467" name="MDPriceLevel" />
+	<field number="5468" name="MDCount" />
+	<field number="5469" name="ReqResponseStatus" />
+	<field number="5470" name="PriceMvmLimit" />
+	<field number="5471" name="CalculatedCcyLastQty" />
+	<field number="5472" name="PriceMvmLimitT1" />
+	<field number="5473" name="MguIndicator" />
+	<field number="5474" name="AbbreviatedPrice" />
+	<field number="5475" name="PromptDate" />
+	<field number="5476" name="PrivateReference" />
+	<field number="5477" name="PublicReferece" />
+	<field number="5478" name="CrossIndicator" />
+	<field number="5479" name="CarryIndicator" />
+	<field number="5480" name="YieldTo" />
+	<field number="5481" name="CleanPx" />
+	<field number="5482" name="GrossPx" />
+	<field number="5483" name="ProceedsCalBy" />
+	<field number="5484" name="Principal" />
+	<field number="5485" name="DealerPrincipal" />
+	<field number="5486" name="dealerNetMoney" />
+	<field number="5487" name="NoDealers" />
+	<field number="5488" name="ListID" />
+	<field number="5489" name="Direction" />
+	<field number="5490" name="LongName" />
+	<field number="5491" name="YieldAdjustment" />
+	<field number="5492" name="QuoteYieldTo" />
+	<field number="5493" name="GrossCover" />
+	<field number="5494" name="LastTrader" />
+	<field number="5495" name="STATE" />
+	<field number="5496" name="LastYield" />
+	<field number="5497" name="DaysToSettlement" />
+	<field number="5498" name="BindIndicator" />
+	<field number="5499" name="OrdStatus" />
+	<field number="5500" name="DivReinvest" />
+	<field number="5501" name="TransFeeIncluded" />
+	<field number="5502" name="DIVINST" />
+	<field number="5503" name="NumLinks" />
+	<field number="5504" name="LinkSymbol" />
+	<field number="5505" name="LinkPercent" />
+	<field number="5506" name="LinkPercent" />
+	<field number="5507" name="TrdMatchTime" />
+	<field number="5508" name="FaceValue" />
+	<field number="5509" name="AuctionIndicator" />
+	<field number="5510" name="ChgFromWAPrice" />
+	<field number="5511" name="ChgOpenInterest" />
+	<field number="5512" name="FirstEligibleTradeDate" />
+	<field number="5513" name="LastEligibleTradeDate" />
+	<field number="5514" name="InstrumentPricePrecision" />
+	<field number="5515" name="Counterparty Account" />
+	<field number="5516" name="MemberVolume" />
+	<field number="5517" name="MasterAccount" />
+	<field number="5518" name="AssumedCoupon" />
+	<field number="5519" name="PrepaymentSpeed" />
+	<field number="5520" name="BenchmarkOfferPx" />
+	<field number="5521" name="BenchmarkBidYield" />
+	<field number="5522" name="BenchmarkOfferYield" />
+	<field number="5523" name="BenchmarkOfferSpread" />
+	<field number="5524" name="OriginalDestination" />
+	<field number="5525" name="Haircut" />
+	<field number="5526" name="AllInPrice" />
+	<field number="5527" name="AllocationIndicator" />
+	<field number="5528" name="SalesBook" />
+	<field number="5529" name="NoInvPositions" />
+	<field number="5530" name="InvPositionDate" />
+	<field number="5531" name="InvPositionQty" />
+	<field number="5532" name="RateEffectiveDate" />
+	<field number="5533" name="TradeCorrectType" />
+	<field number="5534" name="AllocAccountSubID1" />
+	<field number="5535" name="AllocAccountSubID2" />
+	<field number="5536" name="AllocAccountSubID3" />
+	<field number="5537" name="CurrentFace" />
+	<field number="5538" name="AllocCurrentFace" />
+	<field number="5539" name="AllocGrossTradeAmt" />
+	<field number="5540" name="CurveDateRate1" />
+	<field number="5541" name="CurveDateRate2" />
+	<field number="5542" name="AllocGrossTradeAmt" />
+	<field number="5543" name="FirmAmount" />
+	<field number="5544" name="SecondaryCurrency" />
+	<field number="5545" name="BWitemID" />
+	<field number="5546" name="AllocGrossTradeAmt-New" />
+	<field number="5547" name="AllocCurrentFace-New" />
+	<field number="5548" name="AdjustedSwapPoints" />
+	<field number="5549" name="ClientFullName" />
+	<field number="5550" name="BalanceGroupID" />
+	<field number="5551" name="BuyLimit" />
+	<field number="5552" name="SellLimit" />
+	<field number="5553" name="MinimumValueType" />
+	<field number="5554" name="RolloverFlag" />
+	<field number="5555" name="ReturnCode" />
+	<field number="5556" name="BaseSwapPx" />
+	<field number="5557" name="AggregatedOrderExecRefIDs" />
+	<field number="5558" name="BuyBackPx" />
+	<field number="5559" name="BuyBackDate" />
+	<field number="5560" name="Reserved" />
+	<field number="5561" name="Reserved" />
+	<field number="5562" name="Reserved" />
+	<field number="5563" name="Reserved" />
+	<field number="5564" name="Reserved" />
+	<field number="5565" name="Reserved" />
+	<field number="5566" name="Reserved" />
+	<field number="5567" name="Reserved" />
+	<field number="5568" name="Reserved" />
+	<field number="5569" name="Reserved" />
+	<field number="5570" name="Reserved" />
+	<field number="5571" name="Reserved" />
+	<field number="5572" name="Reserved" />
+	<field number="5573" name="Reserved" />
+	<field number="5574" name="Reserved" />
+	<field number="5575" name="Reserved" />
+	<field number="5576" name="Reserved" />
+	<field number="5577" name="Reserved" />
+	<field number="5578" name="Reserved" />
+	<field number="5579" name="Reserved" />
+	<field number="5580" name="Reserved" />
+	<field number="5581" name="Reserved" />
+	<field number="5582" name="Reserved" />
+	<field number="5583" name="Reserved" />
+	<field number="5584" name="Reserved" />
+	<field number="5585" name="Reserved" />
+	<field number="5586" name="Reserved" />
+	<field number="5587" name="Reserved" />
+	<field number="5588" name="Reserved" />
+	<field number="5589" name="Reserved" />
+	<field number="5590" name="Reserved" />
+	<field number="5591" name="Reserved" />
+	<field number="5592" name="Reserved" />
+	<field number="5593" name="Reserved" />
+	<field number="5594" name="Reserved" />
+	<field number="5595" name="Reserved" />
+	<field number="5596" name="Reserved" />
+	<field number="5597" name="Reserved" />
+	<field number="5598" name="Reserved" />
+	<field number="5599" name="Reserved" />
+	<field number="5600" name="Thomson UDF" />
+	<field number="5601" name="Thomson UDF" />
+	<field number="5602" name="Thomson UDF" />
+	<field number="5603" name="Thomson UDF" />
+	<field number="5604" name="Thomson UDF" />
+	<field number="5605" name="Thomson UDF" />
+	<field number="5606" name="Thomson UDF" />
+	<field number="5607" name="Thomson UDF" />
+	<field number="5608" name="Thomson UDF" />
+	<field number="5609" name="Thomson UDF" />
+	<field number="5610" name="Thomson UDF" />
+	<field number="5611" name="Start Time" />
+	<field number="5612" name="End Time" />
+	<field number="5613" name="Urgency" />
+	<field number="5614" name="NumberOfSlices" />
+	<field number="5615" name="IncludeMarketOpen" />
+	<field number="5616" name="IncludeMarketClose" />
+	<field number="5617" name="MinPctParticipation" />
+	<field number="5618" name="TgtPctParticipation" />
+	<field number="5619" name="MaxPctParticipation" />
+	<field number="5620" name="TargetPrice" />
+	<field number="5621" name="DisplaySize" />
+	<field number="5622" name="SweepType" />
+	<field number="5623" name="SweepPriceEnum" />
+	<field number="5624" name="SuppTacticsFlag" />
+	<field number="5625" name="MKTXInquiryType" />
+	<field number="5626" name="MKTXPricingProcess" />
+	<field number="5627" name="MKTXInquiryState" />
+	<field number="5628" name="MKTXReleaseTime" />
+	<field number="5629" name="MKTXQuoteReponseRejectReason" />
+	<field number="5630" name="MKTXAvailableActions" />
+	<field number="5631" name="MKTXListType" />
+	<field number="5632" name="MKTXListComment" />
+	<field number="5633" name="MKTXListRejectMode" />
+	<field number="5634" name="MKTXListName" />
+	<field number="5635" name="MADataID" />
+	<field number="5636" name="DataSource" />
+	<field number="5637" name="MDEntryTransType" />
+	<field number="5638" name="BTDSSaleCondition" />
+	<field number="5639" name="BTDSCommissionIndicator" />
+	<field number="5640" name="BTDSQuantityIndicator" />
+	<field number="5641" name="BTDSSecondModifier" />
+	<field number="5642" name="BTDSPriceChangeCode" />
+	<field number="5643" name="BTDSSpecialPriceIndicator" />
+	<field number="5644" name="BTDSReportingPartySide" />
+	<field number="5645" name="OASSpread" />
+	<field number="5646" name="ParSpread" />
+	<field number="5647" name="MktSpread" />
+	<field number="5648" name="SuspectTradeIndicator" />
+	<field number="5649" name="OrigBCastSeqNo" />
+	<field number="5650" name="MKTXEstimatedQuantity" />
+	<field number="5651" name="MKTXDeltaDaySpread" />
+	<field number="5652" name="MKTXDeltaWeekSpread" />
+	<field number="5653" name="MKTXDeltaMtdSpread" />
+	<field number="5654" name="MKTXDeltaWeekPrice" />
+	<field number="5655" name="MKTXDeltaDayPrice" />
+	<field number="5656" name="MKTXDeltaMtdPrice" />
+	<field number="5657" name="MKTXDeltaDayYield" />
+	<field number="5658" name="MKTXDeltaWeekYield" />
+	<field number="5659" name="MKTXDeltaMtdYield" />
+	<field number="5660" name="IncludeSIs" />
+	<field number="5661" name="NoMKTXCostAnalysis" />
+	<field number="5662" name="MKTXAnalysisTo" />
+	<field number="5663" name="MKTXBenefit" />
+	<field number="5664" name="MKTXComparisonPrice" />
+	<field number="5665" name="MKTXPriceDiff" />
+	<field number="5666" name="MaturitySize" />
+	<field number="5667" name="MatDatStartYield" />
+	<field number="5668" name="MatDatEndYield" />
+	<field number="5669" name="FillOrKillAmount" />
+	<field number="5670" name="PositionAccount" />
+	<field number="5671" name="FOKPosition" />
+	<field number="5672" name="SecondaryIndividualAllocID" />
+	<field number="5673" name="SettlCurrAccruedInterestAmt" />
+	<field number="5674" name="SettlCurrNetMoney" />
+	<field number="5675" name="TaxRate" />
+	<field number="5676" name="Reserved" />
+	<field number="5677" name="Repo2Px" />
+	<field number="5678" name="ReceivePendings" />
+	<field number="5679" name="FixEngineName" />
+	<field number="5680" name="ProprietaryFixProtocolVersion" />
+	<field number="5681" name="ExchangeTradeType" />
+	<field number="5682" name="NewSecuritySubscription" />
+	<field number="5683" name="SecondaryConfirmStatus" />
+	<field number="5684" name="TotalBustedQty" />
+	<field number="5685" name="Ordered Quantity Leg 2" />
+	<field number="5686" name="InWorkup" />
+	<field number="5687" name="Executed Quantity Leg2" />
+	<field number="5688" name="Draft Algo Flag" />
+	<field number="5689" name="VersionID" />
+	<field number="5690" name="TargetStrategy" />
+	<field number="5691" name="ReferencePrice" />
+	<field number="5692" name="ReferenceVolume" />
+	<field number="5693" name="Strategy Category" />
+	<field number="5694" name="Security Delivery" />
+	<field number="5695" name="Front End Name" />
+	<field number="5696" name="Customer Category" />
+	<field number="5697" name="IPO Subscription Venue" />
+	<field number="5698" name="Desk" />
+	<field number="5699" name="Restricted Brokers" />
+	<field number="5700" name="LocateBroker" />
+	<field number="5701" name="LocateIdentifier" />
+	<field number="5702" name="PreBorrowQty" />
+	<field number="5703" name="OriginalSource" />
+	<field number="5704" name="BusinessLine" />
+	<field number="5705" name="NIMAllowed" />
+	<field number="5706" name="FixedRate" />
+	<field number="5707" name="PayPeriodMultiplier" />
+	<field number="5708" name="AdjDayRegion" />
+	<field number="5709" name="ADJSDT" />
+	<field number="5710" name="PnlLocation" />
+	<field number="5711" name="AckStatus" />
+	<field number="5712" name="AckType" />
+	<field number="5713" name="TicketStatus" />
+	<field number="5714" name="TicketTraders" />
+	<field number="5715" name="TicketOwner" />
+	<field number="5716" name="TimespanToQuote" />
+	<field number="5717" name="ExpireBy" />
+	<field number="5718" name="BBRespType" />
+	<field number="5719" name="StartPaymentDate" />
+	<field number="5720" name="EndPaymentDate" />
+	<field number="5721" name="FloatingPaymentFreq" />
+	<field number="5722" name="FixedPaymentFreq" />
+	<field number="5723" name="behaviour" />
+	<field number="5724" name="readyToPrice" />
+	<field number="5725" name="readyToTrade" />
+	<field number="5726" name="U_QuoteRespType" />
+	<field number="5727" name="PPT Override" />
+	<field number="5728" name="BenchmarkSecurityAltID" />
+	<field number="5729" name="AuctionDate" />
+	<field number="5730" name="CompQuote" />
+	<field number="5731" name="DV01" />
+	<field number="5732" name="AdjMidPx" />
+	<field number="5733" name="Requotable" />
+	<field number="5734" name="MrkupQuote" />
+	<field number="5735" name="BAMT" />
+	<field number="5736" name="PBRKR" />
+	<field number="5737" name="PBSVC" />
+	<field number="5738" name="PBRESP" />
+	<field number="5739" name="BoblBid" />
+	<field number="5740" name="boblask" />
+	<field number="5741" name="bundsBid" />
+	<field number="5742" name="bundsask" />
+	<field number="5743" name="schatzBid" />
+	<field number="5744" name="schatzask" />
+	<field number="5745" name="MTKT" />
+	<field number="5746" name="IRSTYPE" />
+	<field number="5747" name="IRSEOM" />
+	<field number="5748" name="ROLLSON" />
+	<field number="5749" name="ADJDT" />
+	<field number="5750" name="MATDTADJ" />
+	<field number="5751" name="VSPDate" />
+	<field number="5752" name="VSPPrice" />
+	<field number="5753" name="DECPLCS" />
+	<field number="5754" name="DECRND" />
+	<field number="5755" name="CMPND" />
+	<field number="5756" name="CMPB" />
+	<field number="5757" name="CMPA" />
+	<field number="5758" name="CMPM" />
+	<field number="5759" name="CMPSP" />
+	<field number="5760" name="ADJDTCP" />
+	<field number="5761" name="ADJDTPD" />
+	<field number="5762" name="ADJDTRES" />
+	<field number="5763" name="DYCTBAS" />
+	<field number="5764" name="FRREF" />
+	<field number="5765" name="FRESDAYS" />
+	<field number="5766" name="IRSSWTYPE" />
+	<field number="5767" name="SWSPRD" />
+	<field number="5768" name="CNFCO" />
+	<field number="5769" name=" fe" />
+	<field number="5770" name="PriceRatio" />
+	<field number="5771" name="ECV" />
+	<field number="5772" name="ISMN" />
+	<field number="5773" name="ISDY" />
+	<field number="5774" name="reserved" />
+	<field number="5775" name="FixedLegDayCount" />
+	<field number="5776" name="FloatingLegDayCount" />
+	<field number="5777" name="CUSTPRC" />
+	<field number="5778" name="AORGID" />
+	<field number="5779" name="AORGID" />
+	<field number="5780" name="ACODE" />
+	<field number="5781" name="ACCTACR" />
+	<field number="5782" name="BRKNA" />
+	<field number="5783" name="Exchange Gateway ID" />
+	<field number="5784" name="EndPointExchangeOrderId" />
+	<field number="5785" name="EndpointExchangeExecutionId " />
+	<field number="5786" name="NIMTimeRemaining" />
+	<field number="5787" name="ClearingQType" />
+	<field number="5788" name="QueryToken" />
+	<field number="5789" name="ClientInfo" />
+	<field number="5790" name="FixingBraket" />
+	<field number="5791" name="TotalVolume" />
+	<field number="5792" name="OpenInterestQty" />
+	<field number="5793" name="MassQuoteMessagesCount" />
+	<field number="5794" name="QuoteEntriesCount" />
+	<field number="5795" name="LegSecurityGroup" />
+	<field number="5796" name="TradingReferenceDate" />
+	<field number="5797" name="AggressorSide" />
+	<field number="5798" name="DayCount" />
+	<field number="5799" name="MatchEventStartIndicator" />
+	<field number="5800" name="CDNAccountType" />
+	<field number="5801" name="CDNAnonymous" />
+	<field number="5802" name="CDNInternalCross" />
+	<field number="5803" name="CDNLotsOf" />
+	<field number="5804" name="CDNNonResident" />
+	<field number="5805" name="CDNPrincipalTrade" />
+	<field number="5806" name="CDNUserId" />
+	<field number="5807" name="CDNBasketTrade" />
+	<field number="5808" name="CDNSettlementTerm" />
+	<field number="5809" name="CDNShortExempt" />
+	<field number="5810" name="CDNRTAutoFill" />
+	<field number="5811" name="CDNProgramTrade" />
+	<field number="5812" name="CDNMGFCandidate" />
+	<field number="5813" name="CDNJitney" />
+	<field number="5814" name="CDNMarketOnClose" />
+	<field number="5815" name="SubMkt" />
+	<field number="5816" name="ClearingVenue" />
+	<field number="5817" name="ContraOrderRestrictions" />
+	<field number="5818" name="DecayQuantity" />
+	<field number="5819" name="DecayStartDate" />
+	<field number="5820" name="LekSecuritiesCustomField1" />
+	<field number="5821" name="LekSecuritiesCustomField2" />
+	<field number="5822" name="LekSecuritiesCustomField3" />
+	<field number="5823" name="CounterParty" />
+	<field number="5824" name="CounterParty1" />
+	<field number="5825" name="remainingParty" />
+	<field number="5826" name="ClTrdIDRefType" />
+	<field number="5827" name="OutstandingQty" />
+	<field number="5828" name="RemainingParty1" />
+	<field number="5829" name="RESERVED" />
+	<field number="5830" name="MiscFeeCCY" />
+	<field number="5831" name="StAllocType" />
+	<field number="5832" name="StraddleInd" />
+	<field number="5833" name="ThirdPartyFullCalcPeriod" />
+	<field number="5834" name="FirstPaymentDate" />
+	<field number="5835" name="MiscFeeReceiver" />
+	<field number="5836" name="MiscFeePayer" />
+	<field number="5837" name="RiskID" />
+	<field number="5838" name="RESERVED" />
+	<field number="5839" name="AllocRefEventID" />
+	<field number="5840" name="RESERVED" />
+	<field number="5841" name="RESERVED" />
+	<field number="5842" name="RESERVED" />
+	<field number="5843" name="RemainingParty1" />
+	<field number="5844" name="PremiumFee" />
+	<field number="5845" name="PremiumPayer" />
+	<field number="5846" name="CreditRating" />
+	<field number="5847" name="TargetStrategy" />
+	<field number="5848" name="TargetStrategyParameters" />
+	<field number="5849" name="OriginalContractSize" />
+	<field number="5850" name="OrigIssueAmt" />
+	<field number="5851" name="DB Algo" />
+	<field number="5852" name="InsuranceCode" />
+	<field number="5853" name="NewIssueIndicator" />
+	<field number="5854" name="DB Algo" />
+	<field number="5855" name="QueryDirection" />
+	<field number="5856" name="DB Algo" />
+	<field number="5857" name="DB Algo" />
+	<field number="5858" name="DB Algo" />
+	<field number="5859" name="BidPostedQty" />
+	<field number="5860" name="DB Algo" />
+	<field number="5861" name="OfrPostedQty" />
+	<field number="5862" name="UpdateReason" />
+	<field number="5863" name="DB Algo" />
+	<field number="5864" name="DB Algo" />
+	<field number="5865" name="Testing select tag" />
+	<field number="5866" name="DB Algo" />
+	<field number="5867" name="DB Algo" />
+	<field number="5868" name="DB Algo" />
+	<field number="5869" name="DB Algo" />
+	<field number="5870" name="DB Algo" />
+	<field number="5871" name="DB Algo" />
+	<field number="5872" name="DB Algo" />
+	<field number="5873" name="DB Algo" />
+	<field number="5874" name="DB Algo" />
+	<field number="5875" name="DB Algo" />
+	<field number="5876" name="DB Algo" />
+	<field number="5877" name="DB Algo" />
+	<field number="5878" name="DB Algo" />
+	<field number="5879" name="DB Algo" />
+	<field number="5880" name="DB Algo" />
+	<field number="5881" name="DB Algo" />
+	<field number="5882" name="DB Algo" />
+	<field number="5883" name="PackageID" />
+	<field number="5884" name="Target" />
+	<field number="5885" name="DB Algo" />
+	<field number="5886" name="DB Algo" />
+	<field number="5887" name="DB Algo" />
+	<field number="5888" name="DB Algo" />
+	<field number="5889" name="DB Algo" />
+	<field number="5890" name="DB Algo" />
+	<field number="5891" name="DB Algo" />
+	<field number="5892" name="DB Algo" />
+	<field number="5893" name="Execution Report Detail" />
+	<field number="5894" name="Reserved" />
+	<field number="5899" name="SpotDate" />
+	<field number="5900" name="TargetStrategy" />
+	<field number="5901" name="TargetStrategyParameters" />
+	<field number="5902" name="EffectiveTime" />
+	<field number="5903" name="ExpireTime" />
+	<field number="5904" name="Duration" />
+	<field number="5905" name="ParticipationRate" />
+	<field number="5906" name="ExecutionMode" />
+	<field number="5907" name="LEKInternationalOrderTypes" />
+	<field number="5908" name="LEKInternationalOrderParams1" />
+	<field number="5909" name="LEKInternationalOrderParams2" />
+	<field number="5910" name="TriggerStopGap" />
+	<field number="5911" name="TriggerLimitGap" />
+	<field number="5912" name="TriggerMinQty" />
+	<field number="5913" name="AllowHiddenSize" />
+	<field number="5914" name="MinNoDecimals" />
+	<field number="5915" name="MaxNoDecimals" />
+	<field number="5916" name="NIMPrivateDuration" />
+	<field number="5917" name="NIMPublicDuration" />
+	<field number="5918" name="TradeConvention" />
+	<field number="5919" name="LastFragment" />
+	<field number="5920" name="ExclusiveFlag" />
+	<field number="5921" name="ExternalMarkUp" />
+	<field number="5922" name="AllowLimits" />
+	<field number="5923" name="BidPriceForDiscountQuotes" />
+	<field number="5924" name="OfferPriceForDiscountQuotes" />
+	<field number="5925" name="IndexRatio" />
+	<field number="5926" name="OfferYTC" />
+	<field number="5927" name="BidYTM" />
+	<field number="5928" name="OfferYTM" />
+	<field number="5929" name="YieldFlag" />
+	<field number="5930" name="StoryField" />
+	<field number="5931" name="MinAnytimeQty" />
+	<field number="5932" name="MinLeavesQty" />
+	<field number="5933" name="GeneralLedgerAccount" />
+	<field number="5934" name="ClearingRefNo" />
+	<field number="5935" name="MatchRefNo" />
+	<field number="5936" name="ExplicitPromptDate" />
+	<field number="5937" name="Reserved" />
+	<field number="5938" name="Reserved" />
+	<field number="5939" name="Reserved" />
+	<field number="5940" name="Reserved" />
+	<field number="5941" name="DPIFirm" />
+	<field number="5942" name="MinDeltaNeutrality" />
+	<field number="5943" name="MaxDeltaNeutrality" />
+	<field number="5944" name="InitialDisplayQty" />
+	<field number="5945" name="TargetVolumeReference" />
+	<field number="5946" name="PendingReason" />
+	<field number="5947" name="ExecInst" />
+	<field number="5948" name="PartitionID" />
+	<field number="5949" name="BinID" />
+	<field number="5950" name="Slope" />
+	<field number="5951" name="RemainingPortfolioNetDeltaMin" />
+	<field number="5952" name="RemainingPortfolioNetDeltaMax" />
+	<field number="5953" name="TradingPortfolioNetDeltaMin" />
+	<field number="5954" name="TradingPortfolioNetDeltaMax" />
+	<field number="5955" name="SchedulingDays" />
+	<field number="5956" name="Dark Block Limit Price" />
+	<field number="5957" name="NoStrategyParameters" />
+	<field number="5958" name="StrategyParameterName" />
+	<field number="5959" name="StrategyParameterType" />
+	<field number="5960" name="StrategyParameterValue" />
+	<field number="5961" name="TradingProtocol" />
+	<field number="5962" name="BidActivity" />
+	<field number="5963" name="OfferActivity" />
+	<field number="5964" name="NoPartitionIDs" />
+	<field number="5965" name="LocateSource" />
+	<field number="5966" name="AllocQty2" />
+	<field number="5967" name="CalculatedAllocQty" />
+	<field number="5968" name="CalculatedAllocQty2" />
+	<field number="5969" name="PartitionStatus" />
+	<field number="5970" name="LegCalculatedCcyLastQty" />
+	<field number="5971" name="CalculatedCcyLastQty" />
+	<field number="5972" name="STPOrderType" />
+	<field number="5973" name="STPExecType" />
+	<field number="5974" name="STPFixingName" />
+	<field number="5975" name="OrderLinkID" />
+	<field number="5976" name="NoUserData" />
+	<field number="5977" name="UserDataName" />
+	<field number="5978" name="UserDataValue" />
+	<field number="5979" name="RequestTime" />
+	<field number="5980" name="AltExDestination" />
+	<field number="5981" name="IOILink" />
+	<field number="5982" name="GroupID" />
+	<field number="5983" name="InstrumentID" />
+	<field number="5984" name="QuoteID" />
+	<field number="5985" name="LegOrdStatus" />
+	<field number="5986" name="LegErrorCode" />
+	<field number="5987" name="LegErrorMsg" />
+	<field number="5988" name="QuantitySign" />
+	<field number="5989" name="AllinPriceFlag" />
+	<field number="5990" name="PriceActivity" />
+	<field number="5991" name="SumBidQuantity" />
+	<field number="5992" name="SumOfferQuantity" />
+	<field number="5993" name="UpperVolatilityBand" />
+	<field number="5994" name="LowerVolatilityBand" />
+	<field number="5995" name="ExtendedVolatilityBand" />
+	<field number="5996" name="TradingMethod" />
+	<field number="5997" name="NoTradePriceConditions" />
+	<field number="5998" name="TradePriceCondition" />
+	<field number="5999" name="EaseBaseTag" />
+	<field number="6000" name="DiscretionUsedSw" />
+	<field number="6001" name="AccountType" />
+	<field number="6002" name="ReportedTradePrice" />
+	<field number="6003" name="ExchangeCode" />
+	<field number="6004" name="ContraAccount" />
+	<field number="6005" name="ContraAccountType" />
+	<field number="6006" name="AccountSource" />
+	<field number="6007" name="ContraAccountSource" />
+	<field number="6008" name="CancelRebillReason" />
+	<field number="6009" name="BasisPriceTradeInd" />
+	<field number="6010" name="BypassPrimeBrokerSw" />
+	<field number="6011" name="TTOSubNo" />
+	<field number="6012" name="TRACEReportSw" />
+	<field number="6013" name="ContraSubNo" />
+	<field number="6014" name="StandingInstOverride" />
+	<field number="6015" name="CSIItemNo" />
+	<field number="6016" name="TTORepBranch" />
+	<field number="6017" name="TradeRefDate" />
+	<field number="6018" name="Gross" />
+	<field number="6019" name="GrossCode" />
+	<field number="6020" name="Syndicate" />
+	<field number="6021" name="SyndicateTakedown" />
+	<field number="6022" name="TTORep" />
+	<field number="6023" name="RegwayAccountType" />
+	<field number="6024" name="SpecialTypingCode" />
+	<field number="6025" name="OddLotDiffInd" />
+	<field number="6026" name="SellerCode" />
+	<field number="6027" name="ReinvestCode" />
+	<field number="6028" name="IOE" />
+	<field number="6029" name="OffsetCurrencyCode" />
+	<field number="6030" name="ConfirmNote" />
+	<field number="6031" name="EnteringFirm" />
+	<field number="6032" name="UniqueTradeID" />
+	<field number="6033" name="ConcessionType" />
+	<field number="6034" name="ConcessionAmt" />
+	<field number="6035" name="BondFactor" />
+	<field number="6036" name="FXCurrencyOffsetAmt" />
+	<field number="6037" name="OrderEnteredBy" />
+	<field number="6038" name="OrderEnteredTime" />
+	<field number="6039" name="OrderAcceptedBy" />
+	<field number="6040" name="OrderAcceptedTime" />
+	<field number="6041" name="NumberOfCxlReasons" />
+	<field number="6042" name="CxlReason" />
+	<field number="6043" name="RebillValue " />
+	<field number="6044" name="CommissionScheduleOverride" />
+	<field number="6045" name="AcceptedByDate" />
+	<field number="6046" name="ALRXCode" />
+	<field number="6047" name="LOD Indicator" />
+	<field number="6048" name="VersusPurchaseSw" />
+	<field number="6049" name="OATSAcctType" />
+	<field number="6050" name="BidPx2" />
+	<field number="6051" name="OfferPx2" />
+	<field number="6052" name="BidSize2" />
+	<field number="6053" name="OfferSize2" />
+	<field number="6054" name="SecondaryQty" />
+	<field number="6055" name="SecondaryQty2" />
+	<field number="6056" name="CombinedPointsBid" />
+	<field number="6057" name="CombinedPointsOffer" />
+	<field number="6058" name="WhoseError" />
+	<field number="6059" name="ErrorRequestor" />
+	<field number="6060" name="Time0" />
+	<field number="6061" name="ExecServProduct" />
+	<field number="6062" name="StartTime" />
+	<field number="6063" name="EndTime" />
+	<field number="6064" name="MaxPctVolume" />
+	<field number="6065" name="ExecutionStyle" />
+	<field number="6066" name="DisplaySize" />
+	<field number="6067" name="MinPctVolume" />
+	<field number="6068" name="LongMoneyLimit" />
+	<field number="6069" name="ShortMoneyLimit" />
+	<field number="6070" name="PriceMultiplier" />
+	<field number="6071" name="PriceIntercept" />
+	<field number="6072" name="PortfolioTactic" />
+	<field number="6073" name="TrackingIndex" />
+	<field number="6074" name="StopLossLimit" />
+	<field number="6075" name="Time2" />
+	<field number="6076" name="Time3" />
+	<field number="6077" name="Time4" />
+	<field number="6078" name="Time5" />
+	<field number="6079" name="Time6" />
+	<field number="6080" name="Time7" />
+	<field number="6081" name="Time7.1" />
+	<field number="6082" name="Duration" />
+	<field number="6083" name="Time8" />
+	<field number="6084" name="Time9" />
+	<field number="6085" name="RegisteredRep" />
+	<field number="6086" name="PegMode" />
+	<field number="6087" name="ReferencePrice" />
+	<field number="6088" name="Algo tag 1" />
+	<field number="6089" name="Algo tag 2" />
+	<field number="6090" name="Also tag 3" />
+	<field number="6091" name="Algo tag 4" />
+	<field number="6092" name="Algo tag 5" />
+	<field number="6093" name="Algo tag 6" />
+	<field number="6094" name="Algo tag 7" />
+	<field number="6095" name="Algo tag 8" />
+	<field number="6096" name="Algo tag 9" />
+	<field number="6097" name="Algo tag 10" />
+	<field number="6098" name="BuytoCoverIndicator" />
+	<field number="6099" name="test price" />
+	<field number="6100" name="AdjBasePx" />
+	<field number="6101" name="Anonymity" />
+	<field number="6102" name="BcastFilterFlag" />
+	<field number="6103" name="BcastSeqNo" />
+	<field number="6104" name="ClosePxType" />
+	<field number="6105" name="ExecObjType" />
+	<field number="6106" name="IndexCMV" />
+	<field number="6107" name="IndexID" />
+	<field number="6108" name="IndexMode" />
+	<field number="6109" name="IndexValue" />
+	<field number="6110" name="IndustryCode" />
+	<field number="6111" name="Margin" />
+	<field number="6112" name="MarketID" />
+	<field number="6113" name="BookingRefID" />
+	<field number="6114" name="Marketsection" />
+	<field number="6115" name="MassCancelRequestType" />
+	<field number="6116" name="MVEntryType" />
+	<field number="6117" name="NetChg" />
+	<field number="6118" name="NetChgDirection" />
+	<field number="6119" name="NetPctChg" />
+	<field number="6120" name="NoMQEntries" />
+	<field number="6121" name="NoMVEntries" />
+	<field number="6122" name="Notes" />
+	<field number="6123" name="OrdFillType" />
+	<field number="6124" name="OrdStatusRequestType" />
+	<field number="6125" name="OrigBidSize" />
+	<field number="6126" name="OrigLeavesQty" />
+	<field number="6127" name="OrigOfferSize" />
+	<field number="6128" name="OrigPrice" />
+	<field number="6129" name="ParValue" />
+	<field number="6130" name="PrevSesID" />
+	<field number="6131" name="PxPctFlag" />
+	<field number="6132" name="QuoteAction" />
+	<field number="6133" name="QuoteRefID" />
+	<field number="6134" name="QuoteStatusReqType" />
+	<field number="6135" name="ReplyMsgCount" />
+	<field number="6136" name="ReqID" />
+	<field number="6137" name="ThinlyTradedFlag" />
+	<field number="6138" name="TickSize" />
+	<field number="6139" name="TotalNumOfTrades" />
+	<field number="6140" name="TotalTurnover" />
+	<field number="6141" name="TradeQty" />
+	<field number="6142" name="TradeTypeFlag" />
+	<field number="6143" name="TradeValue" />
+	<field number="6144" name="RejectQty" />
+	<field number="6145" name="OrigBidPx" />
+	<field number="6146" name="OrigBidPx" />
+	<field number="6147" name="OrigOfferPx" />
+	<field number="6148" name="ExpiryDuration" />
+	<field number="6149" name="EndOfBatch" />
+	<field number="6150" name="QSBaseBidPx" />
+	<field number="6151" name="QSBaseOfferPx" />
+	<field number="6152" name="StaticRefPx" />
+	<field number="6153" name="OwnerTraderID" />
+	<field number="6154" name="SecurityHaltType" />
+	<field number="6155" name="OwnerTraderID" />
+	<field number="6156" name="SubjectID" />
+	<field number="6157" name="AgreeDateTime" />
+	<field number="6158" name="QBroker" />
+	<field number="6159" name="AvgPx2" />
+	<field number="6160" name="LastPx2" />
+	<field number="6161" name="LastSpotRate2" />
+	<field number="6162" name="BidSpotRate2" />
+	<field number="6163" name="OfferSpotRate2" />
+	<field number="6164" name="LeavesQty2" />
+	<field number="6165" name="CumQty2" />
+	<field number="6166" name="USDEquiv" />
+	<field number="6167" name="USDEquiv2" />
+	<field number="6168" name="Effective Time" />
+	<field number="6169" name="DisseminationTime" />
+	<field number="6170" name="FracToTrade" />
+	<field number="6171" name="Strategy Style" />
+	<field number="6172" name="MaxCostFromStrike" />
+	<field number="6173" name="ABNCust1" />
+	<field number="6174" name="ABNCust2" />
+	<field number="6175" name="ABNCust" />
+	<field number="6176" name="EstimatedAmount" />
+	<field number="6177" name="TiCustom2" />
+	<field number="6178" name="TiCustom3" />
+	<field number="6179" name="TiCustom4" />
+	<field number="6180" name="AMSessionPercent" />
+	<field number="6181" name="OnAMOpenPercent" />
+	<field number="6182" name="OnPMOpenPercent" />
+	<field number="6183" name="MaxPriceLevels" />
+	<field number="6184" name="MaxOrdersPerLevel" />
+	<field number="6185" name="QtyRandomizationPercent" />
+	<field number="6186" name="MaxTimeDelay" />
+	<field number="6187" name="StrategyComponent" />
+	<field number="6188" name="CompletionPrice" />
+	<field number="6189" name="MOCType" />
+	<field number="6190" name="MOCPercent" />
+	<field number="6191" name="DarkOnlyIndic" />
+	<field number="6192" name="TriggerPrice" />
+	<field number="6193" name="HomeCcyEquivQty" />
+	<field number="6194" name="HomeCcyEquivRte" />
+	<field number="6195" name="HomeCcyEquivQty2" />
+	<field number="6196" name="HomeCcyEquivRte2" />
+	<field number="6197" name="HomeCcy" />
+	<field number="6198" name="BlockPrice" />
+	<field number="6199" name="IOCIndic" />
+	<field number="6200" name="MSCI" />
+	<field number="6201" name="FTSEIntl" />
+	<field number="6202" name="DJSTOXX" />
+	<field number="6203" name="FixingDate" />
+	<field number="6204" name="TimestampOwn" />
+	<field number="6205" name="TimestampCounterpart" />
+	<field number="6206" name="InternalExternal" />
+	<field number="6207" name="TradeCancelTime" />
+	<field number="6208" name="MDSecondaryCustomerSize" />
+	<field number="6209" name="ClRefID" />
+	<field number="6210" name="RawPrice" />
+	<field number="6211" name="RawStopPx" />
+	<field number="6212" name="RawLegPrice" />
+	<field number="6213" name="RawLastPx" />
+	<field number="6214" name="ESAReference" />
+	<field number="6215" name="TenorValue" />
+	<field number="6216" name="TenorValue2" />
+	<field number="6217" name="OrderChangeSourceID" />
+	<field number="6218" name="ExecChangeSourceID" />
+	<field number="6219" name="APIMuser" />
+	<field number="6220" name="ICSNearLeg" />
+	<field number="6221" name="ICSFarLeg" />
+	<field number="6222" name="% Volume Overrides" />
+	<field number="6223" name="NoUnderlyingReinvCoupon" />
+	<field number="6224" name="UnderlyingReinvCouponDate" />
+	<field number="6225" name="UnderlyingReinvCouponRate" />
+	<field number="6226" name="UnderlyingReinvCouponAmt" />
+	<field number="6227" name="DisplayRange" />
+	<field number="6228" name="CompletionIndicator" />
+	<field number="6229" name="RequestCountIndicator" />
+	<field number="6230" name="BlackoutStart" />
+	<field number="6231" name="BlackoutEnd" />
+	<field number="6232" name="OrderTTL" />
+	<field number="6233" name="OrdStatusReqID" />
+	<field number="6234" name="NoChildMsgs" />
+	<field number="6235" name="Risk Aversion" />
+	<field number="6236" name="Dollar Neutrality Limit" />
+	<field number="6237" name="Ratio Neutrality Limit" />
+	<field number="6238" name="Beta Neutrality Limit" />
+	<field number="6239" name="Spread Formula" />
+	<field number="6240" name="Spread " />
+	<field number="6241" name="Order Ratio" />
+	<field number="6242" name="Max Shares" />
+	<field number="6243" name="Spread Type" />
+	<field number="6244" name="Bid Difference" />
+	<field number="6245" name="Ask Difference" />
+	<field number="6246" name="MktTickSizeRatio" />
+	<field number="6247" name="LmtTickSizeRatio" />
+	<field number="6248" name="Cash" />
+	<field number="6249" name="Dollar Neutral" />
+	<field number="6250" name="ConfigSet" />
+	<field number="6251" name="RefreshQty" />
+	<field number="6252" name="PriceInstruction" />
+	<field number="6253" name="PriceOffset" />
+	<field number="6254" name="StartTime" />
+	<field number="6255" name="EndTime" />
+	<field number="6256" name="Duration" />
+	<field number="6257" name="WorkDuration" />
+	<field number="6258" name="Strategy" />
+	<field number="6259" name="MinPctVol" />
+	<field number="6260" name="MaxPctVol" />
+	<field number="6261" name="ExecutionStyle" />
+	<field number="6262" name="PriceBenchmark" />
+	<field number="6263" name="CancelPrice" />
+	<field number="6264" name="ToleranceLimit1" />
+	<field number="6265" name="ToleranceLimit2" />
+	<field number="6266" name="ToleranceLimit3" />
+	<field number="6267" name="NearFwdPoints" />
+	<field number="6268" name="FarFwdPoints" />
+	<field number="6269" name="SwapPoints" />
+	<field number="6270" name="WouldDark" />
+	<field number="6271" name="AlgorithmicField1" />
+	<field number="6272" name="AlgorithmicField2" />
+	<field number="6273" name="AlgorithmicField3" />
+	<field number="6274" name="AlgorithmicField4" />
+	<field number="6275" name="AlgorithmicField5" />
+	<field number="6276" name="AlgorithmicField6" />
+	<field number="6277" name="AlgorithmicField7" />
+	<field number="6278" name="AlgorithmicField8" />
+	<field number="6279" name="AlgorithmicField9" />
+	<field number="6280" name="AlgorithmicField10" />
+	<field number="6281" name="AlgorithmicField11" />
+	<field number="6282" name="AlgorithmicField12" />
+	<field number="6283" name="AlgorithmicField13" />
+	<field number="6284" name="AlgorithmicField14" />
+	<field number="6285" name="AlgorithmicField15" />
+	<field number="6286" name="BrokerOrderReceiveTime" />
+	<field number="6287" name="CustomerDirectedOrder" />
+	<field number="6288" name="DeskSpecialHandlingCode" />
+	<field number="6289" name="ManualOrderIndicator" />
+	<field number="6290" name="Active" />
+	<field number="6291" name="VenueReferenceID" />
+	<field number="6292" name="LastMkt2" />
+	<field number="6293" name="UnderlyingStartAcrdIntAmt" />
+	<field number="6294" name="UnderlyingEndAcrdIntAmt" />
+	<field number="6295" name="Discretion" />
+	<field number="6296" name="WouldIfNat" />
+	<field number="6297" name="ResetEligibleVolOnAmend" />
+	<field number="6298" name="CountEligibleVolInLimitPx" />
+	<field number="6299" name="RetainVolumeCountHistory" />
+	<field number="6300" name="UnderlyingLowerRange" />
+	<field number="6301" name="UnderlyingUpperRange" />
+	<field number="6302" name="SliceMethod" />
+	<field number="6303" name="MaxSliceSize" />
+	<field number="6304" name="TimeInterval " />
+	<field number="6305" name="Delta" />
+	<field number="6306" name="SpotReference" />
+	<field number="6307" name="SweepLevel" />
+	<field number="6308" name="Tactic" />
+	<field number="6309" name="Bias" />
+	<field number="6310" name="BidPriceImpAmount" />
+	<field number="6311" name="OfferPriceImpAmount" />
+	<field number="6312" name="Tolerance" />
+	<field number="6313" name="UnderlyingAlgo" />
+	<field number="6314" name="Portfolio Style" />
+	<field number="6315" name="AlgoParameter" />
+	<field number="6316" name="AlgoParameter" />
+	<field number="6317" name="AlgoParameter" />
+	<field number="6318" name="AlgoParameter" />
+	<field number="6319" name="AlgoParameter" />
+	<field number="6320" name="AlgoParameter" />
+	<field number="6321" name="OldRiskClass" />
+	<field number="6322" name="RiskClass" />
+	<field number="6323" name="StartTime" />
+	<field number="6324" name="EndTime" />
+	<field number="6325" name="ExecutionStyle" />
+	<field number="6326" name="Start%Volume" />
+	<field number="6327" name="Min%Volume" />
+	<field number="6328" name="Max%Volume" />
+	<field number="6329" name="Target%Volume" />
+	<field number="6330" name="MinReqComp" />
+	<field number="6331" name="WouldIfGood" />
+	<field number="6332" name="DisplaySize" />
+	<field number="6333" name="RiskAversion" />
+	<field number="6334" name="ExecutionView" />
+	<field number="6335" name="AlgoParameter" />
+	<field number="6336" name="Trading Session ID" />
+	<field number="6337" name="SessionType" />
+	<field number="6338" name="ExecutionID" />
+	<field number="6339" name="OrderStartTime" />
+	<field number="6340" name="QtyLimitRelease" />
+	<field number="6341" name="ReplacePrice" />
+	<field number="6342" name="ReplaceOrderQty" />
+	<field number="6343" name="ReplaceCashMargin" />
+	<field number="6344" name="ReplaceOrderCapacity" />
+	<field number="6345" name="ReplaceTimeInForce" />
+	<field number="6346" name="TimeInExecution" />
+	<field number="6347" name="CounterpartyCompID" />
+	<field number="6348" name="OnlineStartTime" />
+	<field number="6349" name="OnlineCloseTime" />
+	<field number="6350" name="TickRule" />
+	<field number="6351" name="Position" />
+	<field number="6352" name="AutoHedgePrice" />
+	<field number="6353" name="RehedgePercent" />
+	<field number="6354" name="StrikePrice" />
+	<field number="6355" name="UpperPricePct" />
+	<field number="6356" name="LowerPricePct" />
+	<field number="6357" name="TrackSecurity" />
+	<field number="6358" name="TrackUpperPct" />
+	<field number="6359" name="TrackLowerPct" />
+	<field number="6360" name="Sector" />
+	<field number="6361" name="SectorUpperPct" />
+	<field number="6362" name="SectorLowerPct" />
+	<field number="6363" name="Index" />
+	<field number="6364" name="IndexUpperPct" />
+	<field number="6365" name="IndexLowerPct" />
+	<field number="6366" name="TrackUpperSIT" />
+	<field number="6367" name="TrackLowerSIT" />
+	<field number="6368" name="SectorUpperSIT" />
+	<field number="6369" name="SectorLowerSIT" />
+	<field number="6370" name="IndexUpperSIT" />
+	<field number="6371" name="IndexLowerSIT" />
+	<field number="6372" name="HighLimitSIT" />
+	<field number="6373" name="LowLimitSIT" />
+	<field number="6374" name="UpperPricePctSIT" />
+	<field number="6375" name="LowerPricePctSIT" />
+	<field number="6376" name="BasketName" />
+	<field number="6377" name="Slices" />
+	<field number="6378" name="BLPProgType" />
+	<field number="6379" name="AdjustedEndCash" />
+	<field number="6380" name="NonMemberAffiliate" />
+	<field number="6381" name="EnteringSubsidiary" />
+	<field number="6382" name="BuyTradeControlNumber" />
+	<field number="6383" name="SellTradeControlNumber" />
+	<field number="6384" name="CalcAgentLocation" />
+	<field number="6385" name="MatrixAgreementType" />
+	<field number="6386" name="QtyVariance" />
+	<field number="6387" name="Peg Difference" />
+	<field number="6388" name="Discretion Instruction " />
+	<field number="6389" name="Discretion Offset " />
+	<field number="6390" name="MDReqRejReason" />
+	<field number="6391" name="PriceType" />
+	<field number="6392" name="SecurityTradingStatus" />
+	<field number="6393" name="NewSubRank" />
+	<field number="6394" name="PreviousSubRank" />
+	<field number="6395" name="SourceIP" />
+	<field number="6396" name="RejectCode" />
+	<field number="6397" name="OtherParty" />
+	<field number="6398" name="StreamingQuoteTime" />
+	<field number="6399" name="AccountCode" />
+	<field number="6400" name="MLBenchmarkPrice" />
+	<field number="6401" name="MLExecService" />
+	<field number="6402" name="MLGuarant" />
+	<field number="6403" name="MLMaxParticipate" />
+	<field number="6404" name="MLTargetParticipate" />
+	<field number="6405" name="MLPrimaryFlag" />
+	<field number="6406" name="MLPlanning" />
+	<field number="6407" name="MLOrderCompletionInstr" />
+	<field number="6408" name="MLRiskFactor" />
+	<field number="6409" name="ML Special Order Type" />
+	<field number="6410" name="ML Speed Price" />
+	<field number="6411" name="ML Speed Target Percent" />
+	<field number="6412" name="ML Execution Instruction" />
+	<field number="6413" name="ML Peg Option" />
+	<field number="6414" name="ML Block Threshold" />
+	<field number="6415" name="Open Auction Rate" />
+	<field number="6416" name="Close Auction Rate" />
+	<field number="6417" name="MOO2 Percent" />
+	<field number="6418" name="MOC1 Percent" />
+	<field number="6419" name="ML Transaction FundType" />
+	<field number="6420" name="CashRoundingIndicator" />
+	<field number="6421" name="NoOfExecutionDays" />
+	<field number="6422" name="PrimaryBookingID" />
+	<field number="6423" name="SecondaryBookingID" />
+	<field number="6424" name="SpeedRiskFactor" />
+	<field number="6425" name="CriteriaCheckFlag" />
+	<field number="6426" name="Underlying Security" />
+	<field number="6427" name="MaxPostDest" />
+	<field number="6428" name="PegDirection" />
+	<field number="6429" name="Step size" />
+	<field number="6430" name="EvalueInterval" />
+	<field number="6431" name="ML UPDATEUSER" />
+	<field number="6432" name="ML S_USER" />
+	<field number="6433" name="ExcludeDest" />
+	<field number="6434" name="RelativeSecureID" />
+	<field number="6435" name="RelativeIDSource" />
+	<field number="6436" name="RelatviePrice" />
+	<field number="6437" name="Annonymous" />
+	<field number="6438" name="CrossExclusionIndicator" />
+	<field number="6439" name="MinCrossQty" />
+	<field number="6440" name="MaxCrossQty" />
+	<field number="6441" name="CrossPrice" />
+	<field number="6442" name="OrderBenchmarkPrice" />
+	<field number="6443" name="CrossDest" />
+	<field number="6444" name="CrossDestExclusion" />
+	<field number="6445" name="PostResidual" />
+	<field number="6446" name="CrossResidualRatio" />
+	<field number="6447" name="CrossCategory" />
+	<field number="6448" name="PrefDest" />
+	<field number="6449" name="RegulationID" />
+	<field number="6450" name="FidessaTradeFlags" />
+	<field number="6451" name="PairExecutionMethod" />
+	<field number="6452" name="MLET 4" />
+	<field number="6453" name="MLET 5" />
+	<field number="6454" name="MLET 6" />
+	<field number="6455" name="MLET 7" />
+	<field number="6456" name="MLET 8" />
+	<field number="6457" name="MLET 9" />
+	<field number="6458" name="MLET 10" />
+	<field number="6459" name="MLET 11" />
+	<field number="6460" name="MLET 12" />
+	<field number="6461" name="Pair 1" />
+	<field number="6462" name="Pair 2" />
+	<field number="6463" name="pair 3" />
+	<field number="6464" name="Pair 4" />
+	<field number="6465" name="Pair 5" />
+	<field number="6466" name="RelativeLimitType" />
+	<field number="6467" name="DistributionType" />
+	<field number="6468" name="RelativeLimitInstruction" />
+	<field number="6469" name="MLMinParticipant" />
+	<field number="6470" name="ShowingFactor" />
+	<field number="6471" name="StartingPrice" />
+	<field number="6472" name="ReportFlowFlag" />
+	<field number="6473" name="PrefPostDest" />
+	<field number="6474" name="ExcludePostDest" />
+	<field number="6475" name="ClientIndicator" />
+	<field number="6476" name="PassiveQty" />
+	<field number="6477" name="DynamicDriverType" />
+	<field number="6478" name="SpeedRelSecurityID" />
+	<field number="6479" name="SpeedRelIDSource" />
+	<field number="6480" name="SpeedRelPrice" />
+	<field number="6481" name="SpeedRelTarget%" />
+	<field number="6482" name="SCAN Destination" />
+	<field number="6483" name="SCAN Indicator" />
+	<field number="6484" name="PariLegCoefficient" />
+	<field number="6485" name="PairFormulaOffset" />
+	<field number="6486" name="RelativeLimitDirection" />
+	<field number="6487" name="Scan Level" />
+	<field number="6488" name="Soft Limit Flag" />
+	<field number="6489" name="Trigger Indicator" />
+	<field number="6490" name="Indicative Order Type" />
+	<field number="6491" name="RelativeLimitBase" />
+	<field number="6492" name="RelativeLimitOffset" />
+	<field number="6493" name="CleanUp" />
+	<field number="6494" name="PairsSuspendStatus" />
+	<field number="6495" name="PairsRebalanceThreshold" />
+	<field number="6496" name="StopPxAnchor" />
+	<field number="6497" name="StopPxOffset" />
+	<field number="6498" name="AnchorPxDirection" />
+	<field number="6499" name="ApplyRestriction" />
+	<field number="6500" name="Commission Handling Instructions" />
+	<field number="6501" name="Commission Treatment" />
+	<field number="6502" name="TrailerNoteSuppressionInd" />
+	<field number="6503" name="TrailerNote" />
+	<field number="6504" name="AllocAgreementDesc" />
+	<field number="6505" name="AllocAgreementDate" />
+	<field number="6506" name="AllocCalcAgentLocation" />
+	<field number="6507" name="AllocMatrixAgreementType" />
+	<field number="6508" name="AllocMcaAnnexDate" />
+	<field number="6509" name="ParticipationRateOffSideAnchor" />
+	<field number="6510" name="Any Price At Close" />
+	<field number="6511" name="NumberOfWaves" />
+	<field number="6512" name="QtyPerWave" />
+	<field number="6513" name="ParticipationRate" />
+	<field number="6514" name="IncludeAuction" />
+	<field number="6515" name="NewsID" />
+	<field number="6516" name="NewsValidUntil" />
+	<field number="6517" name="NewsEventDate" />
+	<field number="6518" name="NewsType" />
+	<field number="6519" name="QuoteReqRefID" />
+	<field number="6520" name="TradeTypeCodeList" />
+	<field number="6521" name="CounterpartyReference" />
+	<field number="6522" name="ClientDomicile" />
+	<field number="6523" name="CounterpartyType" />
+	<field number="6524" name="TransactionType" />
+	<field number="6525" name="SegrClearingAccountType" />
+	<field number="6526" name="SegrSettleAccountType" />
+	<field number="6527" name="SettlementInst" />
+	<field number="6528" name="OrderCapacity" />
+	<field number="6529" name="OrderRestrictions" />
+	<field number="6530" name="QuoteReqTransType" />
+	<field number="6531" name="InclSettlementAmount" />
+	<field number="6532" name="InclSettlementCurrencyCode" />
+	<field number="6533" name="PublicTradeTypeCodeList" />
+	<field number="6534" name="CounterpartyClientDomicile" />
+	<field number="6535" name="CounterpartyClientReference" />
+	<field number="6536" name="CounterpartyOrderCapacity" />
+	<field number="6537" name="PrimaryOnly" />
+	<field number="6538" name="IfIncomplete" />
+	<field number="6539" name="PriceReferenceId" />
+	<field number="6540" name="PriceOffset" />
+	<field number="6541" name="PriceReferenceAnchor" />
+	<field number="6542" name="AuctionAway" />
+	<field number="6543" name="Max2BX" />
+	<field number="6544" name="TimeInBX" />
+	<field number="6545" name="TimeInBXValue" />
+	<field number="6546" name="TargAuctPart" />
+	<field number="6547" name="TargetDayVolAuction" />
+	<field number="6548" name="CrossID" />
+	<field number="6549" name="CrossType" />
+	<field number="6550" name="ContMarketPart" />
+	<field number="6551" name="PostInLit" />
+	<field number="6552" name="NoSides" />
+	<field number="6553" name="Username" />
+	<field number="6554" name="Password" />
+	<field number="6555" name="OrigTrdMatchID" />
+	<field number="6556" name="BusinessTransactionType" />
+	<field number="6557" name="ConfirmReasonCode" />
+	<field number="6558" name="ParticipantRoleIndicator" />
+	<field number="6559" name="CalcInclSettlCurrAmt" />
+	<field number="6560" name="InterestPaymentCurrency" />
+	<field number="6561" name="SettlCurrAmtValid" />
+	<field number="6562" name="SettlementChainControlCode" />
+	<field number="6563" name="SettlementStatusCode" />
+	<field number="6564" name="IsCancelled" />
+	<field number="6565" name="SourceExchange" />
+	<field number="6566" name="NumberOfQuotes" />
+	<field number="6567" name="ReferencePriceType" />
+	<field number="6568" name="RandomisedInterval" />
+	<field number="6569" name="TransitionStatus" />
+	<field number="6570" name="BookCondition" />
+	<field number="6571" name="MDExecDate" />
+	<field number="6572" name="MDExecTime" />
+	<field number="6573" name="NumberOfTrades" />
+	<field number="6574" name="TradeOrigin" />
+	<field number="6575" name="StampTax" />
+	<field number="6576" name="Levy" />
+	<field number="6577" name="Tariff" />
+	<field number="6578" name="BrokerDealerServiceFee" />
+	<field number="6579" name="SettlCommunicationService" />
+	<field number="6580" name="BeneficiaryName" />
+	<field number="6581" name="BeneficiaryCode" />
+	<field number="6582" name="CustOrderCapacity" />
+	<field number="6583" name="SpreadPremium" />
+	<field number="6584" name="SpreadPctPremium" />
+	<field number="6585" name="SpreadPctDiscount" />
+	<field number="6586" name="CashOffset" />
+	<field number="6587" name="ExecutionMethod" />
+	<field number="6588" name="TradeClipShares" />
+	<field number="6589" name="TradeClipPct" />
+	<field number="6590" name="TradeClip" />
+	<field number="6591" name="BlockSeqNumber" />
+	<field number="6592" name="VersionID" />
+	<field number="6593" name="BeneficiaryAcctNum" />
+	<field number="6594" name="LocalAgentName" />
+	<field number="6595" name="LocalAgentCode" />
+	<field number="6596" name="LocalAgentAcctNum" />
+	<field number="6597" name="GlobalAgentName" />
+	<field number="6598" name="GlobalAgentCode" />
+	<field number="6599" name="GlobalAgentAcctNum" />
+	<field number="6600" name="TestMessageIndicator" />
+	<field number="6601" name="Password" />
+	<field number="6602" name="MultilegComponent" />
+	<field number="6603" name="LotSize" />
+	<field number="6604" name="Replenish" />
+	<field number="6605" name="Spread" />
+	<field number="6606" name="TraderID" />
+	<field number="6607" name="ExDividend" />
+	<field number="6608" name="Yield" />
+	<field number="6609" name="SecurityTypeExtended" />
+	<field number="6610" name="BrokerClearingID" />
+	<field number="6611" name="TotalAccruedInterestAmt" />
+	<field number="6612" name="NetMoney" />
+	<field number="6613" name="ProductExtended" />
+	<field number="6614" name="PriceType" />
+	<field number="6615" name="AllocStatus" />
+	<field number="6616" name="OrderCreateTime" />
+	<field number="6617" name="SecondaryOrdID" />
+	<field number="6618" name="AllocGiveUpBroker" />
+	<field number="6619" name="AllocGTSBroker" />
+	<field number="6620" name="IssueDate" />
+	<field number="6621" name="Factor" />
+	<field number="6622" name="BenchmarkYield" />
+	<field number="6623" name="AssetSwapSpread" />
+	<field number="6624" name="ISpread" />
+	<field number="6625" name="ZSpread" />
+	<field number="6626" name="MDEntryHiddenSize" />
+	<field number="6627" name="ContraFeesSw" />
+	<field number="6628" name="NoYields" />
+	<field number="6629" name="YieldType" />
+	<field number="6630" name="ListID" />
+	<field number="6631" name="Username" />
+	<field number="6632" name="BenchmarkSecurityDesc" />
+	<field number="6633" name="BenchmarkSymbolSfx" />
+	<field number="6634" name="NoStipulations" />
+	<field number="6635" name="StipulationType" />
+	<field number="6636" name="StipulationValue" />
+	<field number="6637" name="MaturityDate" />
+	<field number="6638" name="AllocClearingFirm" />
+	<field number="6639" name="LegLastParPx" />
+	<field number="6640" name="LastParPx" />
+	<field number="6641" name="BookingID" />
+	<field number="6642" name="BookingTransType" />
+	<field number="6643" name="BookingStatus" />
+	<field number="6644" name="BenchmarkPrice" />
+	<field number="6645" name="BenchmarkPriceType" />
+	<field number="6646" name="BenchmarkSecurityIDSource" />
+	<field number="6647" name="FloatingRate" />
+	<field number="6648" name="AllocStepOutBroker" />
+	<field number="6649" name="PreFactored" />
+	<field number="6650" name="MsgVersion" />
+	<field number="6651" name="TerminationType" />
+	<field number="6652" name="NoUnderlyings" />
+	<field number="6653" name="UnderlyingSecurityType" />
+	<field number="6654" name="UnderlyingSecuritySubtype" />
+	<field number="6655" name="FinOrderQty" />
+	<field number="6656" name="NoUnderlyingStips" />
+	<field number="6657" name="UnderlyingStipType" />
+	<field number="6658" name="UnderlyingStipValue" />
+	<field number="6659" name="DatedDate" />
+	<field number="6660" name="LegDatedDate" />
+	<field number="6661" name="GiveUpBroker" />
+	<field number="6662" name="GTSBroker" />
+	<field number="6663" name="StepOutBroker" />
+	<field number="6664" name="Term" />
+	<field number="6665" name="NoLegs" />
+	<field number="6666" name="LegSide" />
+	<field number="6667" name="LegOrderQty" />
+	<field number="6668" name="LegSwapType" />
+	<field number="6669" name="LegFactor" />
+	<field number="6670" name="LegSecurityID" />
+	<field number="6671" name="LegIDSource" />
+	<field number="6672" name="LegProduct" />
+	<field number="6673" name="LegSecurityType" />
+	<field number="6674" name="LegIssuer" />
+	<field number="6675" name="LegCouponRate" />
+	<field number="6676" name="LegMaturityDate" />
+	<field number="6677" name="LegSecurityDesc" />
+	<field number="6678" name="LegCurrency" />
+	<field number="6679" name="LegSettlmntTyp" />
+	<field number="6680" name="LegFutSettDate" />
+	<field number="6681" name="LegNoAllocs" />
+	<field number="6682" name="LegAllocAccount" />
+	<field number="6683" name="LegAllocQty" />
+	<field number="6684" name="LegAllocClearingFirm" />
+	<field number="6685" name="MDAggressorSide" />
+	<field number="6686" name="LegNoStipulations" />
+	<field number="6687" name="LegStipulationType" />
+	<field number="6688" name="LegStipulationValue" />
+	<field number="6689" name="ContractSettlementMonth" />
+	<field number="6690" name="LegContractSettlmntMonth" />
+	<field number="6691" name="WhenIssued" />
+	<field number="6692" name="LegIssueDate" />
+	<field number="6693" name="BenchmarkSecurityID" />
+	<field number="6694" name="LegClearingFirm" />
+	<field number="6695" name="InterestAtMaturity" />
+	<field number="6696" name="AllocInterestAtMaturity" />
+	<field number="6697" name="BenchIDSource" />
+	<field number="6698" name="CrossExecID" />
+	<field number="6699" name="ApplicationQueueDepth" />
+	<field number="6700" name="ApplicationQueueAction" />
+	<field number="6701" name="ApplicationQueueResolution" />
+	<field number="6702" name="InCompete" />
+	<field number="6703" name="CompetitorCount" />
+	<field number="6704" name="CompetitionStatus" />
+	<field number="6705" name="CoverPrice" />
+	<field number="6706" name="NoOfLegsList" />
+	<field number="6707" name="NestedPartyIdList" />
+	<field number="6708" name="LegMaturityDayList" />
+	<field number="6709" name="MDCustomerSize" />
+	<field number="6710" name="MDProcessIndicator" />
+	<field number="6711" name="LegSecurityTypeList" />
+	<field number="6712" name="LegSymbolList" />
+	<field number="6713" name="LegSecurityIdList" />
+	<field number="6714" name="LegSideList" />
+	<field number="6715" name="LegRatioQtyList" />
+	<field number="6716" name="LegPriceList" />
+	<field number="6717" name="LegMaturityMonthYearList" />
+	<field number="6718" name="LegStrikePriceList" />
+	<field number="6719" name="LegOptAttributeList" />
+	<field number="6720" name="LegCoveredUncoveredList" />
+	<field number="6721" name="LegPositionEffectList" />
+	<field number="6722" name="LegRefIdList" />
+	<field number="6723" name="LegGrossTradeAmt" />
+	<field number="6724" name="LetAccruedInterestAmt " />
+	<field number="6725" name="LegNumDaysInterest " />
+	<field number="6726" name="LegNetMoney" />
+	<field number="6727" name="DestFirmID" />
+	<field number="6728" name="DocType" />
+	<field number="6729" name="RelativeStart" />
+	<field number="6730" name="MultilegPartNum" />
+	<field number="6731" name="TradingSystemID" />
+	<field number="6732" name="DealerNote" />
+	<field number="6733" name="TaxStatus" />
+	<field number="6734" name="LegRefID" />
+	<field number="6735" name="MultilegRefID" />
+	<field number="6736" name="CalcFrequency" />
+	<field number="6737" name="RollConvention" />
+	<field number="6738" name="LegRelativeStart" />
+	<field number="6739" name="Compounding" />
+	<field number="6740" name="LegTerm" />
+	<field number="6741" name="LegEndDate" />
+	<field number="6742" name="LegCalcFrequency" />
+	<field number="6743" name="LegRollConvention" />
+	<field number="6744" name="LegFloatRatePayFrequency" />
+	<field number="6745" name="LegCompounding" />
+	<field number="6746" name="LegFixedRatePayFrequency" />
+	<field number="6747" name="LegFixedRateDayCount" />
+	<field number="6748" name="LegStartDate" />
+	<field number="6749" name="UpFrontFee" />
+	<field number="6750" name="TSXAccountType" />
+	<field number="6751" name="TSXUserId" />
+	<field number="6752" name="TSXNonResident" />
+	<field number="6753" name="TSXSettlementTerms" />
+	<field number="6754" name="TSXBasketTrade" />
+	<field number="6755" name="TSXProgramTrade" />
+	<field number="6756" name="TSXItemNumber" />
+	<field number="6757" name="TSXJitney" />
+	<field number="6758" name="TSXLotsOf" />
+	<field number="6759" name="TSXMGFCandidate" />
+	<field number="6760" name="TSXActionSource" />
+	<field number="6761" name="TSXAnonymous" />
+	<field number="6762" name="TSXExchangeUserId" />
+	<field number="6763" name="TSXRegulationId" />
+	<field number="6764" name="TSXMarketOnClose" />
+	<field number="6765" name="TSXReferenceVolume" />
+	<field number="6766" name="TSXShortExempt" />
+	<field number="6767" name="TSXBuyAccountType" />
+	<field number="6768" name="TSXSellAccountType" />
+	<field number="6769" name="TSXBuyAccountId" />
+	<field number="6770" name="TSXSellAccountId" />
+	<field number="6771" name="TSXBuyRegulationId" />
+	<field number="6772" name="TSXSellRegulationId" />
+	<field number="6773" name="TSXCrossType" />
+	<field number="6774" name="TSXBrokerNumber" />
+	<field number="6775" name="TSXATSName" />
+	<field number="6776" name="TSXPrincipleTrade" />
+	<field number="6777" name="TSXWashTrade" />
+	<field number="6778" name="TSXTradeCorrection" />
+	<field number="6779" name="TSXErrorNumber" />
+	<field number="6780" name="TSXExchangeAdmin" />
+	<field number="6781" name="TSXBuyJitney" />
+	<field number="6782" name="TSXSellJitney" />
+	<field number="6783" name="TSXUDF" />
+	<field number="6784" name="TSXUDF" />
+	<field number="6785" name="TSXUDF" />
+	<field number="6786" name="TSXUDF" />
+	<field number="6787" name="TSXUDF" />
+	<field number="6788" name="TSXUDF" />
+	<field number="6789" name="TSXUDF" />
+	<field number="6790" name="TSXUDF" />
+	<field number="6791" name="TSXUDF" />
+	<field number="6792" name="TSXUDF" />
+	<field number="6793" name="TSXUDF" />
+	<field number="6794" name="TSXUDF" />
+	<field number="6795" name="TSXUDF" />
+	<field number="6796" name="TSXUDF" />
+	<field number="6797" name="TSXUDF" />
+	<field number="6798" name="TSXUDF" />
+	<field number="6799" name="TSXUDF" />
+	<field number="6800" name="NetworkRequestType" />
+	<field number="6801" name="NetworkRequestID" />
+	<field number="6802" name="NetworkStatusResponseType" />
+	<field number="6803" name="NetworkResponseID" />
+	<field number="6804" name="NoCompIDs" />
+	<field number="6805" name="RefCompID" />
+	<field number="6806" name="StatusValue" />
+	<field number="6807" name="Counter" />
+	<field number="6808" name="LastQty2" />
+	<field number="6809" name="ExternalExchangeRef" />
+	<field number="6810" name="ExternalCustomerName" />
+	<field number="6811" name="MLContraId" />
+	<field number="6812" name="DepoActionType" />
+	<field number="6813" name="DepoDayCount" />
+	<field number="6814" name="Reserved" />
+	<field number="6815" name="Reserved" />
+	<field number="6816" name="Reserved" />
+	<field number="6817" name="Reserved" />
+	<field number="6818" name="RoutingAwayBroker" />
+	<field number="6819" name="TriggerQtyADVPct" />
+	<field number="6820" name="TriggerQtyNotional" />
+	<field number="6821" name="TriggerQtyOrderPct" />
+	<field number="6822" name="CounterpartyTraderID" />
+	<field number="6823" name="TW Reserved" />
+	<field number="6824" name="TW Reserved" />
+	<field number="6825" name="TW Reserved" />
+	<field number="6826" name="TW Reserved" />
+	<field number="6827" name="TW Reserved" />
+	<field number="6828" name="ManualOrderIndicatorClone" />
+	<field number="6829" name="CustomerDirectedOrderClone" />
+	<field number="6830" name="ReceivedDeptIDClone" />
+	<field number="6831" name="CustOrderHandlingInstClone" />
+	<field number="6832" name="OrderHandlingInstSourceClone" />
+	<field number="6833" name="DeskTypeClone" />
+	<field number="6834" name="DeskTypeSourceClone" />
+	<field number="6835" name="DeskOrderHandlingInstClone" />
+	<field number="6836" name="TrdRegTimestampClone" />
+	<field number="6837" name="SISUpdOnlyTransaction" />
+	<field number="6838" name="SISAddlinstructions" />
+	<field number="6839" name="SISTrailerInd" />
+	<field number="6840" name="SISTrailer" />
+	<field number="6841" name="SISEnhTrailer" />
+	<field number="6842" name="SISBopsind" />
+	<field number="6843" name="SISVantraTrailer" />
+	<field number="6844" name="SISVerifyTerminal" />
+	<field number="6845" name="Bank Clearance Type" />
+	<field number="6846" name="AutoPlace" />
+	<field number="6847" name="TotalNumOfParts" />
+	<field number="6848" name="Bank Clearance ID" />
+	<field number="6849" name="PartNum" />
+	<field number="6850" name="Bank Clearance Correspondant" />
+	<field number="6851" name="Bank Clearance Account" />
+	<field number="6852" name="Bank Clearance TransactTime" />
+	<field number="6853" name="Bank Clearance Fee" />
+	<field number="6854" name="Bank Clearance Fee Rate" />
+	<field number="6855" name="Bank Clearance LinkID" />
+	<field number="6856" name="Bank Clearance Delivery" />
+	<field number="6857" name="Bank Clearance Counterparty ID" />
+	<field number="6858" name="Bank Clearance Capacity" />
+	<field number="6859" name="Regulatory RptID" />
+	<field number="6860" name="Regulatory RptDate" />
+	<field number="6861" name="SpotTickSize" />
+	<field number="6862" name="SpotPrecision" />
+	<field number="6863" name="FwdTickSize" />
+	<field number="6864" name="FwdPrecision" />
+	<field number="6865" name="Regulatory RptStatus" />
+	<field number="6866" name="AAD" />
+	<field number="6867" name="CancelOnDisconnect" />
+	<field number="6868" name="NoTrdRegTimestampsClone" />
+	<field number="6869" name="TrdRegTimestamp" />
+	<field number="6870" name="TrdRegTimestampTypeClone" />
+	<field number="6871" name="TrdRegTimestampOriginClone" />
+	<field number="6872" name="Fiduciary" />
+	<field number="6873" name="PosRejectReason" />
+	<field number="6874" name="ProhibitedLocales" />
+	<field number="6875" name="MDCumTradeSize" />
+	<field number="6876" name="MDWorkupState" />
+	<field number="6877" name="MDAvailBuySize" />
+	<field number="6878" name="MDAvailSellSize" />
+	<field number="6879" name="CPProgram" />
+	<field number="6880" name="FirmAccount" />
+	<field number="6881" name="Managed" />
+	<field number="6882" name="PershingOrderReceiptTime " />
+	<field number="6883" name="PershingOrderReceiveFrom " />
+	<field number="6884" name="OfferType" />
+	<field number="6885" name="ExecutionConcession" />
+	<field number="6886" name="ValidSeconds" />
+	<field number="6887" name="DueInSeconds" />
+	<field number="6888" name="ManagedAccount" />
+	<field number="6889" name="RelationToBroker" />
+	<field number="6890" name="StateOfResidence" />
+	<field number="6891" name="NASDRegistered" />
+	<field number="6892" name="PosQty" />
+	<field number="6893" name="Profit" />
+	<field number="6894" name="AvgCost" />
+	<field number="6895" name="DaysHeld" />
+	<field number="6896" name="SecuritySource" />
+	<field number="6897" name="NoTWRPositions" />
+	<field number="6898" name="PendingSettl" />
+	<field number="6899" name="Occupation" />
+	<field number="6900" name="DealRatio" />
+	<field number="6901" name="TradeRatio" />
+	<field number="6902" name="DealCash" />
+	<field number="6903" name="SpreadSide" />
+	<field number="6904" name="SpreadLimit" />
+	<field number="6905" name="BenchmarkCurvePoint2" />
+	<field number="6906" name="MaxHedge" />
+	<field number="6907" name="SuppressOatsReport" />
+	<field number="6908" name="AggressiveInTheMoney" />
+	<field number="6909" name="DelayResponsibility" />
+	<field number="6910" name="GapLimit" />
+	<field number="6911" name="HaltBeforeClose" />
+	<field number="6912" name="PriceSensitivity" />
+	<field number="6913" name="MarketMarketOn" />
+	<field number="6914" name="SpreadRatio" />
+	<field number="6915" name="ReHedgeBase" />
+	<field number="6916" name="LeadWith" />
+	<field number="6917" name="NotionalAmt" />
+	<field number="6918" name="RunHalt" />
+	<field number="6919" name="IndexPct" />
+	<field number="6920" name="OrderSize" />
+	<field number="6921" name="LotSize" />
+	<field number="6922" name="GivePrice" />
+	<field number="6923" name="LingerTime" />
+	<field number="6924" name="DwellTime" />
+	<field number="6925" name="LegRoute" />
+	<field number="6926" name="FlashDuration" />
+	<field number="6927" name="OrderOptions" />
+	<field number="6928" name="CounterPartyIpAddress" />
+	<field number="6929" name="CounterPartyOSIdentifier" />
+	<field number="6930" name="ApplicationLogonRspCode" />
+	<field number="6931" name="DaysBeforePwdExpiration" />
+	<field number="6932" name="NoReferentialPrices" />
+	<field number="6933" name="ReferentialPx" />
+	<field number="6934" name="ReferentialPxType" />
+	<field number="6935" name="SecurityUpdatesSince" />
+	<field number="6936" name="Language" />
+	<field number="6937" name="Asset" />
+	<field number="6938" name="SecurityValidityTimestamp" />
+	<field number="6939" name="PriceBandType" />
+	<field number="6940" name="NewsSource" />
+	<field number="6941" name="MaxBidQty" />
+	<field number="6942" name="MaxOfferQty" />
+	<field number="6943" name="ImbalanceQty" />
+	<field number="6944" name="NoFirms" />
+	<field number="6945" name="MDEntrySizeType" />
+	<field number="6946" name="NoInstrumentLimitsConfig" />
+	<field number="6947" name="EquivalentInstrument" />
+	<field number="6948" name="NoEquivalentIxmLimitsConfig" />
+	<field number="6949" name="AcctClassCode" />
+	<field number="6950" name="Slippage" />
+	<field number="6951" name="NoContractLimitsConfig" />
+	<field number="6952" name="SettlText1" />
+	<field number="6953" name="SettlText2" />
+	<field number="6954" name="TrailerCode1" />
+	<field number="6955" name="TrailerCode2" />
+	<field number="6956" name="TrailerCode3" />
+	<field number="6957" name="SettlPx" />
+	<field number="6958" name="ProductType" />
+	<field number="6959" name="ProductStatus" />
+	<field number="6960" name="ML ET Reserved" />
+	<field number="6961" name="ML ET Reserved" />
+	<field number="6962" name="ML ET Reserved" />
+	<field number="6963" name="ML ET Reserved" />
+	<field number="6964" name="ML ET Reserved" />
+	<field number="6965" name="ML ET Reserved" />
+	<field number="6966" name="ML ET Reserved" />
+	<field number="6967" name="ML ET Reserved" />
+	<field number="6968" name="ML ET Reserved" />
+	<field number="6969" name="CustomOrderType" />
+	<field number="6970" name="Trade Origin" />
+	<field number="6971" name="ML ET Reserved" />
+	<field number="6972" name="ML ET Reserved" />
+	<field number="6973" name="ML ET Reserved" />
+	<field number="6974" name="ML ET Reserved" />
+	<field number="6975" name="ML ET Reserved" />
+	<field number="6976" name="ML ET Reserved" />
+	<field number="6977" name="ML ET Reserved" />
+	<field number="6978" name="ML ET Reserved" />
+	<field number="6979" name="ML ET Reserved" />
+	<field number="6980" name="HSFXTradeType" />
+	<field number="6981" name="Reserved by Doug" />
+	<field number="6982" name="Reserved by Doug" />
+	<field number="6983" name="HSFXBrokerage" />
+	<field number="6984" name="HSFXOpenBalance" />
+	<field number="6985" name="HSFXEffectiveOpenBalance" />
+	<field number="6986" name="HSFXUnrealizedLockedPL" />
+	<field number="6987" name="HSFXUnrealizedOpenPL" />
+	<field number="6988" name="HSFXRealizedPL" />
+	<field number="6989" name="HSFXAdjustmentAmt" />
+	<field number="6990" name="HSFXWithdrawAmt" />
+	<field number="6991" name="HSFXDepositAmt" />
+	<field number="6992" name="HSFXFinanceAmt" />
+	<field number="6993" name="HSFXInterest" />
+	<field number="6994" name="HSFXCloseBalance" />
+	<field number="6995" name="HSFXTotalBalance" />
+	<field number="6996" name="HSFXUnrealizedLockedDayPL" />
+	<field number="6997" name="HSFXCollateralID" />
+	<field number="6998" name="HSFXUserID" />
+	<field number="6999" name="OldQty" />
+	<field number="7000" name="Internalize" />
+	<field number="7001" name="SettlLocation" />
+	<field number="7002" name="AgentIDNumber" />
+	<field number="7003" name="AgentInternalAcct" />
+	<field number="7004" name="StepOutReasonCode1" />
+	<field number="7005" name="StepOutReasonCode2" />
+	<field number="7006" name="StepOutReasonCode3" />
+	<field number="7007" name="StepOutText" />
+	<field number="7008" name="CxlAfterMatching" />
+	<field number="7009" name="MatchedIndicator" />
+	<field number="7010" name="StepInClearingBkrID" />
+	<field number="7011" name="StepInClearingAcct" />
+	<field number="7012" name="ExecClearingBkrID" />
+	<field number="7013" name="ExecClearingBkrAcct" />
+	<field number="7014" name="RecipientRole" />
+	<field number="7015" name="FidStrategyParameter" />
+	<field number="7016" name="FidStrategyParameter" />
+	<field number="7017" name="VolumeIndicator" />
+	<field number="7018" name="SecuritySubType" />
+	<field number="7019" name="DealerTradeID" />
+	<field number="7020" name="ClearingMember" />
+	<field number="7021" name="LegClearingMember" />
+	<field number="7022" name="AllocClearingMember" />
+	<field number="7023" name="LegAllocClearingMember" />
+	<field number="7024" name="TradeEvent" />
+	<field number="7025" name="EnhancedCxlRe" />
+	<field number="7026" name="EndWorkUp" />
+	<field number="7027" name="NoVolRules" />
+	<field number="7028" name="VolRuleType" />
+	<field number="7029" name="IsLastTrade" />
+	<field number="7030" name="FIX reserved" />
+	<field number="7031" name="FIX reserved" />
+	<field number="7032" name="FIX reserved" />
+	<field number="7033" name="FIX reserved" />
+	<field number="7034" name="FIX reserved" />
+	<field number="7035" name="FIX reserved" />
+	<field number="7036" name="FIX reserved" />
+	<field number="7037" name="FIX reserved" />
+	<field number="7038" name="FIX reserved" />
+	<field number="7039" name="FIX reserved" />
+	<field number="7040" name="FIX reserved" />
+	<field number="7041" name="FIX reserved" />
+	<field number="7042" name="FIX reserved" />
+	<field number="7043" name="FIX reserved" />
+	<field number="7044" name="FIX reserved" />
+	<field number="7045" name="FIX reserved" />
+	<field number="7046" name="TimeSpanStartTime" />
+	<field number="7047" name="AllocPositionEffect" />
+	<field number="7048" name="Customer Id" />
+	<field number="7049" name="TriggerList" />
+	<field number="7050" name="WorkList" />
+	<field number="7051" name="WorkReferencePrice" />
+	<field number="7052" name="WorkDoNotExceedReference" />
+	<field number="7053" name="WorkGapPrice" />
+	<field number="7054" name="WorkPriceGapType" />
+	<field number="7055" name="WorkDelay" />
+	<field number="7056" name="WorkSentQty" />
+	<field number="7057" name="WorkNbSentWaves" />
+	<field number="7058" name="ClearingClCodType" />
+	<field number="7059" name="ClearingDest" />
+	<field number="7060" name="MidPointFlag" />
+	<field number="7061" name="ClearingOrderID" />
+	<field number="7062" name="ContraCreationDate" />
+	<field number="7063" name="ContraCreationRef" />
+	<field number="7064" name="PreAllocPct" />
+	<field number="7065" name="Quoting Duration" />
+	<field number="7066" name="Reserved" />
+	<field number="7067" name="Reserved" />
+	<field number="7068" name="Reserved" />
+	<field number="7069" name="Reserved" />
+	<field number="7070" name="RefSpotDate" />
+	<field number="7071" name="ProductType" />
+	<field number="7072" name="DayCount" />
+	<field number="7073" name="Fiduciary" />
+	<field number="7074" name="IsInCompetition" />
+	<field number="7075" name="360T reserved" />
+	<field number="7076" name="360T reserved" />
+	<field number="7077" name="360T reserved" />
+	<field number="7078" name="360T reserved" />
+	<field number="7079" name="360T reserved" />
+	<field number="7080" name="PrevDeskOrderID" />
+	<field number="7081" name="OrderContainerID" />
+	<field number="7082" name="LastSale" />
+	<field number="7083" name="SrcOfExecution" />
+	<field number="7084" name="SUFICapacity" />
+	<field number="7085" name="TraderName" />
+	<field number="7086" name="RoundLotInstrument" />
+	<field number="7087" name="OddLotInstrument" />
+	<field number="7088" name="NetPresentValue" />
+	<field number="7089" name="Price1" />
+	<field number="7090" name="Price2" />
+	<field number="7091" name="Price3" />
+	<field number="7092" name="Price4" />
+	<field number="7093" name="Price5" />
+	<field number="7094" name="ParticipationRate1" />
+	<field number="7095" name="ParticipationRate2" />
+	<field number="7096" name="ParticipationRate3" />
+	<field number="7097" name="ParticipationRate4" />
+	<field number="7098" name="ParticipationRate5" />
+	<field number="7099" name="ParticipationRate6" />
+	<field number="7100" name="TW Equities Reserved " />
+	<field number="7101" name="AllocationAcct" />
+	<field number="7102" name="DTCCMatchedIndicator" />
+	<field number="7103" name="ConfirmType" />
+	<field number="7104" name="ConfirmCancCorr" />
+	<field number="7105" name="CancAftAck" />
+	<field number="7106" name="DisaffirmInd" />
+	<field number="7107" name="MatchingVariance" />
+	<field number="7108" name="VarianceDirection" />
+	<field number="7109" name="AffirmationIndicator" />
+	<field number="7110" name="FidStrategyParameter" />
+	<field number="7111" name="FidStrategyParameter" />
+	<field number="7112" name="FidStrategyParameter" />
+	<field number="7113" name="FidStrategyParameter" />
+	<field number="7114" name="FidStrategyParameter" />
+	<field number="7115" name="FidStrategyParameter" />
+	<field number="7116" name="FidStrategyParameter" />
+	<field number="7117" name="FidStrategyParameter" />
+	<field number="7118" name="FidStrategyParameter" />
+	<field number="7119" name="FidStrategyParameter" />
+	<field number="7120" name="FidStrategyParameter" />
+	<field number="7121" name="FidStrategyParameter" />
+	<field number="7122" name="FidStrategyParameter" />
+	<field number="7123" name="FidStrategyParameter" />
+	<field number="7124" name="FidStrategyParameter" />
+	<field number="7125" name="FidStrategyParameter" />
+	<field number="7126" name="FidStrategyParameter" />
+	<field number="7127" name="FidStrategyParameter" />
+	<field number="7128" name="FidStrategyParameter" />
+	<field number="7129" name="FidStrategyParameter" />
+	<field number="7130" name="FidStrategyParameter" />
+	<field number="7131" name="FidStrategyParameter" />
+	<field number="7132" name="FidStrategyParameter" />
+	<field number="7133" name="FidStrategyParameter" />
+	<field number="7134" name="FidStrategyParameter" />
+	<field number="7135" name="FidStrategyParameter" />
+	<field number="7136" name="FidStrategyParameter" />
+	<field number="7137" name="FidStrategyParameter" />
+	<field number="7138" name="FidStrategyParameter" />
+	<field number="7139" name="FidStrategyParameter" />
+	<field number="7140" name="FidStrategyParameter" />
+	<field number="7141" name="FidStrategyParameter" />
+	<field number="7142" name="FidStrategyParameter" />
+	<field number="7143" name="FidStrategyParameter" />
+	<field number="7144" name="FidStrategyParameter" />
+	<field number="7145" name="FidStrategyParameter" />
+	<field number="7146" name="FidStrategyParameter" />
+	<field number="7147" name="FidStrategyParameter" />
+	<field number="7148" name="FidStrategyParameter" />
+	<field number="7149" name="FidStrategyParameter" />
+	<field number="7150" name="FidStrategyParameter" />
+	<field number="7151" name="FidStrategyParameter" />
+	<field number="7152" name="FidStrategyParameter" />
+	<field number="7153" name="FidStrategyParameter" />
+	<field number="7154" name="FidStrategyParameter" />
+	<field number="7155" name="FidStrategyParameter" />
+	<field number="7156" name="FidStrategyParameter" />
+	<field number="7157" name="FidStrategyParameter" />
+	<field number="7158" name="FidStrategyParameter" />
+	<field number="7159" name="FidStrategyParameter" />
+	<field number="7160" name="RejectStatus" />
+	<field number="7161" name="PartyRole" />
+	<field number="7162" name="CommisionValue" />
+	<field number="7163" name="CommissionType" />
+	<field number="7164" name="AdjustedConsideration" />
+	<field number="7165" name="CommissionAdjLastPx" />
+	<field number="7166" name="DirtyPrice" />
+	<field number="7167" name="SummaryStatus" />
+	<field number="7168" name="BinaryReporting" />
+	<field number="7169" name="Consideration" />
+	<field number="7170" name="TradeError" />
+	<field number="7171" name="TradeSequence" />
+	<field number="7172" name="ETCMarketID" />
+	<field number="7173" name="TradeRequestType" />
+	<field number="7174" name="StartTradeSequence" />
+	<field number="7175" name="EndTradeSequence" />
+	<field number="7176" name="MarketID" />
+	<field number="7177" name="Symbol" />
+	<field number="7178" name="Product" />
+	<field number="7179" name="SecurityType" />
+	<field number="7180" name="NoDisplayGroupEntries" />
+	<field number="7181" name="DisplayGroup" />
+	<field number="7182" name="NoTBAGroupEntries" />
+	<field number="7183" name="TBAGroup" />
+	<field number="7184" name="SecurityListResponseType" />
+	<field number="7185" name="TradeInfoID" />
+	<field number="7186" name="TradeInfoRequestID" />
+	<field number="7187" name="NoBookStatusEntries" />
+	<field number="7188" name="BookStatus" />
+	<field number="7189" name="WorkUpPhase" />
+	<field number="7190" name="BookStatusApplicableSide" />
+	<field number="7191" name="Ownership" />
+	<field number="7192" name="MDPriceUpdateType" />
+	<field number="7193" name="Action" />
+	<field number="7194" name="NewRank" />
+	<field number="7195" name="PreviousRank" />
+	<field number="7196" name="TBAMonth" />
+	<field number="7197" name="TradeHistoryFlag" />
+	<field number="7198" name="MDEntryType" />
+	<field number="7199" name="SecurityListRequest" />
+	<field number="7200" name="AccountSell" />
+	<field number="7201" name="AccountType" />
+	<field number="7202" name="AccountTypeSell" />
+	<field number="7203" name="ProgramTrade" />
+	<field number="7204" name="BasketTrade" />
+	<field number="7205" name="InternalCross" />
+	<field number="7206" name="OrderIDSell" />
+	<field number="7207" name="MGF_Candidate" />
+	<field number="7208" name="Jitney" />
+	<field number="7209" name="ShortExempt" />
+	<field number="7210" name="CDNExchangeID" />
+	<field number="7211" name="UserMessageId" />
+	<field number="7212" name="Anonymous" />
+	<field number="7213" name="RegulationId" />
+	<field number="7214" name="RegulationIdSell" />
+	<field number="7215" name="TransferRejReason" />
+	<field number="7216" name="MDHiddenSize" />
+	<field number="7217" name="MDGatewayIDs" />
+	<field number="7218" name="NoDPFormatTags" />
+	<field number="7219" name="DPFormatTag" />
+	<field number="7220" name="PortfolioName" />
+	<field number="7221" name="SettlementTerms" />
+	<field number="7222" name="ItemNumber" />
+	<field number="7223" name="HSFXTradeviewIterations" />
+	<field number="7224" name="HSFXTradeviewChase" />
+	<field number="7225" name="HSFXQuoteLayer" />
+	<field number="7226" name="HSFXTradeStatus" />
+	<field number="7227" name="Reserved for Hotspot FX" />
+	<field number="7228" name="Reserved for Hotspot FX" />
+	<field number="7229" name="Reserved for Hotspot FX" />
+	<field number="7230" name="Reserved for Hotspot FX" />
+	<field number="7231" name="Reserved for Hotspot FX" />
+	<field number="7232" name="Reserved for Hotspot FX" />
+	<field number="7233" name="Reserved for Hotspot FX" />
+	<field number="7234" name="Reserved for Hotspot FX" />
+	<field number="7235" name="Reserved for Hotspot FX" />
+	<field number="7236" name="Reserved for Hotspot FX" />
+	<field number="7237" name="Reserved for Hotspot FX" />
+	<field number="7238" name="Reserved for Hotspot FX" />
+	<field number="7239" name="Reserved for Hotspot FX" />
+	<field number="7240" name="Reserved for Hotspot FX" />
+	<field number="7241" name="Reserved for Hotspot FX" />
+	<field number="7242" name="Reserved for Hotspot FX" />
+	<field number="7243" name="Reserved for Hotspot FX" />
+	<field number="7244" name="Reserved for Hotspot FX" />
+	<field number="7245" name="Reserved for Hotspot FX" />
+	<field number="7246" name="Reserved for Hotspot FX" />
+	<field number="7247" name="Reserved for Hotspot FX" />
+	<field number="7248" name="Reserved for Hotspot FX" />
+	<field number="7249" name="Reserved for Hotspot FX" />
+	<field number="7250" name="TenorCode" />
+	<field number="7251" name="LegTenorCode" />
+	<field number="7252" name="LegMinBidSize" />
+	<field number="7253" name="LegBidSize" />
+	<field number="7254" name="LegMinOfferSize" />
+	<field number="7255" name="LegOfferSize" />
+	<field number="7256" name="SCB_FIX_Parameter" />
+	<field number="7257" name="SCB_FIX_Parameter" />
+	<field number="7258" name="SCB_FIX_Paramater" />
+	<field number="7259" name="SCB_FIX_Paramater" />
+	<field number="7260" name="SCB_FIX_Paramater" />
+	<field number="7261" name="SCB_FIX_Paramater" />
+	<field number="7262" name="SCB_FIX_Paramater" />
+	<field number="7263" name="SCB_FIX_Paramater" />
+	<field number="7264" name="SCB_FIX_Paramater" />
+	<field number="7265" name="SCB_FIX_Paramater" />
+	<field number="7266" name="SCB_FIX_Paramater" />
+	<field number="7267" name="SCB_FIX_Paramater" />
+	<field number="7268" name="SCB_FIX_Paramater" />
+	<field number="7269" name="SCB_FIX_Paramater" />
+	<field number="7270" name="SCB_FIX_Paramater" />
+	<field number="7271" name="SCB_FIX_Paramater" />
+	<field number="7272" name="SCB_FIX_Paramater" />
+	<field number="7273" name="SCB_FIX_Paramater" />
+	<field number="7274" name="SCB_FIX_Paramater" />
+	<field number="7275" name="SCB_FIX_Paramater" />
+	<field number="7276" name="Manageability" />
+	<field number="7277" name="QuoteRepID" />
+	<field number="7278" name="OrdActiveStatus" />
+	<field number="7279" name="OTFQty" />
+	<field number="7280" name="ADOSA" />
+	<field number="7281" name="PROSA" />
+	<field number="7282" name="FaF" />
+	<field number="7283" name="TransferID" />
+	<field number="7284" name="TransferAction" />
+	<field number="7285" name="TransferReason" />
+	<field number="7286" name="Value" />
+	<field number="7287" name="ExecutedPrice" />
+	<field number="7288" name="ExecutedYield" />
+	<field number="7289" name="WorkUpExecQty" />
+	<field number="7290" name="AllocatedQty" />
+	<field number="7291" name="NegotiationPhase" />
+	<field number="7292" name="TransferStatus" />
+	<field number="7293" name="QuoteType" />
+	<field number="7294" name="QuoteStatus" />
+	<field number="7295" name="MassCancelRequestType" />
+	<field number="7296" name="MassStatusReqType" />
+	<field number="7297" name="PartyRole" />
+	<field number="7298" name="OrgTrdMatchID" />
+	<field number="7299" name="TrdCptRepResult" />
+	<field number="7300" name="OrderSource" />
+	<field number="7301" name="PricePegType" />
+	<field number="7302" name="BofA Algo Param" />
+	<field number="7303" name="BofA Algo Param" />
+	<field number="7304" name="BofA Algo Param" />
+	<field number="7305" name="BofA Algo Param" />
+	<field number="7306" name="BofA Algo Param" />
+	<field number="7307" name="BofA Algo Param" />
+	<field number="7308" name="BofA Algo Param" />
+	<field number="7309" name="BofA Algo Param" />
+	<field number="7310" name="Algo Param" />
+	<field number="7311" name="Algo Param" />
+	<field number="7312" name="Algo Param" />
+	<field number="7313" name="Algo Param" />
+	<field number="7314" name="Algo Param" />
+	<field number="7315" name="Algo Param" />
+	<field number="7316" name="Algo Param" />
+	<field number="7317" name="Algo Param" />
+	<field number="7318" name="Algo Param" />
+	<field number="7319" name="Algo Param" />
+	<field number="7320" name="Algo Param" />
+	<field number="7321" name="Algo Param" />
+	<field number="7322" name="OfficeCode" />
+	<field number="7323" name="TradingSystemId" />
+	<field number="7324" name="PositionId" />
+	<field number="7325" name="OmgeoIMVersionOfTradeSide" />
+	<field number="7326" name="OmgeoEBVersionOfTradeSide" />
+	<field number="7327" name="OmgeoBySideCompleteIndicator" />
+	<field number="7328" name="BlockErrorParamFlag" />
+	<field number="7329" name="AllocConfirmErrorParamFlag" />
+	<field number="7330" name="OmgeoOmnibusExpected" />
+	<field number="7331" name="OmgeoPoolReference" />
+	<field number="7332" name="OmgeoTotSettlInstructionNum" />
+	<field number="7333" name="OmgeoCurrSettlInstructionNum" />
+	<field number="7334" name="OmgeoBlockSettlementIndicator" />
+	<field number="7335" name="NIMLotSize" />
+	<field number="7336" name="NIMMinimumSize" />
+	<field number="7337" name="AccruedDays" />
+	<field number="7338" name="IssuerLongName" />
+	<field number="7339" name="TW Reserved" />
+	<field number="7340" name="OmgeoNoErrorParameter" />
+	<field number="7341" name="OmgeoNoIndividualErrorParameter" />
+	<field number="7342" name="OmgeoErrorParamValue" />
+	<field number="7343" name="OmgeoIndividualErrorParamValue" />
+	<field number="7344" name="OmgeoPremiumAmount " />
+	<field number="7345" name="OmgeoInitialMarginTypeCode " />
+	<field number="7346" name="OmgeoInitialMarginAmount " />
+	<field number="7347" name="OmgeoNoSecurityTypeGroups " />
+	<field number="7348" name="OmgeoSecurityTypeGroup " />
+	<field number="7349" name="OmgeoTypeOfPriceIndicator" />
+	<field number="7350" name="OmgeoNoBlockChargesOrTaxes " />
+	<field number="7351" name="OmgeoBlockChargesOrTaxesType " />
+	<field number="7352" name="OmgeoBlockChargesOrTaxesCurrency" />
+	<field number="7353" name="OmgeoBlockChargesOrTaxesAmount " />
+	<field number="7354" name="OmgeoMarkupMarkdown " />
+	<field number="7355" name="OmgeoBrokerRestrictions" />
+	<field number="7356" name="OmgeoNoRegMemberships " />
+	<field number="7357" name="OmgeoBrokerRegMembership" />
+	<field number="7358" name="OmgeoNoDisclosures" />
+	<field number="7359" name="OmgeoDisclosureType" />
+	<field number="7360" name="OmgeoDisclosureIndicator" />
+	<field number="7361" name="OmgeoDisclosureStatement " />
+	<field number="7362" name="OmgeoBrokerCapacity" />
+	<field number="7363" name="OmgeoErrorFIXTag" />
+	<field number="7364" name="OmgeoIndividualErrorFIXTag" />
+	<field number="7365" name="OmgeoAlertSettlementModelName" />
+	<field number="7366" name="OmgeoContinuationString " />
+	<field number="7367" name="OmgeoMinLastUpdateDateTime" />
+	<field number="7368" name="OmgeoMoreFlag " />
+	<field number="7369" name="OmgeoGoodThroughDateTime " />
+	<field number="7370" name="OmgeoTLVersionOfTradeComponent " />
+	<field number="7371" name="OmgeoTDVersionOfTradeComponent " />
+	<field number="7372" name="OmgeoTLISITCRejectReasonCode " />
+	<field number="7373" name="OmgeoTLRejectDateTime " />
+	<field number="7374" name="OmgeoTDISITCRejectReasonCode " />
+	<field number="7375" name="OmgeoTDRejectDateTime" />
+	<field number="7376" name="OmgeoTLErrorSeverity" />
+	<field number="7377" name="OmgeoTLErrorStatus " />
+	<field number="7378" name="OmgeoTDErrorSeverity" />
+	<field number="7379" name="OmgeoTDErrorStatus" />
+	<field number="7380" name="OmgeoNoFieldComparisons" />
+	<field number="7381" name="OmgeoTLInstructingPartyValue" />
+	<field number="7382" name="OmgeoTLExecutingBrokerValue " />
+	<field number="7383" name="OmgeoTLFieldLevelMatchStatus" />
+	<field number="7384" name="OmgeoTLFieldLevelL2MatchRule" />
+	<field number="7385" name="OmgeoTDInstructingPartyValue " />
+	<field number="7386" name="OmgeoTDExecutingBrokerValue " />
+	<field number="7387" name="OmgeoTDFieldLevelMatchStatus" />
+	<field number="7388" name="OmgeoTDFieldLevelL2MatchRule " />
+	<field number="7389" name="OmgeoTDMatchStatus" />
+	<field number="7390" name="OmgeoNoIndividualFieldComparison" />
+	<field number="7391" name="OmgeoCounterpartyTradeSideID" />
+	<field number="7392" name="OmgeoTLRejectText" />
+	<field number="7393" name="OmgeoTDRejectText " />
+	<field number="7394" name="OmgeoTDCancelText" />
+	<field number="7395" name="OmgeoConfirmCommissionReason " />
+	<field number="7396" name="OmgeoConfirmCommissionType" />
+	<field number="7397" name="OmgeoTradeAgreementMethod" />
+	<field number="7398" name="OmgeoAllSecurityTypeGroups" />
+	<field number="7399" name="OmgeoAlternateCurrency" />
+	<field number="7400" name="StratStartTime" />
+	<field number="7401" name="StratEndTime" />
+	<field number="7402" name="VwapPercent" />
+	<field number="7403" name="MinPctVol" />
+	<field number="7404" name="MaxPctVol" />
+	<field number="7405" name="PrcLmtBen" />
+	<field number="7406" name="PrcLmtTol" />
+	<field number="7407" name="SectorLmtTol" />
+	<field number="7408" name="IndexLmt" />
+	<field number="7409" name="CatchUp" />
+	<field number="7410" name="TradingStyle" />
+	<field number="7411" name="SmartStrategy" />
+	<field number="7412" name="MaxChildVol" />
+	<field number="7413" name="Duration" />
+	<field number="7414" name="TW Equities Reserved " />
+	<field number="7415" name="MaxAuction" />
+	<field number="7416" name="CloseStrat" />
+	<field number="7417" name="TargetPartAuction" />
+	<field number="7418" name="Duration" />
+	<field number="7419" name="TwapBuckets" />
+	<field number="7420" name="TradingStyle" />
+	<field number="7421" name="StockBasketLimit" />
+	<field number="7422" name="IndexLMTBen" />
+	<field number="7423" name="OpenCloseFlag" />
+	<field number="7424" name="CompletionLimit" />
+	<field number="7425" name="OpportunisticVol" />
+	<field number="7426" name="MomentumFactor" />
+	<field number="7427" name="RiskAversion" />
+	<field number="7428" name="ExpectedAlpha" />
+	<field number="7429" name="CatchUpStop" />
+	<field number="7430" name="LimitvLast" />
+	<field number="7431" name="VolProfSkew" />
+	<field number="7432" name="OneDayOnly" />
+	<field number="7433" name="OverrideValidation" />
+	<field number="7434" name="NIMEnabled" />
+	<field number="7435" name="Post Exchange" />
+	<field number="7436" name="LegRank" />
+	<field number="7437" name="BaseIndex" />
+	<field number="7438" name="TW Reserved" />
+	<field number="7439" name="TradingVenueType" />
+	<field number="7440" name="Cross Px Impr" />
+	<field number="7441" name="CrossPX Impr MinQty" />
+	<field number="7442" name="CrossPx Impr MaxQty" />
+	<field number="7443" name="PostingAction" />
+	<field number="7444" name="7444" />
+	<field number="7445" name="7445 Reserved" />
+	<field number="7446" name="TW Reserved" />
+	<field number="7447" name="TW Reserved" />
+	<field number="7448" name="TW Reserved" />
+	<field number="7449" name="TW Reserved" />
+	<field number="7450" name="CrossMaxQty" />
+	<field number="7451" name="CrossDiscInstr" />
+	<field number="7452" name="CrossDiscIncrement" />
+	<field number="7453" name="Algo Field3" />
+	<field number="7454" name="CrossParentResPct" />
+	<field number="7455" name="CrossOversizeLimit" />
+	<field number="7456" name="CrossMinQty" />
+	<field number="7457" name="CrossDoNotCrossPrincipal" />
+	<field number="7458" name="Algo8" />
+	<field number="7459" name="Dark Book Rate" />
+	<field number="7460" name="Pairs ID" />
+	<field number="7461" name="Acq Ticker" />
+	<field number="7462" name="Target Ticker" />
+	<field number="7463" name="Stock Ratio" />
+	<field number="7464" name="Hedge Ratio" />
+	<field number="7465" name="Cash" />
+	<field number="7466" name="Spread" />
+	<field number="7467" name="Risk Tol" />
+	<field number="7468" name="Basket ID" />
+	<field number="7469" name="Max Spent" />
+	<field number="7470" name="Min Raised" />
+	<field number="7471" name="Cross Category" />
+	<field number="7472" name="DMA Order Type" />
+	<field number="7473" name="Max% - crossing" />
+	<field number="7474" name="Mode" />
+	<field number="7475" name="Pivot Rate" />
+	<field number="7476" name="Pivot Price" />
+	<field number="7477" name="Price Sensitivity" />
+	<field number="7478" name="TW Reserved" />
+	<field number="7479" name="TW Reserved" />
+	<field number="7480" name="% Price Offset From IAP Close" />
+	<field number="7481" name="MarketShareCapClose" />
+	<field number="7482" name="% From Last Price Cap" />
+	<field number="7483" name="% Price Offset From IAP Open" />
+	<field number="7484" name="MarketShareCapOpen" />
+	<field number="7485" name="% From Close Price Cap" />
+	<field number="7486" name="Volume Profile" />
+	<field number="7487" name="Aussie Algo" />
+	<field number="7488" name="Aussie Algo" />
+	<field number="7489" name="OtherLegSecurityIDSource" />
+	<field number="7490" name="Pivot Price" />
+	<field number="7491" name="Custom Price 1" />
+	<field number="7492" name="Custom Price 2" />
+	<field number="7493" name="Custom Rate 1" />
+	<field number="7494" name="Custom Rate 2" />
+	<field number="7495" name="DiscIncr Type" />
+	<field number="7496" name="Min% LQFI" />
+	<field number="7497" name="DaggerTradingStyle" />
+	<field number="7498" name="BuyBack Rules" />
+	<field number="7499" name="AOLM" />
+	<field number="7500" name="SrcSys" />
+	<field number="7501" name="NetTrdInd" />
+	<field number="7502" name="MrkUp" />
+	<field number="7503" name="SaleCrdt" />
+	<field number="7504" name="SaleCrdtType" />
+	<field number="7505" name="OmgeoTLWorkflowType" />
+	<field number="7506" name="OmgeoTDWorkflowType" />
+	<field number="7507" name="OmgeoTLWorkflowModifier" />
+	<field number="7508" name="OmgeoTDWorkflowModifier" />
+	<field number="7509" name="OmgeoNoTLWorkflowModifier" />
+	<field number="7510" name="OmgeoNoTDWorkflowModifier" />
+	<field number="7511" name="OmgeoSettlInstProcNarrative" />
+	<field number="7512" name="OmgeoCptySettlInstSourceInd" />
+	<field number="7513" name="OmgeoCptyAlertCountryCode" />
+	<field number="7514" name="OmgeoCptyAlertMethodType" />
+	<field number="7515" name="OmgeoCptyAlertSecurityType" />
+	<field number="7516" name="OmgeoTLExpected" />
+	<field number="7517" name="OmgeoTradeTimeQualifier" />
+	<field number="7518" name="OmgeoTimeZoneIndicator" />
+	<field number="7519" name="OmgeoNoWorkflowType" />
+	<field number="7520" name="OmgeoTLMessageFieldType" />
+	<field number="7521" name="OmgeoTDMessageFieldType" />
+	<field number="7522" name="OmgeoTLFieldName" />
+	<field number="7523" name="OmgeoTDFieldName" />
+	<field number="7524" name="OmgeoTLFieldMatchRuleDescription" />
+	<field number="7525" name="OmgeoTDFieldMatchRuleDescription" />
+	<field number="7526" name="OmgeoTLFieldLevelMatchRule" />
+	<field number="7527" name="OmgeoTDFieldLevelMatchRule" />
+	<field number="7528" name="BenchmarkCurveName" />
+	<field number="7529" name="OptionSettlType" />
+	<field number="7530" name="OriginatorType" />
+	<field number="7531" name="PricePctFixed" />
+	<field number="7532" name="SettlementTime" />
+	<field number="7533" name="ClientTier" />
+	<field number="7534" name="OptionStrategyType" />
+	<field number="7535" name="LegRatio" />
+	<field number="7536" name="RefHedgePriceType" />
+	<field number="7537" name="RefHedgePrice" />
+	<field number="7538" name="Delta" />
+	<field number="7539" name="IntentToCross" />
+	<field number="7540" name="StripLength" />
+	<field number="7541" name="NoCompetitiveQuotes" />
+	<field number="7542" name="360T reserved" />
+	<field number="7543" name="360T reserved" />
+	<field number="7544" name="360T reserved" />
+	<field number="7545" name="360T reserved" />
+	<field number="7546" name="360T reserved" />
+	<field number="7547" name="360T reserved" />
+	<field number="7548" name="360T reserved" />
+	<field number="7549" name="360T reserved" />
+	<field number="7550" name="BOATdelay" />
+	<field number="7551" name="TradeReportVersion" />
+	<field number="7552" name="DelayToTime" />
+	<field number="7553" name="OverrideDelay" />
+	<field number="7554" name="TradeSeqNo" />
+	<field number="7555" name="TradeSeqNoSeries" />
+	<field number="7556" name="TradeReportRefSystem" />
+	<field number="7557" name="LiquidShare" />
+	<field number="7558" name="Sector" />
+	<field number="7559" name="BasisOfTrade" />
+	<field number="7560" name="SuspendReason" />
+	<field number="7561" name="SecondaryQuoteID" />
+	<field number="7562" name="SecondaryTradeID" />
+	<field number="7563" name="NoWarningReasons" />
+	<field number="7564" name="TradeReportWarningReason" />
+	<field number="7565" name="NoTradeSeqNoSeries" />
+	<field number="7566" name="TimezoneOffset" />
+	<field number="7567" name="ReportedPxDiff" />
+	<field number="7568" name="ReportedPXReason" />
+	<field number="7569" name="RptSys" />
+	<field number="7570" name="RptTime" />
+	<field number="7571" name="AVT" />
+	<field number="7572" name="AVTCurrency" />
+	<field number="7573" name="ADT" />
+	<field number="7574" name="ADTCurrency" />
+	<field number="7575" name="SMS" />
+	<field number="7576" name="SILiquidSharesReqID" />
+	<field number="7577" name="SILiquidSharesStatus" />
+	<field number="7578" name="SILiquidSharesRejectReason" />
+	<field number="7579" name="SuspendQuotingReqID" />
+	<field number="7580" name="SuspendQuotingStatus" />
+	<field number="7581" name="SuspendQuotingRejectReason" />
+	<field number="7582" name="NoQuotableCurrencies" />
+	<field number="7583" name="QuotesClearedTime" />
+	<field number="7584" name="TradeReportSystem" />
+	<field number="7585" name="TradeReportRefVersion" />
+	<field number="7586" name="NoQuotableInstruments" />
+	<field number="7587" name="ClientTrade" />
+	<field number="7588" name="QuotableInstrumentStatusReqID" />
+	<field number="7589" name="QuotableInstrStatusReqRejReason" />
+	<field number="7590" name="ReceivedTime" />
+	<field number="7591" name="SecurityValidToTime" />
+	<field number="7592" name="SecurityChangedTime" />
+	<field number="7593" name="SecurityValidFromTime" />
+	<field number="7594" name="LiquidityLevel" />
+	<field number="7595" name="NoSharesIssued" />
+	<field number="7596" name="PxQtyReviewed" />
+	<field number="7597" name="QueriedTrade" />
+	<field number="7598" name="SystemUTIRef" />
+	<field number="7599" name="SystemUTI" />
+	<field number="7600" name="WdnStrategyType " />
+	<field number="7601" name="WdnStrategyMode" />
+	<field number="7602" name="WdnStartTime" />
+	<field number="7603" name="WdnEndTime" />
+	<field number="7604" name="WdnMOCFlag" />
+	<field number="7605" name="WdnMaxParticipation" />
+	<field number="7606" name="WdnTargetParticipation" />
+	<field number="7607" name="WdnStrategyParameter1" />
+	<field number="7608" name="WdnStrategyParameter2" />
+	<field number="7609" name="WdnStrategyParameter3" />
+	<field number="7610" name="WdnStrategyParameter4" />
+	<field number="7611" name="WdnStrategyParameter5" />
+	<field number="7612" name="WdnStrategyParameter6" />
+	<field number="7613" name="WdnStrategyParameter7" />
+	<field number="7614" name="WdnStrategyParameter8" />
+	<field number="7615" name="WdnStrategyParameter9" />
+	<field number="7616" name="WdnStrategyParameter10" />
+	<field number="7617" name="WdnStrategyParameter11" />
+	<field number="7618" name="WdnStrategyParameter12" />
+	<field number="7619" name="WdnStrategyParameter13" />
+	<field number="7620" name="WdnStrategyParameter14" />
+	<field number="7621" name="WdnStrategyParameter15" />
+	<field number="7622" name="WdnStrategyParameter16" />
+	<field number="7623" name="WdnStrategyParameter17" />
+	<field number="7624" name="WdnStrategyParameter18" />
+	<field number="7625" name="WdnStrategyParameter19" />
+	<field number="7626" name="WdnStrategyParameter20" />
+	<field number="7627" name="WdnStrategyParameter21" />
+	<field number="7628" name="WdnStrategyParameter22" />
+	<field number="7629" name="WdnStrategyParameter23" />
+	<field number="7630" name="WdnStrategyParameter24" />
+	<field number="7631" name="WdnStrategyParameter25" />
+	<field number="7632" name="WdnStrategyParameter26" />
+	<field number="7633" name="WdnStrategyParameter27" />
+	<field number="7634" name="WdnStrategyParameter28" />
+	<field number="7635" name="WdnStrategyParameter29" />
+	<field number="7636" name="WdnStrategyParameter30" />
+	<field number="7637" name="WdnStrategyParameter31" />
+	<field number="7638" name="WdnStrategyParameter32" />
+	<field number="7639" name="WdnStrategyParameter33" />
+	<field number="7640" name="WdnStrategyParameter34" />
+	<field number="7641" name="WdnStrategyParameter35" />
+	<field number="7642" name="WdnStrategyParameter36" />
+	<field number="7643" name="WdnStrategyParameter37" />
+	<field number="7644" name="WdnStrategyParameter38" />
+	<field number="7645" name="WdnStrategyParameter39" />
+	<field number="7646" name="WdnStrategyParameter40" />
+	<field number="7647" name="WdnStrategyParameter41" />
+	<field number="7648" name="WdnStrategyParameter42" />
+	<field number="7649" name="WdnStrategyParameter43" />
+	<field number="7650" name="WdnStrategyParameter44" />
+	<field number="7651" name="WdnStrategyParameter45" />
+	<field number="7652" name="WdnStrategyParameter46" />
+	<field number="7653" name="WdnStrategyParameter47" />
+	<field number="7654" name="WdnStrategyParameter48" />
+	<field number="7655" name="WdnStrategyParameter49" />
+	<field number="7656" name="WdnStrategyParameter50" />
+	<field number="7657" name="WdnStrategyParameter51" />
+	<field number="7658" name="WdnStrategyParameter52" />
+	<field number="7659" name="WdnStrategyParameter53" />
+	<field number="7660" name="WdnStrategyParameter54" />
+	<field number="7661" name="Institutional ID" />
+	<field number="7662" name="Trader Group ID" />
+	<field number="7663" name="SettlAccType" />
+	<field number="7664" name="Settlement Venue" />
+	<field number="7665" name="Member Code Counterpart" />
+	<field number="7666" name="Mandator ID" />
+	<field number="7667" name="Public Order Code" />
+	<field number="7668" name="LastCounterpartExec" />
+	<field number="7669" name="MIFID Order Type" />
+	<field number="7670" name="MIFID Internal Limite" />
+	<field number="7671" name="User Dealer" />
+	<field number="7672" name="User Sales" />
+	<field number="7673" name="OrigClientID" />
+	<field number="7674" name="PrevOrdQty" />
+	<field number="7675" name="PrevOrdPrice" />
+	<field number="7676" name="FloorQtyDay" />
+	<field number="7677" name="AllocExecID" />
+	<field number="7678" name="TotalRevCost" />
+	<field number="7679" name="AvgRevPrice" />
+	<field number="7680" name="OTCInd" />
+	<field number="7681" name="TotalCostDay" />
+	<field number="7682" name="AvgPriceDay" />
+	<field number="7683" name="CurrencyRate" />
+	<field number="7684" name="ComplSettlement" />
+	<field number="7685" name="ReminderInterval" />
+	<field number="7686" name="SuspensionInd" />
+	<field number="7687" name="PercentageVar" />
+	<field number="7688" name="OTCSession" />
+	<field number="7689" name="ThresholdExecQty" />
+	<field number="7690" name="LimitGap" />
+	<field number="7691" name="ClientCapacity" />
+	<field number="7692" name="SubClCodType" />
+	<field number="7693" name="ClientAccID" />
+	<field number="7694" name="SubAccount" />
+	<field number="7695" name="CoverInd" />
+	<field number="7696" name="TrusteeID" />
+	<field number="7697" name="ShareGroupID" />
+	<field number="7698" name="Netting" />
+	<field number="7699" name="NettingGroup" />
+	<field number="7700" name="Book ID" />
+	<field number="7701" name="QuoteEntryDate" />
+	<field number="7702" name="QuoteEntryTime" />
+	<field number="7703" name="MarketSegment" />
+	<field number="7704" name="MIFID ClientCodeType" />
+	<field number="7705" name="MIFIDTradeExchange" />
+	<field number="7706" name="OriginatorAcc" />
+	<field number="7707" name="NoDeposit" />
+	<field number="7708" name="UnderlyingRisk" />
+	<field number="7709" name="MarginInit" />
+	<field number="7710" name="TMX UDF" />
+	<field number="7711" name="TMX UDF" />
+	<field number="7712" name="TMX UDF" />
+	<field number="7713" name="TMX UDF" />
+	<field number="7714" name="TMX UDF" />
+	<field number="7715" name="TMX UDF" />
+	<field number="7716" name="TMX UDF" />
+	<field number="7717" name="TMX UDF" />
+	<field number="7718" name="TMX UDF" />
+	<field number="7719" name="TMX UDF" />
+	<field number="7720" name="TMX UDF" />
+	<field number="7721" name="TMX UDF" />
+	<field number="7722" name="TMX UDF" />
+	<field number="7723" name="TMX UDF" />
+	<field number="7724" name="TMX UDF" />
+	<field number="7725" name="TMX UDF" />
+	<field number="7726" name="TMX UDF" />
+	<field number="7727" name="TMX UDF" />
+	<field number="7728" name="TMX UDF" />
+	<field number="7729" name="TMX UDF" />
+	<field number="7730" name="TMX UDF" />
+	<field number="7731" name="TMX UDF" />
+	<field number="7732" name="TMX UDF" />
+	<field number="7733" name="TMX UDF" />
+	<field number="7734" name="TMX UDF" />
+	<field number="7735" name="TMX UDF" />
+	<field number="7736" name="TMX UDF" />
+	<field number="7737" name="TMX UDF" />
+	<field number="7738" name="TMX UDF" />
+	<field number="7739" name="TMX UDF" />
+	<field number="7740" name="CrossFlag" />
+	<field number="7741" name="LegContraQty" />
+	<field number="7742" name="OriginatorAccFinal" />
+	<field number="7743" name="ClientIdSOM" />
+	<field number="7744" name="WorkChildMinQty" />
+	<field number="7745" name="TriggerDateTime" />
+	<field number="7746" name="WorkMaxLimitPrice" />
+	<field number="7747" name="WorkPrice" />
+	<field number="7748" name="WorkEndDate" />
+	<field number="7749" name="WorkRefVolume" />
+	<field number="7750" name="BookingTypeCustom" />
+	<field number="7751" name="SyntheticQtyType" />
+	<field number="7752" name="NoSynthetics" />
+	<field number="7753" name="SyntheticType" />
+	<field number="7754" name="SyntheticQty" />
+	<field number="7755" name="SyntheticBroker" />
+	<field number="7756" name="WorkSymbol" />
+	<field number="7757" name="WorkIDSource" />
+	<field number="7758" name="WorkSecurityIDSource" />
+	<field number="7759" name="RevisedFinal" />
+	<field number="7760" name="Auction limit price" />
+	<field number="7761" name="QuoteRank" />
+	<field number="7762" name="Exclude" />
+	<field number="7763" name="RequestIn" />
+	<field number="7764" name="RequestOut" />
+	<field number="7765" name="ResponseIn" />
+	<field number="7766" name="ResponseOut" />
+	<field number="7767" name="IsRelative" />
+	<field number="7768" name="OptionTradeType" />
+	<field number="7769" name="DeltaTransfer" />
+	<field number="7770" name="LockedQty" />
+	<field number="7771" name="RouteOddToSlowExchange" />
+	<field number="7772" name="CentralCounterParty" />
+	<field number="7773" name="OtherLegSecurityID" />
+	<field number="7774" name="OtherLegReferenceNo" />
+	<field number="7775" name="OtherLegLastPx" />
+	<field number="7776" name="Volga" />
+	<field number="7777" name="LastMktBloomberg" />
+	<field number="7778" name="SecurityExchangeBloomberg" />
+	<field number="7779" name="Route to session" />
+	<field number="7780" name="Reserved" />
+	<field number="7781" name="Reserved" />
+	<field number="7782" name="Reserved" />
+	<field number="7783" name="Reserved" />
+	<field number="7784" name="Reserved" />
+	<field number="7785" name="Reserved" />
+	<field number="7786" name="Reserved" />
+	<field number="7787" name="Reserved" />
+	<field number="7788" name="Reserved" />
+	<field number="7789" name="Reserved" />
+	<field number="7790" name="Reserved" />
+	<field number="7791" name="Reserved" />
+	<field number="7792" name="Reserved" />
+	<field number="7793" name="Reserved" />
+	<field number="7794" name="Reserved" />
+	<field number="7795" name="Reserved" />
+	<field number="7796" name="Reserved" />
+	<field number="7797" name="Reserved" />
+	<field number="7798" name="Reserved" />
+	<field number="7799" name="Reserved" />
+	<field number="7800" name="Algo reserved" />
+	<field number="7801" name="SourceApplication" />
+	<field number="7802" name="GroupName" />
+	<field number="7803" name="Strategy" />
+	<field number="7804" name="Algo reserved" />
+	<field number="7805" name="Algo reserved" />
+	<field number="7806" name="Algo reserved" />
+	<field number="7807" name="Algo reserved" />
+	<field number="7808" name="Algo reserved" />
+	<field number="7809" name="Algo reserved" />
+	<field number="7810" name="Algo reserved" />
+	<field number="7811" name="Algo reserved" />
+	<field number="7812" name="Algo reserved" />
+	<field number="7813" name="Algo reserved" />
+	<field number="7814" name="Algo reserved" />
+	<field number="7815" name="Algo reserved" />
+	<field number="7816" name="Algo reserved" />
+	<field number="7817" name="Algo reserved" />
+	<field number="7818" name="Algo reserved" />
+	<field number="7819" name="Algo reserved" />
+	<field number="7820" name="Algo reserved" />
+	<field number="7821" name="Algo reserved" />
+	<field number="7822" name="Algo reserved" />
+	<field number="7823" name="Algo reserved" />
+	<field number="7824" name="Algo reserved" />
+	<field number="7825" name="Algo reserved" />
+	<field number="7826" name="Algo reserved" />
+	<field number="7827" name="Algo reserved" />
+	<field number="7828" name="Algo reserved" />
+	<field number="7829" name="Algo reserved" />
+	<field number="7830" name="Algo reserved" />
+	<field number="7831" name="Algo reserved" />
+	<field number="7832" name="Algo reserved" />
+	<field number="7833" name="Algo reserved" />
+	<field number="7834" name="Algo reserved" />
+	<field number="7835" name="Algo reserved" />
+	<field number="7836" name="Algo reserved" />
+	<field number="7837" name="Algo reserved" />
+	<field number="7838" name="Algo reserved" />
+	<field number="7839" name="Algo reserved" />
+	<field number="7840" name="Algo reserved" />
+	<field number="7841" name="Algo reserved" />
+	<field number="7842" name="Algo reserved" />
+	<field number="7843" name="Algo reserved" />
+	<field number="7844" name="Algo reserved" />
+	<field number="7845" name="Algo reserved" />
+	<field number="7846" name="Algo reserved" />
+	<field number="7847" name="Algo reserved" />
+	<field number="7848" name="Algo reserved" />
+	<field number="7849" name="Algo reserved" />
+	<field number="7850" name="Algo reserved" />
+	<field number="7851" name="Algo reserved" />
+	<field number="7852" name="Algo reserved" />
+	<field number="7853" name="Algo reserved" />
+	<field number="7854" name="Algo reserved" />
+	<field number="7855" name="Algo reserved" />
+	<field number="7856" name="Algo reserved" />
+	<field number="7857" name="Algo reserved" />
+	<field number="7858" name="Algo reserved" />
+	<field number="7859" name="Algo reserved" />
+	<field number="7860" name="Algo reserved" />
+	<field number="7861" name="Algo reserved" />
+	<field number="7862" name="Algo reserved" />
+	<field number="7863" name="Algo reserved" />
+	<field number="7864" name="Algo reserved" />
+	<field number="7865" name="Algo reserved" />
+	<field number="7866" name="Algo reserved" />
+	<field number="7867" name="Algo reserved" />
+	<field number="7868" name="Algo reserved" />
+	<field number="7869" name="Algo reserved" />
+	<field number="7870" name="Algo reserved" />
+	<field number="7871" name="Algo reserved" />
+	<field number="7872" name="Algo reserved" />
+	<field number="7873" name="Algo reserved" />
+	<field number="7874" name="Algo reserved" />
+	<field number="7875" name="Algo reserved" />
+	<field number="7876" name="Algo reserved" />
+	<field number="7877" name="Algo reserved" />
+	<field number="7878" name="Algo reserved" />
+	<field number="7879" name="Algo reserved" />
+	<field number="7880" name="Algo reserved" />
+	<field number="7881" name="Algo reserved" />
+	<field number="7882" name="Algo reserved" />
+	<field number="7883" name="Algo reserved" />
+	<field number="7884" name="Algo reserved" />
+	<field number="7885" name="Algo reserved" />
+	<field number="7886" name="Algo reserved" />
+	<field number="7887" name="Algo reserved" />
+	<field number="7888" name="Algo reserved" />
+	<field number="7889" name="Algo reserved" />
+	<field number="7890" name="Algo reserved" />
+	<field number="7891" name="Algo reserved" />
+	<field number="7892" name="Algo reserved" />
+	<field number="7893" name="Algo reserved" />
+	<field number="7894" name="Algo reserved" />
+	<field number="7895" name="Algo reserved" />
+	<field number="7896" name="Algo reserved" />
+	<field number="7897" name="Algo reserved" />
+	<field number="7898" name="Algo reserved" />
+	<field number="7899" name="Algo reserved" />
+	<field number="7900" name="Algo reserved" />
+	<field number="7901" name="Algo reserved" />
+	<field number="7902" name="Algo reserved" />
+	<field number="7903" name="Algo reserved" />
+	<field number="7904" name="Algo reserved" />
+	<field number="7905" name="Algo reserved" />
+	<field number="7906" name="CombinedOrdType" />
+	<field number="7907" name="MarketPhase" />
+	<field number="7908" name="MarketPhase" />
+	<field number="7909" name="MarketPhase" />
+	<field number="7910" name="DayCountFraction" />
+	<field number="7911" name="LegTenorValue" />
+	<field number="7912" name="LegBidSize" />
+	<field number="7913" name="LegOfferSize" />
+	<field number="7914" name="LegBidSpotRate" />
+	<field number="7915" name="LegOfferSpotRate" />
+	<field number="7916" name="LegUSDEquiv" />
+	<field number="7917" name=" LegHomeCcyQty  " />
+	<field number="7918" name="LegHomeCcyRate " />
+	<field number="7919" name="LegAvgPx" />
+	<field number="7920" name="ConvertedPriceIndicator" />
+	<field number="7921" name="BargainCondition" />
+	<field number="7922" name="BestExecutionUniverse" />
+	<field number="7923" name="ExchangeListCode" />
+	<field number="7924" name="DeltaAheadThresholdQty " />
+	<field number="7925" name="DeltaAheadThresholdValue" />
+	<field number="7926" name="WorkingDelta" />
+	<field number="7927" name="AggressivePost " />
+	<field number="7928" name="SelfTradePreventFlag" />
+	<field number="7929" name="CAPStrategyIndicator" />
+	<field number="7930" name="ServiceID" />
+	<field number="7931" name="VenueID" />
+	<field number="7932" name="RouteToID" />
+	<field number="7933" name="BrokerID" />
+	<field number="7934" name="FirmID" />
+	<field number="7935" name="DisplayInst" />
+	<field number="7936" name="UserID" />
+	<field number="7937" name="UserName" />
+	<field number="7938" name="BlotterID" />
+	<field number="7939" name="BlotterName" />
+	<field number="7940" name="StrategyID" />
+	<field number="7941" name="VenueStrategy" />
+	<field number="7942" name="CrossFirst" />
+	<field number="7943" name="CrossAfter" />
+	<field number="7944" name="RouteFirst" />
+	<field number="7945" name="TakeShown" />
+	<field number="7946" name="TakeWhenShown" />
+	<field number="7947" name="CanReprice" />
+	<field number="7948" name="PostOnly" />
+	<field number="7949" name="PostAwayTag" />
+	<field number="7950" name="RouteOut" />
+	<field number="7951" name="DialectID" />
+	<field number="7952" name="TradingDeskID" />
+	<field number="7953" name="RegionID" />
+	<field number="7954" name="MaxQtyPerLevel" />
+	<field number="7955" name="MaxPctRate" />
+	<field number="7956" name="MinPctRate" />
+	<field number="7957" name="Aggression" />
+	<field number="7958" name="ChildAggression" />
+	<field number="7959" name="AheadAllowed" />
+	<field number="7960" name="BehindAllowed" />
+	<field number="7961" name="Interval" />
+	<field number="7962" name="Alpha" />
+	<field number="7963" name="Lambda" />
+	<field number="7964" name="Beta" />
+	<field number="7965" name="Gamma" />
+	<field number="7966" name="Delta" />
+	<field number="7967" name="Theta" />
+	<field number="7968" name="Vega" />
+	<field number="7969" name="Omega" />
+	<field number="7970" name="Rho" />
+	<field number="7971" name="MinBlockSize" />
+	<field number="7972" name="MinBlockBasis" />
+	<field number="7973" name="CompleteOrder" />
+	<field number="7974" name="PreOpen" />
+	<field number="7975" name="OnOpenCross" />
+	<field number="7976" name="OnCloseCross" />
+	<field number="7977" name="OnCrossBasis" />
+	<field number="7978" name="DoNotCross" />
+	<field number="7979" name="ToBeRenameRx" />
+	<field number="7980" name="ToBeRenameTrigger" />
+	<field number="7981" name="CorpBuyback" />
+	<field number="7982" name="AdverseMoveAmt" />
+	<field number="7983" name="AdverseMoveRate" />
+	<field number="7984" name="FavorMoveAmt" />
+	<field number="7985" name="FavorMoveRate" />
+	<field number="7986" name="LegLimit" />
+	<field number="7987" name="LegRatio" />
+	<field number="7988" name="LegCash" />
+	<field number="7989" name="LeadingLeg" />
+	<field number="7990" name="PriceMultiplier" />
+	<field number="7991" name="PriceIntercept" />
+	<field number="7992" name="CashTolerance" />
+	<field number="7993" name="LongLimit" />
+	<field number="7994" name="ShortLimit" />
+	<field number="7995" name="Mantara1" />
+	<field number="7996" name="Mantara2" />
+	<field number="7997" name="Mantara3" />
+	<field number="7998" name="Mantara4" />
+	<field number="7999" name="Mantara5" />
+	<field number="8000" name="ShortSaleRestriction" />
+	<field number="8001" name="ShortSaleExemptionReason" />
+	<field number="8002" name="LegShortSaleExemptionReason" />
+	<field number="8003" name="SideShortSaleExemptionReason" />
+	<field number="8004" name="CustodialLotID" />
+	<field number="8005" name="CurrentCostBasis" />
+	<field number="8006" name="LegCustodialLotID" />
+	<field number="8007" name="LegVSPDate" />
+	<field number="8008" name="LegVSPPrice" />
+	<field number="8009" name="LegCurrentCostBasis" />
+	<field number="8010" name="LastLiquidityInd" />
+	<field number="8011" name="EventTimeUnit" />
+	<field number="8012" name="EventTimePeriod" />
+	<field number="9000" name="InvestorAdvisorCode" />
+	<field number="9001" name="MaxShow" />
+	<field number="9002" name="CrossSeqNum" />
+	<field number="9003" name="UDFSupportIndicator" />
+	<field number="9004" name="CustomerSize" />
+	<field number="9005" name="ProfessionalSize" />
+	<field number="9006" name="QuoteUpdateControlId" />
+	<field number="9007" name="NoSettDays" />
+	<field number="9008" name="QuoteText" />
+	<field number="9009" name="Trading System Ticket Number" />
+	<field number="9010" name="Trading System Reference Ticket Number" />
+	<field number="9011" name="BLP Allocation ticket number" />
+	<field number="9012" name="BLP Allocation ref. ticket number" />
+	<field number="9013" name="ADPBlotterCode" />
+	<field number="9014" name="BlotOrderStatus" />
+	<field number="9015" name="ExecDeltaHedge" />
+	<field number="9016" name="HedgeTradeType" />
+	<field number="9017" name="LegNotionalCurrency" />
+	<field number="9018" name="LegNotionalAmount" />
+	<field number="9019" name="FXOptionStyle" />
+	<field number="9020" name="EQIQuoteResponseLevel" />
+	<field number="9021" name="EQIAdvisoryType" />
+	<field number="9022" name="NYSELiquidityBidPx" />
+	<field number="9023" name="NYSELiquidityBidSize" />
+	<field number="9024" name="NYSELiquidityOfferPx" />
+	<field number="9025" name="NYSELiquidityOfferSize" />
+	<field number="9026" name="EQIQuoteOrigin" />
+	<field number="9027" name="NYSEQuoteRefId" />
+	<field number="9028" name="NYSENoQuoteErrors" />
+	<field number="9029" name="NYSEQuoteFieldCode" />
+	<field number="9030" name="NYSEQuoteErrorCode" />
+	<field number="9031" name="QuoteUpdateRequestID" />
+	<field number="9032" name="UpdateRequestRejectReason" />
+	<field number="9033" name="EQIRole" />
+	<field number="9034" name="CallPutCurrency" />
+	<field number="9035" name="OmgeoNoTDBusinessExceptionCodes" />
+	<field number="9036" name="OmgeoTDBusinessExceptionCode" />
+	<field number="9037" name="OmgeoTDHighestErrorSeverity" />
+	<field number="9038" name="OmgeoTLBusinessExceptionCode" />
+	<field number="9039" name="OmgeoNoTLBusinessExceptionCodes" />
+	<field number="9040" name="OmgeoShowHiddenFieldsIndicator" />
+	<field number="9041" name="OmgeoL2MatchingProfileName" />
+	<field number="9042" name="OmgeoNoTradeTransCondIndicators" />
+	<field number="9043" name="OmgeoTradeTransCondIndicator" />
+	<field number="9044" name="OmgeoNoSettlTransCondIndicators" />
+	<field number="9045" name="OmgeoSettlTransCondIndicator" />
+	<field number="9046" name="OmgeoTradeLevelMasterReference" />
+	<field number="9047" name="OmgeoTradeDetailTradeAmount" />
+	<field number="9048" name="OmgeoSettlInstrSourceIndicator" />
+	<field number="9049" name="OmgeoAlertCountryCode" />
+	<field number="9050" name="OmgeoAlertMethodType" />
+	<field number="9051" name="OmgeoAlertSecurityType" />
+	<field number="9052" name="OmgeoTradeSideID" />
+	<field number="9053" name="OmgeoSettlementViewIndicator" />
+	<field number="9054" name="OmgeoTLMatchStatus" />
+	<field number="9055" name="OmgeoRejectComponentFlagBlock" />
+	<field number="9056" name="OmgeoCompleteStatus" />
+	<field number="9057" name="OmgeoMatchAgreedStatus" />
+	<field number="9058" name="OmgeoTLHighestErrorSeverity" />
+	<field number="9059" name="OmgeoTradeSideHighestErrSeverity" />
+	<field number="9060" name="OmgeoBrokerCountryOfIssue" />
+	<field number="9061" name="OmgeoBrokerIDSource" />
+	<field number="9062" name="OmgeoBrokerSecurityID" />
+	<field number="9063" name="OmgeoNoErrors" />
+	<field number="9064" name="OmgeoErrorKey" />
+	<field number="9065" name="OmgeoErrorXPath" />
+	<field number="9066" name="OmgeoErrorText" />
+	<field number="9067" name="OmgeoNoIndividualErrors" />
+	<field number="9068" name="OmgeoIndividualErrorKey" />
+	<field number="9069" name="OmgeoIndividualErrorXPath" />
+	<field number="9070" name="OmgeoIndividualErrorText" />
+	<field number="9071" name="OldQty" />
+	<field number="9072" name="CallOrPut" />
+	<field number="9073" name="Currency1" />
+	<field number="9074" name="Currency2" />
+	<field number="9075" name="DeltaLeg" />
+	<field number="9076" name="GammaLeg" />
+	<field number="9077" name="VegaLeg" />
+	<field number="9078" name="ThetaLeg" />
+	<field number="9079" name="RhoLeg" />
+	<field number="9080" name="SpotHedgeLeg" />
+	<field number="9081" name="VommaLeg" />
+	<field number="9082" name="VannaLeg" />
+	<field number="9083" name="DeltaNet" />
+	<field number="9084" name="OmgeoThirdPartyDetail" />
+	<field number="9085" name="GammaNet" />
+	<field number="9086" name="VegaNet" />
+	<field number="9087" name="ThetaNet" />
+	<field number="9088" name="RhoNet" />
+	<field number="9089" name="SpotHedgeNet" />
+	<field number="9090" name="CanTradeQuote" />
+	<field number="9091" name="QuoteStreamClosed" />
+	<field number="9092" name="PBTFut1" />
+	<field number="9093" name="PBTFut2" />
+	<field number="9094" name="PBTFut3" />
+	<field number="9095" name="PBTFut4" />
+	<field number="9096" name="VommaNet" />
+	<field number="9097" name="VannaNet" />
+	<field number="9098" name="VolatilityLeg" />
+	<field number="9099" name="ForwardRate" />
+	<field number="9100" name="ContraBroker" />
+	<field number="9101" name="FXSplitTradeFlag" />
+	<field number="9102" name="FxMarketType" />
+	<field number="9103" name="NoTickets" />
+	<field number="9104" name="RepeatingTicketNo" />
+	<field number="9105" name="Checkout" />
+	<field number="9106" name="AutoexFirmStatus" />
+	<field number="9107" name="Trading Strategy" />
+	<field number="9108" name="Primary Security Identifier" />
+	<field number="9109" name="FRNIndex" />
+	<field number="9110" name="PctOfVolume" />
+	<field number="9111" name="SolicitedFlag" />
+	<field number="9112" name="DeltaHedgeSpotDate" />
+	<field number="9113" name="DepositUnit" />
+	<field number="9114" name="DepositAccrual" />
+	<field number="9115" name="DepositRate" />
+	<field number="9116" name="CounterDepositUnit" />
+	<field number="9117" name="CounterDepositAccrual" />
+	<field number="9118" name="CounterDepositRate" />
+	<field number="9119" name="SettlFixingDate" />
+	<field number="9120" name="SettlCurrency2" />
+	<field number="9121" name="FixingDate2" />
+	<field number="9122" name="BBBankNum" />
+	<field number="9123" name="SpotNotional" />
+	<field number="9124" name="ExpiryTime" />
+	<field number="9125" name="ExpiryTimeCode" />
+	<field number="9126" name="OptionStrategy" />
+	<field number="9127" name="DeliveryType" />
+	<field number="9128" name="Tolerance" />
+	<field number="9129" name="ToleranceUnit" />
+	<field number="9130" name="BarrierStyle" />
+	<field number="9131" name="BarrierLevel" />
+	<field number="9132" name="BarrierDirection" />
+	<field number="9133" name="BarrierStartDate" />
+	<field number="9134" name="BarrierEndDate" />
+	<field number="9135" name="BarrierRebate" />
+	<field number="9136" name="OptionProductType" />
+	<field number="9137" name="BarrierLevel2" />
+	<field number="9138" name="BarrierRebate2" />
+	<field number="9139" name="AskPrice" />
+	<field number="9140" name="HoldIntrnl " />
+	<field number="9141" name="DeltaNet AskValue" />
+	<field number="9142" name="GammaNet AskValue" />
+	<field number="9143" name="VegaNet AskValue" />
+	<field number="9144" name="ThetaNet Ask Value" />
+	<field number="9145" name="Spot Hedge Net Ask Value" />
+	<field number="9146" name="VommaNet AskValue" />
+	<field number="9147" name="VonnaNet AskValue" />
+	<field number="9148" name="Leg Ask Price" />
+	<field number="9149" name="GammaLeg Ask" />
+	<field number="9150" name="BBExecSubType" />
+	<field number="9151" name="VegaLeg Ask" />
+	<field number="9152" name="Variation" />
+	<field number="9153" name="ThetaLeg Ask" />
+	<field number="9154" name="SpotHedgeLeg Ask" />
+	<field number="9155" name="OmgeoRejectComponentFlagAlloc" />
+	<field number="9156" name="OmgeoTradeToleranceMatchStatus" />
+	<field number="9157" name="VommaLeg Ask" />
+	<field number="9158" name="VannaLeg Ask" />
+	<field number="9159" name="VolatilityLeg Ask" />
+	<field number="9160" name="ForwardRateLeg Ask" />
+	<field number="9161" name="DeltaLeg Ask" />
+	<field number="9162" name="RhoLeg Ask" />
+	<field number="9163" name="RhoNet AskValue" />
+	<field number="9164" name="TheoVariation" />
+	<field number="9165" name="RFQReferenceNo" />
+	<field number="9166" name="OrigInfoMarket" />
+	<field number="9167" name="BidNbOr" />
+	<field number="9168" name="OfferNbOr" />
+	<field number="9169" name="BidNbOr" />
+	<field number="9170" name="CLExecID" />
+	<field number="9171" name="TradeVersion" />
+	<field number="9172" name="TradeDiscountRateDayCount" />
+	<field number="9173" name="TradeIssueDate" />
+	<field number="9174" name="CommRateDayCount" />
+	<field number="9175" name="ProgramType" />
+	<field number="9176" name="ProgramSettleType" />
+	<field number="9177" name="Trade Principal" />
+	<field number="9178" name="ProgramOpen" />
+	<field number="9179" name="CashOpen" />
+	<field number="9180" name="ReversedInquiryAmt" />
+	<field number="9181" name="OfferingType" />
+	<field number="9182" name="QuoteEntryOpen" />
+	<field number="9183" name="SettleTypeAlt" />
+	<field number="9184" name="MaturityDateEnd" />
+	<field number="9185" name="OfferingTime" />
+	<field number="9186" name="FMTradeStatus" />
+	<field number="9187" name="TouchType" />
+	<field number="9188" name="ExerciseStartDate" />
+	<field number="9189" name="ExerciseEndDate" />
+	<field number="9190" name="SectorVariable" />
+	<field number="9191" name="SuppressOrderStatus" />
+	<field number="9192" name="EnhancedQuoteBehavior" />
+	<field number="9193" name="RemoveType" />
+	<field number="9194" name="SpotAskRate" />
+	<field number="9195" name="OmgeoTPNotificationType" />
+	<field number="9196" name="TradingStatus" />
+	<field number="9197" name="OmgeoTPMessageDelivery" />
+	<field number="9198" name="SuspendTime" />
+	<field number="9199" name="HighLimit" />
+	<field number="9200" name="LowLimit" />
+	<field number="9201" name="MatchBid" />
+	<field number="9202" name="MatchAsk" />
+	<field number="9203" name="CommPxLimit" />
+	<field number="9204" name="CommMin" />
+	<field number="9205" name="CommMax" />
+	<field number="9206" name="CommPct1" />
+	<field number="9207" name="EMS" />
+	<field number="9208" name="MessageKind" />
+	<field number="9209" name="MessageDestination" />
+	<field number="9210" name="NbMaxPart" />
+	<field number="9211" name="SMAttribFlag" />
+	<field number="9212" name="SMAIQFlag" />
+	<field number="9213" name="SMPrImpFlag" />
+	<field number="9214" name="SMBnchdFlag" />
+	<field number="9215" name="LiqProvOnly" />
+	<field number="9216" name="PortfolioBuyValue" />
+	<field number="9217" name="PortfolioSellValue" />
+	<field number="9218" name="OverallVolumeLimit" />
+	<field number="9219" name="InstrumentID" />
+	<field number="9220" name="HighTenorQuoteId" />
+	<field number="9221" name="AuxAuctionInfo" />
+	<field number="9222" name="SpotQuoteId" />
+	<field number="9223" name="AllocationType" />
+	<field number="9224" name="LiquidityProvider" />
+	<field number="9225" name="MessageID" />
+	<field number="9226" name="Vendor network" />
+	<field number="9227" name="StockType" />
+	<field number="9228" name="OmgeoTPNErrorID" />
+	<field number="9229" name="OmgeoTPNErrorSeverity" />
+	<field number="9230" name="OmgeoTPNErrorText" />
+	<field number="9231" name="TradeThruFlag" />
+	<field number="9232" name="CommitIdent" />
+	<field number="9233" name="ComplResp" />
+	<field number="9234" name="BlkOrdFlag" />
+	<field number="9235" name="OmgeoDeliveryChannel" />
+	<field number="9236" name="OmgeoMessageFormat" />
+	<field number="9237" name="OmgeoHeaderFooterFormat" />
+	<field number="9238" name="LehmanATS9" />
+	<field number="9239" name="LehmanATS10" />
+	<field number="9240" name="TALAccountType" />
+	<field number="9241" name="LehmanATS1" />
+	<field number="9242" name="LehmanATS2" />
+	<field number="9243" name="LehmanATS3" />
+	<field number="9244" name="LehmanATS4" />
+	<field number="9245" name="LehmanATS5" />
+	<field number="9246" name="LehmanATS6" />
+	<field number="9247" name="LehmanATS7" />
+	<field number="9248" name="LehmanATS8" />
+	<field number="9249" name="TriggerQty" />
+	<field number="9250" name="IdealPrice" />
+	<field number="9251" name="VolumeLimit" />
+	<field number="9252" name="Urgency" />
+	<field number="9253" name="Tolerance" />
+	<field number="9254" name="Duration" />
+	<field number="9255" name="MinTake" />
+	<field number="9256" name="StartTime" />
+	<field number="9257" name="EndTIme" />
+	<field number="9258" name="Footprint" />
+	<field number="9259" name="Strategy Flags" />
+	<field number="9260" name="ProcessCount" />
+	<field number="9261" name="OverridPrice" />
+	<field number="9262" name="MsgID" />
+	<field number="9263" name="ActionCode" />
+	<field number="9264" name="DisplayLimitPrice" />
+	<field number="9265" name="PriorityTime" />
+	<field number="9266" name="MaxFloorPercent" />
+	<field number="9267" name="OrderIDPrev" />
+	<field number="9268" name="Lehman" />
+	<field number="9269" name="OrderIDNext" />
+	<field number="9270" name="LoanSupportFlag" />
+	<field number="9271" name="LoanSettleDate" />
+	<field number="9272" name="lehman2" />
+	<field number="9273" name="lehman3" />
+	<field number="9274" name="lehman4" />
+	<field number="9275" name="MinSliceQty" />
+	<field number="9276" name="DisplayQty" />
+	<field number="9277" name="RelatedMarketCenter" />
+	<field number="9278" name="Advertisement Instruction" />
+	<field number="9279" name="IncrementParticipationRate" />
+	<field number="9280" name="NominalValue" />
+	<field number="9281" name="ReRoutedSettlDate" />
+	<field number="9282" name="ReRoutedBrokerID" />
+	<field number="9283" name="PriceDef" />
+	<field number="9284" name="InactivationRejReason" />
+	<field number="9285" name="TriggerPxDirection" />
+	<field number="9286" name="BoardLot" />
+	<field number="9287" name="OmgeoPlaceOfSafekeeping" />
+	<field number="9288" name="OmgeoPlaceOfSafekeepingType" />
+	<field number="9289" name="OmgeoPlaceOfSafekeepingValue" />
+	<field number="9290" name="OmgeoPlaceOfSafekeepingPlace" />
+	<field number="9291" name="ReRoutedOrderQty" />
+	<field number="9292" name="MIC" />
+	<field number="9293" name="OmgeoThirdPartyDetailStatus" />
+	<field number="9294" name="OmgeoThirdPartyDetailStatusTime" />
+	<field number="9295" name="OmgeoThirdPartySummaryStatus" />
+	<field number="9296" name="OmgeoTPHighestErrorSeverity" />
+	<field number="9297" name="OmgeoThirdPartyError" />
+	<field number="9298" name="MarketFlowID" />
+	<field number="9299" name="BetaExposure" />
+	<field number="9300" name="MessagePartID" />
+	<field number="9301" name="MmkrCapacity" />
+	<field number="9302" name="OrderPrice" />
+	<field number="9303" name="RoutingInst" />
+	<field number="9304" name="CxlQty" />
+	<field number="9305" name="SponsorBkr" />
+	<field number="9306" name="OrigOrderDate" />
+	<field number="9307" name="PfdMktMkr" />
+	<field number="9308" name="WeightedAvgBuyPx" />
+	<field number="9309" name="WeightedAvgSellPx" />
+	<field number="9310" name="CancelOpenQty" />
+	<field number="9311" name="TLCQty" />
+	<field number="9312" name="QuoteStatus" />
+	<field number="9313" name="QuoteRequestSubscription" />
+	<field number="9314" name="OpenInterest" />
+	<field number="9315" name="MDScope" />
+	<field number="9316" name="LegalMarket" />
+	<field number="9317" name="InternalOrderStatus" />
+	<field number="9318" name="MktMkerID" />
+	<field number="9319" name="IndxIndic" />
+	<field number="9320" name="OrderRejectReasonTxt" />
+	<field number="9321" name="SecondaryClOrdID" />
+	<field number="9322" name="MultilegPriceIncrement" />
+	<field number="9323" name="MultilegMonthIncrement" />
+	<field number="9324" name="ClearingOptionalData" />
+	<field number="9325" name="LastTradeDate" />
+	<field number="9326" name="CarryFwdISINCode" />
+	<field number="9327" name="WeightedAvgQty" />
+	<field number="9328" name="CountryIssuer" />
+	<field number="9329" name="PhysicalTradingGrp" />
+	<field number="9330" name="SICOVAMCode" />
+	<field number="9331" name="MktIndic" />
+	<field number="9332" name="ReemissionFlag" />
+	<field number="9333" name="DivNbCO" />
+	<field number="9334" name="RubNbCO" />
+	<field number="9335" name="PrevDayCapitalTrd" />
+	<field number="9336" name="TypeOfInstr" />
+	<field number="9337" name="AlphaNbCO" />
+	<field number="9338" name="TradingGroup" />
+	<field number="9339" name="TaxDeductCode" />
+	<field number="9340" name="MMBidPx" />
+	<field number="9341" name="MMOfferPx" />
+	<field number="9342" name="FinancialMarketCode" />
+	<field number="9343" name="NoUnchangedSecurities" />
+	<field number="9344" name="NoNotTradedSecurities" />
+	<field number="9345" name="RoutedOrderID" />
+	<field number="9346" name="PHLXRoutingInstruction" />
+	<field number="9347" name="TRACRoutingInstruction" />
+	<field number="9348" name="NSXHandlInst" />
+	<field number="9349" name="CHXHandlInst" />
+	<field number="9350" name="OmgeoTPSourceSettlingAgentFrmMsg" />
+	<field number="9351" name="OmgeoSWIFTBuyerSeller" />
+	<field number="9352" name="OmgeoThirdPartyCreatedAt" />
+	<field number="9353" name="OmgeoSWIFTDifferenceFlag" />
+	<field number="9354" name="OmgeoSWIFTDifferences" />
+	<field number="9355" name="CrossTradeFlag" />
+	<field number="9356" name="PrevPxVarSide" />
+	<field number="9357" name="EndSamePxFlag" />
+	<field number="9358" name="TradeSesPreopenTime" />
+	<field number="9359" name="TradeSessConsultTime" />
+	<field number="9360" name="NoInitSecurities" />
+	<field number="9361" name="PrevDayCumQty" />
+	<field number="9362" name="AllocAvgPx" />
+	<field number="9363" name="PublishOrderStatus" />
+	<field number="9364" name="CFICode" />
+	<field number="9365" name="PremPriceTickBreakPoint" />
+	<field number="9366" name="PremPriceTickAbove" />
+	<field number="9367" name="PremPriceTickBelow" />
+	<field number="9368" name="LastBustShares" />
+	<field number="9369" name="PriceProtectionScope" />
+	<field number="9370" name="MultilegPositionEffects" />
+	<field number="9371" name="MultilegCoveredOrUncovered" />
+	<field number="9372" name="MultilegStockClearingFirm" />
+	<field number="9373" name="LiquidityFlag" />
+	<field number="9374" name="PeggingTicker" />
+	<field number="9375" name="SMRouteFlag" />
+	<field number="9376" name="SMExecAlgorFlag" />
+	<field number="9377" name="PowerNet" />
+	<field number="9378" name="NoMDRefReqID" />
+	<field number="9379" name="MulitiLegPrice" />
+	<field number="9380" name="StockFirmName" />
+	<field number="9381" name="StockFirmNameKey" />
+	<field number="9382" name="MatchType" />
+	<field number="9383" name="AuctionType" />
+	<field number="9384" name="AuctionContingency" />
+	<field number="9385" name="AuctionID" />
+	<field number="9386" name="TickIndicator" />
+	<field number="9387" name="OmnibusClearing" />
+	<field number="9388" name="SourceOf Order" />
+	<field number="9389" name="UnitOf trade" />
+	<field number="9390" name="OrderTime" />
+	<field number="9391" name="SourceOfReport" />
+	<field number="9392" name="SpecSymbol" />
+	<field number="9393" name="PostID" />
+	<field number="9394" name="TeeID" />
+	<field number="9395" name="OddLotAlarmShares" />
+	<field number="9396" name="OddLotLineCode" />
+	<field number="9397" name="TotalOddLotSellAlarm" />
+	<field number="9398" name="MDRefReqID" />
+	<field number="9399" name="Bloomberg Price Eng Price Level" />
+	<field number="9400" name="ExecPhase" />
+	<field number="9401" name="ReRoutedPrice" />
+	<field number="9402" name="OppSidePeg" />
+	<field number="9403" name="OffsetPrice" />
+	<field number="9404" name="WriteInTime" />
+	<field number="9405" name="AsOfIndicator" />
+	<field number="9406" name="DropCopyFlag" />
+	<field number="9407" name="HandlInst" />
+	<field number="9408" name=" MinQty" />
+	<field number="9409" name=" MaxFloor" />
+	<field number="9410" name=" MaxShow" />
+	<field number="9411" name="PriceImprovement" />
+	<field number="9412" name="OrigTime" />
+	<field number="9413" name="HighPxDenom" />
+	<field number="9414" name="LowPxDenom" />
+	<field number="9415" name="MDEntryPxDenom" />
+	<field number="9416" name="ExtendedExecInst" />
+	<field number="9417" name="ExtendedPNP" />
+	<field number="9418" name="OlrlprlCode" />
+	<field number="9419" name="OrderTANumber" />
+	<field number="9420" name="SpecUnitID" />
+	<field number="9421" name="ContraBroker" />
+	<field number="9422" name="ContraTradeTime" />
+	<field number="9423" name="NoContraBrokers" />
+	<field number="9424" name="OrdStatReq" />
+	<field number="9425" name="StatusResp" />
+	<field number="9426" name="BillingRate" />
+	<field number="9427" name="CxlBal" />
+	<field number="9428" name="CxlQty" />
+	<field number="9429" name="CMSLeavesQty" />
+	<field number="9430" name="NYSEDirect" />
+	<field number="9431" name="GiveUpID" />
+	<field number="9432" name="MiscDataLine4" />
+	<field number="9433" name="ExecutionInformation" />
+	<field number="9434" name="ContraTradeQty" />
+	<field number="9435" name="ExClearingHouse" />
+	<field number="9436" name="MemoAB" />
+	<field number="9437" name="NYSEPrime" />
+	<field number="9438" name="TryToStop" />
+	<field number="9439" name="MiscDataLine4A" />
+	<field number="9440" name="ERCReferenceNumber" />
+	<field number="9441" name="ContraTrader" />
+	<field number="9442" name="SolicitedFlag" />
+	<field number="9443" name="RepStatReq" />
+	<field number="9444" name="SponsoringFirm" />
+	<field number="9445" name="LvsTimeInForce" />
+	<field number="9446" name="CMSType" />
+	<field number="9447" name="CAPIndicator" />
+	<field number="9448" name="BrokerBadge#" />
+	<field number="9449" name="BillTo" />
+	<field number="9450" name="ParentOrdXRefId" />
+	<field number="9451" name="ParentFirmOrdId" />
+	<field number="9452" name="NYSETANum" />
+	<field number="9453" name="ParentFirm" />
+	<field number="9454" name="ContraClrFirm" />
+	<field number="9455" name="EnteringFirm" />
+	<field number="9456" name="OrderRefDate" />
+	<field number="9457" name="OCSControlNum" />
+	<field number="9458" name="MajorBadge" />
+	<field number="9459" name="SpecialTradeInd" />
+	<field number="9460" name="OrderCapacity2" />
+	<field number="9461" name="AddQty" />
+	<field number="9462" name="PrinIndicator" />
+	<field number="9463" name="SubscriptionRequestType" />
+	<field number="9464" name="PrinCommentCode" />
+	<field number="9465" name="OrderOrigin" />
+	<field number="9466" name="RejectReasonCode" />
+	<field number="9467" name="EquitySession" />
+	<field number="9468" name="UserAssignedCancelID" />
+	<field number="9469" name="ExtendedPriceType" />
+	<field number="9470" name="QuoteOrigin" />
+	<field number="9471" name="NoTransactionCosts" />
+	<field number="9472" name="TransactionCostTypes" />
+	<field number="9473" name="TransactionCostCode" />
+	<field number="9474" name="TransactionCostRate" />
+	<field number="9475" name="TransactionCostFlag" />
+	<field number="9476" name="TransactionCostAmt" />
+	<field number="9477" name="TransactionCostCurrency" />
+	<field number="9478" name="e-QuoteType" />
+	<field number="9479" name="DisplayIndicator" />
+	<field number="9480" name="ReservePublishQty" />
+	<field number="9481" name="eQuoteId" />
+	<field number="9482" name="LayerLinkId" />
+	<field number="9483" name="DBKLinkId" />
+	<field number="9484" name="NumULID" />
+	<field number="9485" name="ULProprietaryCode" />
+	<field number="9486" name="ULDisposeCode" />
+	<field number="9487" name="RoutingInstruction" />
+	<field number="9488" name="ERCActivityType" />
+	<field number="9489" name="OmgeoNoSWIFTDifferences" />
+	<field number="9490" name="OmgeoNoTLL2FieldsSameValueEval" />
+	<field number="9491" name="OmgeoTLL2FieldName" />
+	<field number="9492" name="OmgeoTLL2SameValue" />
+	<field number="9493" name="OmgeoNoTDL2FieldsSameValueEval" />
+	<field number="9494" name="OmgeoTDL2FieldName" />
+	<field number="9495" name="OmgeoTDL2SameValue" />
+	<field number="9496" name="OmgeoTDSAFENCSD" />
+	<field number="9497" name="OmgeoTDSAFEICSD" />
+	<field number="9498" name="OmgeoTDSAFECUST" />
+	<field number="9499" name="OmgeoTDSAFESHHE" />
+	<field number="9500" name="SubRule80A" />
+	<field number="9501" name="BidPriceType" />
+	<field number="9502" name="OfferPriceType" />
+	<field number="9503" name="FlatFlag" />
+	<field number="9504" name="HedgeRatio" />
+	<field number="9505" name="MarketMakerName" />
+	<field number="9506" name="LockCrossFlag" />
+	<field number="9507" name="NegativeBidPxFlag" />
+	<field number="9508" name="NegativeOfferPxFlag" />
+	<field number="9509" name="NQBSecurityID" />
+	<field number="9510" name="PurgeStatusFlag" />
+	<field number="9511" name="PurgeSequenceNumber" />
+	<field number="9512" name="PurgeMessageCount" />
+	<field number="9513" name="PurgeReason" />
+	<field number="9514" name="OTCBBFlag" />
+	<field number="9515" name="Service" />
+	<field number="9516" name="NoCompetingQuotes" />
+	<field number="9517" name="CompetingQuoteDealer" />
+	<field number="9518" name="CompetingQuote" />
+	<field number="9519" name="Coupon" />
+	<field number="9520" name="CompetingQuoteLeg2" />
+	<field number="9521" name="CompetingQuoteFwdPoints" />
+	<field number="9522" name="PiggybackFlag" />
+	<field number="9523" name="CompetingQuoteType" />
+	<field number="9524" name="TradingSuspendFlag" />
+	<field number="9525" name="NoReRoutedOrders" />
+	<field number="9526" name="Re-RoutedOrderId" />
+	<field number="9527" name="ShortName" />
+	<field number="9528" name="BenchIDSource" />
+	<field number="9529" name="BrokerFirmID" />
+	<field number="9530" name="BenchSecurityID" />
+	<field number="9531" name="UndSymbol" />
+	<field number="9532" name="UndSymbolSfx" />
+	<field number="9533" name="UndStockPrice" />
+	<field number="9534" name="UnsolicitedFlag" />
+	<field number="9535" name="OmgeoSwiftFieldName" />
+	<field number="9536" name="TraderID" />
+	<field number="9537" name="MMLocation" />
+	<field number="9538" name="MarketMakerID" />
+	<field number="9539" name="ItemID" />
+	<field number="9540" name="UpdateType" />
+	<field number="9541" name="StateOrCountry" />
+	<field number="9542" name="Telephone1" />
+	<field number="9543" name="USFirmFlag" />
+	<field number="9544" name="UndSecurityExchange" />
+	<field number="9545" name="Telephone2" />
+	<field number="9546" name="MaturityDate" />
+	<field number="9547" name="NQBIssuerID" />
+	<field number="9548" name="OpenFlag" />
+	<field number="9549" name="InternalRef" />
+	<field number="9550" name="SecondaryAccount" />
+	<field number="9551" name="DSS" />
+	<field number="9552" name="GLID" />
+	<field number="9553" name="Split" />
+	<field number="9554" name="DataBaseIndex" />
+	<field number="9555" name="AccountType" />
+	<field number="9556" name="MITFlag" />
+	<field number="9557" name="ActOnImbalance" />
+	<field number="9558" name="PrinChangeIndicator" />
+	<field number="9559" name="OmgeoSwiftTagQualifier" />
+	<field number="9560" name="EquoteExecType" />
+	<field number="9561" name="PegInd" />
+	<field number="9562" name="CeilingFloorPrice" />
+	<field number="9563" name="MinPegQty" />
+	<field number="9564" name="MaxPegQty" />
+	<field number="9565" name="DiscPriceRange" />
+	<field number="9566" name="DiscMaxVol" />
+	<field number="9567" name="ITSAllInd" />
+	<field number="9568" name="OppSideMinSize" />
+	<field number="9569" name="OppSideMaxSize" />
+	<field number="9570" name="ExecAwayMktInd " />
+	<field number="9571" name="NoTapePrintFlag" />
+	<field number="9572" name="TotalOddLotBuyAlarm" />
+	<field number="9573" name="OddLotImbalanceShares" />
+	<field number="9574" name="StagingTargetPrice" />
+	<field number="9575" name="StageOrderIsInquiry" />
+	<field number="9576" name="TargetPriceType" />
+	<field number="9577" name="ExecutionType" />
+	<field number="9578" name="BillingIndicator" />
+	<field number="9579" name="ExpERCReferenceNumber" />
+	<field number="9580" name="ParentID" />
+	<field number="9581" name="OrderId" />
+	<field number="9582" name="ChildID" />
+	<field number="9583" name="MIFID Internalization Indicator" />
+	<field number="9584" name="MIFID Best Execution Indicator" />
+	<field number="9585" name="MIFID Split" />
+	<field number="9586" name="MIFID Retention" />
+	<field number="9587" name="MIFID Destination " />
+	<field number="9588" name="Trade Type Indicator" />
+	<field number="9589" name="MIFID Negociation code" />
+	<field number="9590" name="Update Reason" />
+	<field number="9591" name="Price Checking Flag" />
+	<field number="9592" name="Quantity control" />
+	<field number="9593" name="StartTime" />
+	<field number="9594" name="EndTime" />
+	<field number="9595" name="GL Routing Reference" />
+	<field number="9596" name="Client Free Field 1" />
+	<field number="9597" name="Client Free Field 2 " />
+	<field number="9598" name="CV Instruction" />
+	<field number="9599" name="ETBegin" />
+	<field number="9600" name="Password" />
+	<field number="9601" name="IoiNatural" />
+	<field number="9602" name="IoiType" />
+	<field number="9603" name="NoFixStatusses" />
+	<field number="9604" name="FIXStatus" />
+	<field number="9605" name="FIXStatusSubID" />
+	<field number="9606" name="FIXStatusOBOCompID" />
+	<field number="9607" name="FIXStatusOBOSubID" />
+	<field number="9608" name="FIXReferenceNumber" />
+	<field number="9609" name="ETLast" />
+	<field number="9610" name="NoNotes" />
+	<field number="9611" name="NoteType" />
+	<field number="9612" name="NoteId" />
+	<field number="9613" name="NoteText" />
+	<field number="9614" name="ATSAccess" />
+	<field number="9615" name="WorkedVolumeTarget" />
+	<field number="9616" name="ATSAccessType" />
+	<field number="9617" name="ModifySequence" />
+	<field number="9618" name="CondPctQty" />
+	<field number="9619" name="CancelOrigOnReject" />
+	<field number="9620" name="CorrectedPrice" />
+	<field number="9621" name="ECNAccessFee" />
+	<field number="9622" name="DiscretionAmount" />
+	<field number="9623" name="TighterToTargetSchedule" />
+	<field number="9624" name="StrategyUrgency" />
+	<field number="9625" name="ExcludeAuctions" />
+	<field number="9626" name="TriggerPx" />
+	<field number="9627" name="TriggerPxAnchor" />
+	<field number="9628" name="AllocReceiverRole" />
+	<field number="9629" name="TriggerPxOffset" />
+	<field number="9630" name="ReduceDeltaOption" />
+	<field number="9631" name="ConditionalVolumeTarget" />
+	<field number="9632" name="BaseStrategy" />
+	<field number="9633" name="ReferenceSecurityID" />
+	<field number="9634" name="ReferenceSecurityIDSource" />
+	<field number="9635" name="ReferenceSpread" />
+	<field number="9636" name="MinDiscretionTime" />
+	<field number="9637" name="DiscretionSize" />
+	<field number="9638" name="DiscretionSizePct" />
+	<field number="9639" name="DiscretionRange" />
+	<field number="9640" name="DiscretionRangePct" />
+	<field number="9641" name="ExecutionStyle" />
+	<field number="9642" name="PegSpreadPct" />
+	<field number="9643" name="BlockFilter" />
+	<field number="9644" name="BlockFilterManual" />
+	<field number="9645" name="LimitPxType" />
+	<field number="9646" name="LimitPxAnchor" />
+	<field number="9647" name="LimitPxOffset" />
+	<field number="9648" name="LimitPxDirection" />
+	<field number="9649" name="IsBuyBack" />
+	<field number="9650" name="DealerResponseTime" />
+	<field number="9651" name="SubjectTime" />
+	<field number="9652" name="QuoteMOPLevel" />
+	<field number="9653" name="SubjectOrNot" />
+	<field number="9654" name="BLPTicketType" />
+	<field number="9655" name="LegYield" />
+	<field number="9656" name="LegPriceType" />
+	<field number="9657" name="LegExchangeRate" />
+	<field number="9658" name="LegFlag" />
+	<field number="9659" name="LegSubFlag" />
+	<field number="9660" name="LegPrincipal" />
+	<field number="9661" name="LegAccrued" />
+	<field number="9662" name="LegTSTicketNumber" />
+	<field number="9663" name="LegBlotSeqNumber" />
+	<field number="9664" name="LegTransactionSeqNumber" />
+	<field number="9665" name="LegFuturesCBroker" />
+	<field number="9666" name="LegFuturesDBroker" />
+	<field number="9667" name="Blot/Transaction Number" />
+	<field number="9668" name="WireTime" />
+	<field number="9669" name="IsShortCover" />
+	<field number="9670" name="NetOrGrossIndicator" />
+	<field number="9671" name="XbCrestRef" />
+	<field number="9672" name="AcpCrestRef" />
+	<field number="9673" name="XbLegalDisclaimer" />
+	<field number="9674" name="AcpLegalDisclaimer" />
+	<field number="9675" name="ContactPhoneNumber" />
+	<field number="9676" name="ContactEmailAddress" />
+	<field number="9677" name="UnderlyingPxOffset" />
+	<field number="9678" name="UnderlyingPxOffsetType" />
+	<field number="9679" name="HedgeSide" />
+	<field number="9680" name="OrderNote" />
+	<field number="9681" name="OMS Version" />
+	<field number="9682" name="Product Version" />
+	<field number="9683" name="MinHedgeTriggerQty" />
+	<field number="9684" name="MinHedgeTriggerValue" />
+	<field number="9685" name="AutoHedge" />
+	<field number="9686" name="AutoHedgeStrategy" />
+	<field number="9687" name="BypassHiddenPeg" />
+	<field number="9688" name="OrigCompID" />
+	<field number="9689" name="OrigSubID " />
+	<field number="9690" name="WorkingPrice" />
+	<field number="9691" name="InitialDisplayPrice" />
+	<field number="9692" name="AllocRecieverRole" />
+	<field number="9693" name="DealerQuotePriceType" />
+	<field number="9694" name="DealerQuotePrice" />
+	<field number="9695" name="DealerQuoteOrdQty" />
+	<field number="9696" name="DealerQuoteText" />
+	<field number="9697" name="CompetitiveStatus" />
+	<field number="9698" name="DealerQuoteFxRate" />
+	<field number="9699" name="DirtyPrice" />
+	<field number="9700" name="OppBroker" />
+	<field number="9701" name="OmnibusAccount" />
+	<field number="9702" name="CtiCode" />
+	<field number="9703" name="SessionIndicator" />
+	<field number="9704" name="PrevExpERCReferenceNumber" />
+	<field number="9705" name="ProductComplex" />
+	<field number="9706" name="FeeBilling" />
+	<field number="9707" name="GiveUpFirm" />
+	<field number="9708" name="CmtaGiveupCD" />
+	<field number="9709" name="BackOfficeText" />
+	<field number="9710" name="PostExecutionAllocation" />
+	<field number="9711" name="OppHouse" />
+	<field number="9712" name="AllocReceiverIdtype" />
+	<field number="9713" name="TimeIn" />
+	<field number="9714" name="BrokerReceiptTime" />
+	<field number="9715" name="TimeBracketCode" />
+	<field number="9716" name="LOGIN_ROUTE_ID" />
+	<field number="9717" name="CorrelationClOrdID" />
+	<field number="9718" name="TrdRegTimestampTimeIn" />
+	<field number="9719" name="TrdRegTimestampOriginBrkReceipt" />
+	<field number="9720" name="TrdRegTimestampOriginExecution" />
+	<field number="9721" name="TimeOut" />
+	<field number="9722" name="TrdRegTimestampOriginTimeOut" />
+	<field number="9723" name="DiscretionPx" />
+	<field number="9724" name="FillUserID" />
+	<field number="9725" name="FillTerminalID" />
+	<field number="9726" name="FillSeqNum" />
+	<field number="9727" name="FillNumLines" />
+	<field number="9728" name="FillLineNum" />
+	<field number="9729" name="OrderLegNum" />
+	<field number="9730" name="TradeLiquidityIndicator" />
+	<field number="9731" name="TLTCFlag" />
+	<field number="9732" name="FormattedLastPx" />
+	<field number="9733" name="PrintedTicketLabel" />
+	<field number="9734" name="PartyRoleExecutingTrader" />
+	<field number="9735" name="PartyRoleClearingFirm" />
+	<field number="9736" name="PartyRoleClearingOrg" />
+	<field number="9737" name="ClearingSecurityID" />
+	<field number="9738" name="ClearingStrikePx" />
+	<field number="9739" name="MIFIDBestExecutionReqd" />
+	<field number="9740" name="PIPSequentialNo" />
+	<field number="9741" name="PIPExpiryTime" />
+	<field number="9742" name="PIPExpiryDuration" />
+	<field number="9743" name="PIPManagementType" />
+	<field number="9744" name="PIPImprovementType" />
+	<field number="9745" name="PIPMaxPrice" />
+	<field number="9746" name="OmgeoSwiftOldValue" />
+	<field number="9747" name="OmgeoSwiftNewValue" />
+	<field number="9748" name="MaxOrderQty" />
+	<field number="9749" name="MinOrderQty" />
+	<field number="9750" name="ChgFromSettlmnt" />
+	<field number="9751" name="ChgFromSettlmntDirection" />
+	<field number="9752" name="StrikePriceCode" />
+	<field number="9753" name="StrikePriceCurrency" />
+	<field number="9754" name="InstrumentExternalCode" />
+	<field number="9755" name="OptionSponsorType" />
+	<field number="9756" name="RemainingFills" />
+	<field number="9757" name="OrigOrdQty" />
+	<field number="9758" name="ExpositionOrderType" />
+	<field number="9759" name="OrderExpositionEndTime" />
+	<field number="9760" name="ClearingLastPx" />
+	<field number="9761" name="OmgeoFXDealCurrencyCode" />
+	<field number="9762" name="ClearingOrdType" />
+	<field number="9763" name="ClearingBusCycle" />
+	<field number="9764" name="AddInstText" />
+	<field number="9765" name="TFPossRetransFlag" />
+	<field number="9766" name="TFConfirmRequest" />
+	<field number="9767" name="TLTCClOrdRefID" />
+	<field number="9768" name="OFMOverride" />
+	<field number="9769" name="SecondaryExecID" />
+	<field number="9770" name="ExchangeQuoteReqID" />
+	<field number="9771" name="MMAccount" />
+	<field number="9772" name="NoProcessedEntries" />
+	<field number="9773" name="MMProtectionReset" />
+	<field number="9774" name="CancelledSymbol" />
+	<field number="9775" name="UnsolicitedCancelType" />
+	<field number="9776" name="AutoQuoteRequest" />
+	<field number="9777" name="Billable" />
+	<field number="9778" name="CMSLine1A" />
+	<field number="9779" name="UserDefinedInstrument" />
+	<field number="9780" name="CrossOrdBidQty" />
+	<field number="9781" name="CrossOrdAskQty" />
+	<field number="9782" name="LastCrossReqTime" />
+	<field number="9783" name="QuoteReqBidQty" />
+	<field number="9784" name="QuoteReqAskQty" />
+	<field number="9785" name="LastQuoteReqTime" />
+	<field number="9786" name="BangStyle" />
+	<field number="9787" name="DisplayFactor" />
+	<field number="9788" name="SpreadExecID" />
+	<field number="9789" name="SpreadSecurityID" />
+	<field number="9790" name="ResponseRequested" />
+	<field number="9791" name="OriginalEmailThreadID" />
+	<field number="9792" name="DbExecID" />
+	<field number="9793" name="AttributedQuote" />
+	<field number="9794" name="Proactive if Locked" />
+	<field number="9795" name="Prospectus Indicator" />
+	<field number="9796" name="Don't Arb " />
+	<field number="9797" name="ARCAEx News Type" />
+	<field number="9798" name="AllocReceiverId" />
+	<field number="9799" name="VWAPType" />
+	<field number="9800" name="PriceDisplayFormat" />
+	<field number="9801" name="SecuritySubType" />
+	<field number="9802" name="BloombergServerID" />
+	<field number="9803" name="TradingSystemID" />
+	<field number="9804" name="ZSpread" />
+	<field number="9805" name="ISpread" />
+	<field number="9806" name="ASWSpread" />
+	<field number="9807" name="RegFeeFlag" />
+	<field number="9808" name="OmgeoCommissionSharingType" />
+	<field number="9809" name="OmgeoTPAssignedTime" />
+	<field number="9810" name="VWAPOrder" />
+	<field number="9811" name="VWAPStart" />
+	<field number="9812" name="VWAPStop" />
+	<field number="9813" name="VWAPMatching" />
+	<field number="9814" name="VWAPExceed" />
+	<field number="9815" name="FireQuantity" />
+	<field number="9816" name="TickMultiplier" />
+	<field number="9817" name="MinorCtrlNbr" />
+	<field number="9818" name="Blockbuster Sizable Action Code" />
+	<field number="9819" name="Inhibit Trade Indicator" />
+	<field number="9820" name="Blockbuster Sizable Start Time" />
+	<field number="9821" name="Blockbuster Sizable Action Time" />
+	<field number="9822" name="ClearingPrice" />
+	<field number="9823" name="NetTradeLimitInd" />
+	<field number="9824" name="ClearingBroker" />
+	<field number="9825" name="ReportingGUID" />
+	<field number="9826" name="NonReportingGUID" />
+	<field number="9827" name="DeskTraderID" />
+	<field number="9828" name="RelativeGTTLife" />
+	<field number="9829" name="ComplaintCode" />
+	<field number="9830" name="IntroBrokerInd" />
+	<field number="9831" name="ExecBrokerInd" />
+	<field number="9832" name="ClearBrokerInd" />
+	<field number="9833" name="ResponsibilityInd" />
+	<field number="9834" name="TradeRepAvailInd" />
+	<field number="9835" name="MajorClearingInd" />
+	<field number="9836" name="RiskMgmtInd" />
+	<field number="9837" name="OmgeoThirdPartyRole" />
+	<field number="9838" name="OmgeoThirdPartyType" />
+	<field number="9839" name="OmgeoThirdPartyValue" />
+	<field number="9840" name="OmgeoThirdPartyName" />
+	<field number="9841" name="OmgeoThirdPartyStatus" />
+	<field number="9842" name="OmgeoThirdPartyStatusTime" />
+	<field number="9843" name="OmgeoTPAssignedID" />
+	<field number="9844" name="OmgeoTPReason" />
+	<field number="9845" name="OmgeoNoThirdPartyData" />
+	<field number="9846" name="NewCtrlNbr" />
+	<field number="9847" name="LockedInStatus" />
+	<field number="9848" name="NumberofAllocsReceivers" />
+	<field number="9849" name="Participation Rate" />
+	<field number="9850" name="MinCabPrice" />
+	<field number="9851" name="MaxCabPrice" />
+	<field number="9852" name="CabPriceIncrement" />
+	<field number="9853" name="PricingModel" />
+	<field number="9854" name="OverrideFlag" />
+	<field number="9855" name="DelayedDisseminationInst" />
+	<field number="9856" name="BreakIndicator" />
+	<field number="9857" name="LockedIn" />
+	<field number="9858" name="OmgeoTLAccruedInterestCurrency" />
+	<field number="9859" name="OmgeoTLAccruedInterestAmount" />
+	<field number="9860" name="ContraBranchSeqNbr" />
+	<field number="9861" name="BranchSeqNbr" />
+	<field number="9862" name="ContraTradePA" />
+	<field number="9863" name="ContraClearingAcct" />
+	<field number="9864" name="PortfolioName" />
+	<field number="9865" name="OmgeoBlockCommissionType" />
+	<field number="9866" name="OmgeoBlockCommissionAmount" />
+	<field number="9867" name="OmgeoCommissionReason" />
+	<field number="9868" name="Allocation Detail Institurion Id" />
+	<field number="9869" name="OmgeoBlockCommissionCurrency" />
+	<field number="9870" name="ReserveSize" />
+	<field number="9871" name="RefreshSize" />
+	<field number="9872" name="DisplaySize" />
+	<field number="9873" name="OmgeoCommSharingBasisIndicator" />
+	<field number="9874" name="OmgeoNoBlockCommissions" />
+	<field number="9875" name="AEPTradeID" />
+	<field number="9876" name="SwapTradeType" />
+	<field number="9877" name="BbgTradeType" />
+	<field number="9878" name="Allocation Block Original Face" />
+	<field number="9879" name="LegIndex" />
+	<field number="9880" name="PegDifference" />
+	<field number="9881" name="BTOrderInst" />
+	<field number="9882" name="BTReportInst" />
+	<field number="9883" name="DateFrom" />
+	<field number="9884" name="DateTo" />
+	<field number="9885" name="DealNumber" />
+	<field number="9886" name="DiscretionDelta" />
+	<field number="9887" name="DiscretionQty" />
+	<field number="9888" name="DiscretionMinFill" />
+	<field number="9889" name="BangQty" />
+	<field number="9890" name="Coupon" />
+	<field number="9891" name="Series" />
+	<field number="9892" name="Yield" />
+	<field number="9893" name="DiscountRate" />
+	<field number="9894" name="FixedIncomeFlag" />
+	<field number="9895" name="FixedIncomeSubFlag" />
+	<field number="9896" name="PricingNo" />
+	<field number="9897" name="SeriesNo" />
+	<field number="9898" name="AffirmativeDetermination" />
+	<field number="9899" name="ExchangeReserve" />
+	<field number="9900" name="WorkStation" />
+	<field number="9901" name="NoBlots" />
+	<field number="9902" name="BlotSeq" />
+	<field number="9903" name="Principal" />
+	<field number="9904" name="PriceType" />
+	<field number="9905" name="AllocTarget" />
+	<field number="9906" name="Application" />
+	<field number="9907" name="Allocation Detail Principal" />
+	<field number="9908" name="QuoteQty" />
+	<field number="9909" name="BangGroups" />
+	<field number="9910" name="BangMMID" />
+	<field number="9911" name="BangMMIDQty" />
+	<field number="9912" name="BangMinFill" />
+	<field number="9913" name="BangFlag" />
+	<field number="9914" name="BangCounterParty" />
+	<field number="9915" name="BangSDP" />
+	<field number="9916" name="SurveillanceAccountType" />
+	<field number="9917" name="RepeatNext" />
+	<field number="9918" name="SecurityGroup" />
+	<field number="9919" name="ComponentType" />
+	<field number="9920" name="MarketMakerPhone" />
+	<field number="9921" name="SecurityState" />
+	<field number="9922" name="MarketMakerType" />
+	<field number="9923" name="ClotGrpCot" />
+	<field number="9924" name="TransactID" />
+	<field number="9925" name="ConnectionStatus" />
+	<field number="9926" name="SendBrokerID" />
+	<field number="9927" name="MarketMakerName" />
+	<field number="9928" name="InstrumentCateg" />
+	<field number="9929" name="TypeActionOnInstrument" />
+	<field number="9930" name="ComfirmFlag" />
+	<field number="9931" name="FunctionCodeOrig" />
+	<field number="9932" name="PreopenFlag" />
+	<field number="9933" name="CombinedOrderType" />
+	<field number="9934" name="AccountTypeUSA" />
+	<field number="9935" name="ClearingFeeIndicator" />
+	<field number="9936" name="ForeignExchange" />
+	<field number="9937" name="OrigOrderUser" />
+	<field number="9938" name="ClearingHandlingType" />
+	<field number="9939" name="UnderlyingLastPx" />
+	<field number="9940" name="OddOrderFlag" />
+	<field number="9941" name="TechnicalOrderType" />
+	<field number="9942" name="LeaveQtyFlag" />
+	<field number="9943" name="QuoteType" />
+	<field number="9944" name="SpiSendingTime" />
+	<field number="9945" name="OrigOrderID" />
+	<field number="9946" name="MemberID" />
+	<field number="9947" name="TraderId" />
+	<field number="9948" name="SettlementLocation" />
+	<field number="9949" name="RelitUnwindingDelay" />
+	<field number="9950" name="CounterpartMandatorID" />
+	<field number="9951" name="OperationTypeIndicator" />
+	<field number="9952" name="PreviousDayTradeFlag" />
+	<field number="9953" name="NumberOccurAlreadySent" />
+	<field number="9954" name="NextMsgFlag" />
+	<field number="9955" name="SubscriberID" />
+	<field number="9956" name="TradeCancelFlag" />
+	<field number="9957" name="BlockTradeCode" />
+	<field number="9958" name="TradeMsgSubCod" />
+	<field number="9959" name="LowLimitNormalTrade" />
+	<field number="9960" name="HighLimitNormalTrade" />
+	<field number="9961" name="LowLimitBlockTrade" />
+	<field number="9962" name="HighLimitBlockTrade" />
+	<field number="9963" name="SecurityGroupStatus" />
+	<field number="9964" name="FirstShare" />
+	<field number="9965" name="OrderDate" />
+	<field number="9966" name="ExecutionVersion" />
+	<field number="9967" name="MMBidSize" />
+	<field number="9968" name="MMOfferSize" />
+	<field number="9969" name="MMBestBidPx" />
+	<field number="9970" name="MMBestOfferPx" />
+	<field number="9971" name="MMMemberID" />
+	<field number="9972" name="MMBestBidMemberID" />
+	<field number="9973" name="MMBestOfferMemberID" />
+	<field number="9974" name="Allocation Detail Original Face" />
+	<field number="9975" name="PrevDayRefMktCapitalPct" />
+	<field number="9976" name="LastMsgFlag" />
+	<field number="9977" name="PrevDayClosRefIndex" />
+	<field number="9978" name="IndexCalcFreq" />
+	<field number="9979" name="AdjTheoPx" />
+	<field number="9980" name="PrevDayRefMktCapitalAmt" />
+	<field number="9981" name="CapitalDifference" />
+	<field number="9982" name="DividendNetPx" />
+	<field number="9983" name="DividendGrossPx" />
+	<field number="9984" name="DividendNetAmt" />
+	<field number="9985" name="DividendGrossAmt" />
+	<field number="9986" name="SampleSector" />
+	<field number="9987" name="AddOrRemove" />
+	<field number="9988" name="MDEntryCode" />
+	<field number="9989" name="TotTradedSecurities" />
+	<field number="9990" name="CapitalPct" />
+	<field number="9991" name="ForeRunnerVariation" />
+	<field number="9992" name="SettlVariation" />
+	<field number="9993" name="PrevYearVariation" />
+	<field number="9994" name="NetReturnIndex" />
+	<field number="9995" name="GrossReturnIndex" />
+	<field number="9996" name="NoFallingSecurities" />
+	<field number="9997" name="NoRisingSecurities" />
+	<field number="9998" name="UUID" />
+	<field number="9999" name="FirmNo" />
+</fields>

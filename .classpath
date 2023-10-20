@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-core-1.1.7.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-jdk14-1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/japura-1.14.3.jar"/>
+	<classpathentry kind="lib" path="lib/jsyntaxpane-0.9.5-b29.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.7-20101029.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="lib/quickfixj-all-1.2.5-sp2-patch.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

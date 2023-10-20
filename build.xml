@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="dist" name="FIX Pusher">
+	<property location="/usr/java/launch4j" name="launch4j.dir" />
+	<property location="src" name="src" />
+	<property location="/home/alex/dist" name="destination" />
+	<property location="${destination}/build" name="build" />
+	<property location="${destination}/dist" name="dist" />
+	<property name="version" value="1.0.1" />
+
+	<target name="init">
+		<mkdir dir="${build}" />
+	</target>
+
+	<taskdef classname="net.sf.launch4j.ant.Launch4jTask" classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar" name="launch4j" />
+
+	<target depends="init" description="compile the source " name="compile">
+		<javac debug="true" includeantruntime="false" destdir="${build}" srcdir="${src}">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<target depends="compile" description="generate the distribution" name="dist">
+
+		<copy todir="${build}/net/sourceforge/fixpusher/view">
+			<fileset dir="${src}/net/sourceforge/fixpusher/view" />
+		</copy>
+
+		<copy todir="${dist}/linux/fixpusher/lib">
+			<fileset dir="lib" />
+		</copy>
+		<copy todir="${dist}/linux/fixpusher/conf">
+			<fileset dir="etc/conf" />
+		</copy>
+
+		<copy todir="${dist}/linux/fixpusher/doc">
+			<fileset dir="doc" />
+		</copy>
+
+		<chmod file="${dist}/linux/fixpusher/conf/**" perm="ugo+rw" type="both" />
+
+		<copy todir="${dist}/linux/fixpusher/log">
+			<fileset dir="etc/log" />
+		</copy>
+
+		<chmod file="${dist}/linux/fixpusher/log/**" perm="ugo+rw" type="both" />
+
+		<copy todir="${dist}/windows/fixpusher/lib">
+			<fileset dir="lib" />
+		</copy>
+		<copy todir="${dist}/windows/fixpusher/conf">
+			<fileset dir="etc/conf" />
+		</copy>
+		<copy todir="${dist}/windows/fixpusher/log">
+			<fileset dir="etc/log" />
+		</copy>
+
+		<copy todir="${dist}/windows/fixpusher/doc">
+			<fileset dir="doc" />
+		</copy>
+
+		<mkdir dir="${dist}/mnt" />
+
+
+		<copy todir="${dist}/mac/FIX Pusher.app">
+			<fileset dir="etc/macos">
+				<exclude name="etc/macos/make_dmg" />
+			</fileset>
+		</copy>
+
+		<copy todir="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/lib">
+			<fileset dir="lib" />
+		</copy>
+
+		<copy todir="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/conf">
+			<fileset dir="etc/conf" />
+		</copy>
+
+		<chmod file="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/conf/**" perm="ugo+rw" type="both" />
+
+		<copy todir="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/doc">
+			<fileset dir="doc" />
+		</copy>
+
+		<copy todir="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/log">
+			<fileset dir="etc/log" />
+		</copy>
+
+		<chmod file="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/log/**" perm="ugo+rw" type="both" />
+
+		<copy file="etc/linux/fixpusher.sh" todir="${dist}/linux/fixpusher" />
+
+		<replace file="${dist}/linux/fixpusher/fixpusher.sh" token="@lib@" value="./lib/jfreechart-1.0.14.jar:./lib/jcommon-1.0.17.jar:./lib/poi-3.7-20101029.jar:./lib/jsyntaxpane-0.9.5-b29.jar:./lib/jcalendar-1.4.jar:./lib/mina-core-1.1.7.jar:./lib/quickfixj-all-1.2.5-sp2-patch.jar:./lib/slf4j-api-1.6.3.jar:./lib/japura-1.14.3.jar:./lib/slf4j-jdk14-1.6.3.jar:./lib/fixpusher-${version}.jar" />
+
+		<replace file="${dist}/mac/FIX Pusher.app/Contents/Info.plist" token="@version@" value="${version}" />
+
+		<chmod file="${dist}/linux/fixpusher/fixpusher.sh" perm="ugo+rx" />
+
+		<jar basedir="${build}" includes="**/*.class,**/*.png" jarfile="${dist}/linux/fixpusher/lib/fixpusher-${version}.jar" />
+
+		<jar basedir="${build}" includes="**/*.class,**/*.png" jarfile="${dist}/windows/fixpusher/lib/fixpusher-${version}.jar" />
+
+		<jar basedir="${build}" includes="**/*.class,**/*.png" jarfile="${dist}/mac/FIX Pusher.app/Contents/Resources/Java/lib/fixpusher-${version}.jar" />
+
+		<launch4j>
+
+			<config chdir="." customProcName="true" dontWrapJar="true" headerType="gui" icon="etc/windows/f-logo.ico" outfile="${dist}/windows/fixpusher/FIX Pusher.exe">
+
+				<classPath mainClass="net.sourceforge.fixpusher.view.FIXPusher">
+
+					<cp>./lib/*.jar</cp>
+
+				</classPath>
+
+				<jre minVersion="1.6.0" initialHeapSize="512" maxHeapSize="512">
+					 <opt>-XX:MaxPermSize=256m</opt>
+				</jre>
+
+			</config>
+
+		</launch4j>
+
+		<zip destfile="${dist}/fixpusher-windows-${version}.zip" basedir="${dist}/windows" />
+
+		<tar destfile="${dist}/fixpusher-linux-${version}.tar" longfile="gnu">
+
+			<tarfileset dir="${dist}/linux" filemode="777">
+				<include name="fixpusher/fixpusher.sh" />
+			</tarfileset>
+
+			<tarfileset dir="${dist}/linux">
+				<include name="**" />
+				<exclude name="fixpusher/fixpusher.sh" />
+			</tarfileset>
+
+		</tar>
+
+		<gzip destfile="${dist}/fixpusher-linux-${version}.tgz" src="${dist}/fixpusher-linux-${version}.tar" />
+
+		<delete file="${dist}/fixpusher-linux-${version}.tar" />
+
+		<tar destfile="${dist}/fixpusher-macprebuild-${version}.tar" longfile="gnu">
+
+			<tarfileset dir="${dist}/mac">
+				<include name="**" />
+			</tarfileset>
+
+		</tar>
+
+		<gzip destfile="${dist}/fixpusher-macprebuild-${version}.tgz" src="${dist}/fixpusher-macprebuild-${version}.tar" />
+
+		<delete file="${dist}/fixpusher-macprebuild-${version}.tar" />
+
+	</target>
+
+	<target description="clean up" name="clean">
+		<delete dir="${build}" />
+		<delete dir="${dist}" />
+	</target>
+
+</project>

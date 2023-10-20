@@ -1,0 +1,46 @@
+EXTERNAL REFERENCES
+
+    Apache Mina
+    http://mina.apache.org/
+    Apache License 2.0
+    
+    Apache POI
+    http://poi.apache.org/
+    Apache License 2.0
+    
+    Crystal
+    http://everaldo.com/crystal/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    Japura
+    http://www.japura.org/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    JCalendar
+    http://www.toedter.com/en/jcalendar/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    JCommon
+    http://jfree.org/jcommon/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    JFreeChart
+    http://www.jfree.org/jfreechart/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    JSyntaxPane
+    http://code.google.com/p/jsyntaxpane/
+    Apache License 2.0
+    
+    Oxygen
+    http://www.oxygen-icons.org/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    QuickFIX/J
+    Modified by Alexander Pinnow
+    http://www.quickfixj.org/
+    GNU Library or Lesser General Public License (LGPL)
+    
+    SLF4J
+    http://www.slf4j.org/
+    MIT License

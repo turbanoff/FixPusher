@@ -1,0 +1,649 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="imagetoolbar" content="no" />
+<script src="jquery-1.4.3.min.js">
+	<\/script>
+	<script type="text/javascript"
+	src="./fancybox/jquery.mousewheel-3.0.4.pack.js">
+</script>
+<script type="text/javascript"
+	src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		 *   Examples - images
+		 */
+
+		$("a#zoom").fancybox();
+	});
+</script>
+
+<title>Quickstart</title>
+<style type="text/css">
+a {
+	text-decoration: none
+}
+
+body {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: : 100px;
+}
+</style>
+</head>
+<body bgcolor="#FFF3CC" vlink="#527AFF" alink="#527AFF" link="#527AFF">
+	<div align="center">
+		<img src="images/quickstart-big.jpg" alt="Alternativtext">
+		<h4>By Alexander Pinnow</h4>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Objectives</h2>
+	This guide gives you step-by-step instructions for working with the
+	basic functions of FIX Pusher. The paper starts with the installation
+	of the software and explains the setup for a simple NewOrderSingle -
+	ExecutionReport workflow. If you are not familiar with the FIX
+	protocol, it is a good idea to take a look at
+	<a href="http://www.fixprotocol.org" target="_blank">http://www.fixprotocol.org</a>.
+	<br>
+	<br> This tutorial is also
+	<a href="http://fixpusher.sourceforge.net/quickstart.pdf" target="_blank">available</a> as PDF document.
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">About FIX Pusher</h2>
+	FIX Pusher is a tool for developers and administrators working with the
+	Financial Information eXchange (&quot;FIX&quot;) protocol. The FIX protocol is an
+	industry driven standard for the electronic communication of trade
+	related messages, released and maintained by
+	<a href="http://www.fixprotocol.org" target="_blank">FIX Protocol,
+		Ltd</a>.
+	<br>
+	<br> FIX Pusher can send and receive FIX messages. It supports you
+	simulating workflows with third party systems speaking the FIX
+	protocol. The application acts as acceptor or initiator. FIX Pusher can
+	interpret and modify customized data dictionaries containing user
+	defined fields. The tool supports FIX versions 4.0 - 5.0 SP2.
+	<br>
+	<br> The application ships with the option for exporting message
+	details into Excel sheets and graphical analysis of message logs. FIX
+	Pusher is a 100% Java open source implementation running on Windows,
+	Linux/Unix and Mac OS. It requires JRE version of 1.6 or higher for
+	proper functioning.
+	<br>
+	<br> This software is published under the GNU Lesser General
+	Public License, Version 2.1 (LGPLv2.1).
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Download and
+		Installation</h2>
+	Make sure you have a Java environment installed. The latest version is
+	available here:
+	<br>
+	<br>
+	<a href="http://www.java.com/en/download/manual.jsp" target="_blank">http://www.java.com/en/download/manual.jsp</a>
+	<br>
+	<br> FIX Pusher requires version 1.6 or higher for proper
+	functioning. Download the latest Version of FIX Pusher that fits to
+	your operating system from:
+	<br>
+	<br>
+	<a href="http://fixpusher.sourceforge.net/download.html">http://fixpusher.sourceforge.net</a>
+	<br>
+	<br> The further steps assume that you are working with a Windows
+	OS. Extract the downloaded zip file into a local folder.
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Launching the
+		Application</h2>
+
+	Navigate into the folder named fixpusher and hit the &quot;F&quot; icon.
+	<blockquote>
+		<a id="zoom" href="images/screen1.png"><img alt=""
+			src="images/screen1_thumb.gif" border="1" /></a>
+	</blockquote>
+	The Application starts and opens the project Acceptor Example FIX
+	5.0SP2. To have someone to talk to, start a second instance of FIX
+	Pusher by hitting the &quot;F&quot; icon once again.
+	<blockquote>
+		<a id="zoom" href="images/screen2.png"><img alt=""
+			src="images/screen2_thumb.gif" border="1" /></a>
+	</blockquote>
+	Now open the project Initiator Example FIX 5.0SP2 by selecting:
+	<blockquote>File &rarr; Open Project</blockquote>
+	<blockquote>
+		<a id="zoom" href="images/screen3.png"><img alt=""
+			src="images/screen3_thumb.gif" border="1" /></a>
+	</blockquote>
+	<blockquote>
+		<table bgcolor="#FFC6B3">
+			<tr bgcolor="#FFC6B3">
+				<td nowrap="nowrap" valign="middle"><img alt=""
+					src="images/messagebox_warning.png" border="0" hspace="5"
+					vspace="5" /></td>
+				<td nowrap="nowrap" valign="middle"><b>Notice:</b> Ensure that
+					you picked up the right protocol version 5.0SP2.</td>
+			</tr>
+		</table>
+	</blockquote>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Setting up the
+		Connection</h2>
+	From this point the FIX Pusher application containing the project
+	Acceptor Example FIX 5.0SP2 will be called &quot;the acceptor&quot; in
+	this document. The application containing the project named Initiator
+	Example FIX 5.0SP2 will be called &quot;the initiator&quot;. Switching
+	between applications is highlighted bold in this tutorial.
+	<b>Choose the acceptor</b> and start the session by clicking:
+	<blockquote>Edit &rarr; Start Session</blockquote>
+	<blockquote>
+		<a id="zoom" href="images/screen4.png"><img alt=""
+			src="images/screen4_thumb.gif" border="1" /></a>
+	</blockquote>
+	At this time the acceptor is waiting for an initiator to be connected
+	with.
+	<b>Choose the initiator</b> application and start the session the same
+	way.
+	<blockquote>
+		<a id="zoom" href="images/screen5.png"><img alt=""
+			src="images/screen5_thumb.gif" border="1" /></a>
+	</blockquote>
+	The initiator is sending a Logon FIX message to the acceptor and is
+	receiving the Logon answer. The connection between acceptor and
+	initiator is now established. If you do not like the heartbeat
+	messages, adjust the filter in the message blotter.
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Sending a Message</h2>
+
+	<b>Choose the initiator</b> application and click the node
+	NewOrderSingle in the left tree.
+	<blockquote>
+		<a id="zoom" href="images/screen6.png"><img alt=""
+			src="images/screen6_thumb.gif" border="1" /></a>
+	</blockquote>
+	An empty FIX message shows up in the main area. Now fill the message
+	with the following values:
+	<blockquote>
+		<table border="1" cellpadding="5" rules="all" bgcolor="#CCCCCC">
+			<tr bgcolor="#CCD8FF">
+				<td nowrap="nowrap"><b>Name</b></td>
+				<td nowrap="nowrap"><b>Type</b></td>
+				<td nowrap="nowrap"><b>Number</b></td>
+				<td nowrap="nowrap"><b>Data Type</b></td>
+				<td nowrap="nowrap"><b>Required</b></td>
+				<td nowrap="nowrap"><b>Value</b></td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">ClOrdID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">11</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">000000001</td>
+			</tr>
+			<tr bgcolor="#FFE58F">
+				<td nowrap="nowrap">Parties</td>
+				<td nowrap="nowrap">Component</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap"></td>
+			</tr>
+			<tr bgcolor="#CCF1FF">
+
+				<td nowrap="nowrap">NoPartyIDs</td>
+				<td nowrap="nowrap">Group</td>
+				<td nowrap="nowrap">453</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">PartyID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">448</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Conditionally</td>
+				<td nowrap="nowrap">Fill with your name</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">PartyIDSource</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">447</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">D</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">PartyRole</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">452</td>
+				<td nowrap="nowrap">Int</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">12</td>
+			</tr>
+			<tr bgcolor="#FFE58F">
+				<td nowrap="nowrap">Instrument</td>
+				<td nowrap="nowrap">Component</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap"></td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">Symbol</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">55</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">DBR 4 01/04/18</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">SecurityID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">48</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">DE0001135341</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">SecurityIDSource</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">22</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">4</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">Side</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">54</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">TransactTime</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">60</td>
+				<td nowrap="nowrap">Utctimestamp</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">Fill with current time</td>
+			</tr>
+			<tr bgcolor="#FFE58F">
+				<td nowrap="nowrap">OrderQtyData</td>
+				<td nowrap="nowrap">Component</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap"></td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">OrderQty</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">38</td>
+				<td nowrap="nowrap">Qty</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">1000000</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">OrdType</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">40</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">PriceType</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">423</td>
+				<td nowrap="nowrap">Int</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+		</table>
+	</blockquote>
+
+	You can navigate to missing fields by hitting the warning icon beside
+	the message name.
+	<blockquote>
+		<a id="zoom" href="images/screen7.png"><img alt=""
+			src="images/screen7_thumb.gif" border="1" /></a>
+	</blockquote>
+	To insert party details, hit the add button in the component Parties.
+	Next add an entry to the group NoParties by clicking the add button in
+	this group. Finally adjust the filter hiding all empty fields to check
+	the message entries.
+	<blockquote>
+		<table bgcolor="#FFC6B3">
+			<tr bgcolor="#FFC6B3">
+				<td nowrap="nowrap" valign="middle"><img alt=""
+					src="images/messagebox_warning.png" border="0" hspace="5"
+					vspace="5" /></td>
+				<td nowrap="nowrap" valign="middle"><b>Notice:</b> If the
+					filter is set, it is not possible to add or remove groups and
+					components.</td>
+			</tr>
+		</table>
+	</blockquote>
+	If the message contains no more errors or warnings, send it by
+	clicking:
+	<blockquote>Edit &rarr; Send Message</blockquote>
+	<blockquote>
+		<a id="zoom" href="images/screen8.png"><img alt=""
+			src="images/screen8_thumb.gif" border="1" /></a>
+	</blockquote>
+
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Answering a Message</h2>
+
+	<b>Choose the acceptor</b> application. The message blotter now
+	contains the received FIX message of type NewOrderSingle.
+	<blockquote>
+		<a id="zoom" href="images/screen9.png"><img alt=""
+			src="images/screen9_thumb.gif" border="1" /></a>
+	</blockquote>
+
+	By right clicking the message and selecting Open FIX Message, you can
+	inspect the message details. Now select a FIX message of type
+	ExecutionReport from the left tree. Fill the message with the following
+	values:
+	<blockquote>
+		<table border="1" cellpadding="5" rules="all" bgcolor="#CCCCCC">
+			<tr bgcolor="#CCD8FF">
+				<td nowrap="nowrap"><b>Name</b></td>
+				<td nowrap="nowrap"><b>Type</b></td>
+				<td nowrap="nowrap"><b>Number</b></td>
+				<td nowrap="nowrap"><b>Data Type</b></td>
+				<td nowrap="nowrap"><b>Required</b></td>
+				<td nowrap="nowrap"><b>Value</b></td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">OrderID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">37</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">000000002</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">ClOrdID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">11</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">000000001</td>
+			</tr>
+			<tr bgcolor="#FFE58F">
+				<td nowrap="nowrap">Parties</td>
+				<td nowrap="nowrap">Component</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap"></td>
+			</tr>
+			<tr bgcolor="#CCF1FF">
+
+				<td nowrap="nowrap">NoPartyIDs</td>
+				<td nowrap="nowrap">Group</td>
+				<td nowrap="nowrap">453</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">PartyID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">448</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Conditionally</td>
+				<td nowrap="nowrap">Fill with your name</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">PartyIDSource</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">447</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">D</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">PartyRole</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">452</td>
+				<td nowrap="nowrap">Int</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">12</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">ExecID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">17</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">000000002</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">ExecType</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">150</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">F</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">OrdStatus</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">39</td>
+				<td nowrap="nowrap">Int</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">2</td>
+			</tr>
+			<tr bgcolor="#FFE58F">
+				<td nowrap="nowrap">Instrument</td>
+				<td nowrap="nowrap">Component</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap"></td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">Symbol</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">55</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">DBR 4 01/04/18</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">SecurityID</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">48</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">DE0001135341</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+
+				<td nowrap="nowrap">SecurityIDSource</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">22</td>
+				<td nowrap="nowrap">String</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">4</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">Side</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">54</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+
+			<tr bgcolor="#FFE58F">
+				<td nowrap="nowrap">OrderQtyData</td>
+				<td nowrap="nowrap">Component</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap"></td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">OrderQty</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">38</td>
+				<td nowrap="nowrap">Qty</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">1000000</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">OrdType</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">40</td>
+				<td nowrap="nowrap">Char</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">PriceType</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">423</td>
+				<td nowrap="nowrap">Int</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">1</td>
+			</tr>
+
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">Price</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">44</td>
+				<td nowrap="nowrap">Price</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">117.08</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">LeavesQty</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">151</td>
+				<td nowrap="nowrap">Qty</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">0</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">CumQty</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">14</td>
+				<td nowrap="nowrap">Qty</td>
+				<td nowrap="nowrap">Required</td>
+				<td nowrap="nowrap">1000000</td>
+			</tr>
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">AvgPx</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">6</td>
+				<td nowrap="nowrap">Price</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">117.08</td>
+			</tr>
+
+			<tr bgcolor="#FFF3CC">
+				<td nowrap="nowrap">TransactTime</td>
+				<td nowrap="nowrap">Field</td>
+				<td nowrap="nowrap">60</td>
+				<td nowrap="nowrap">Utctimestamp</td>
+				<td nowrap="nowrap">Optional</td>
+				<td nowrap="nowrap">Fill with current time</td>
+			</tr>
+		</table>
+	</blockquote>
+	You can copy the values from the received NewOrderSingle by right
+	clicking the message in the blotter and selecting Adopt Values.
+
+	<blockquote>
+		<a id="zoom" href="images/screen10.png"><img alt=""
+			src="images/screen10_thumb.gif" border="1" /></a>
+	</blockquote>
+
+	If the message contains no more errors or warnings, send it by
+	clicking:
+
+	<blockquote>Edit &rarr; Send Message</blockquote>
+
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Inspecting the Message
+		Log</h2>
+
+	If you want to get an overview of the message blotter content, click:
+
+	<blockquote>Extras &rarr; Open Log Report</blockquote>
+	<blockquote>
+		<a id="zoom" href="images/screen11.png"><img alt=""
+			src="images/screen11_thumb.gif" border="1" /></a>
+	</blockquote>
+	The main area shows you a pie chart with the top 5 messages. The report
+	is according to the filter settings of the message blotter. If you just
+	want to see the messages you sent, adjust the filter hiding received
+	messages.
+	<br>
+	<br>
+	<br>
+	<br>
+	<h2 align="center" style="color: #527AFF">Exporting Message
+		Details</h2>
+
+	Open the received NewOrderSingle once again from within the message
+	blotter. Now export the message into an Excel sheet by choosing:
+
+	<blockquote>Extras &rarr; Export to Excel</blockquote>
+
+	A new sheet in the selected excel file will be created, according to
+	the filter settings of the message detail. If you just want to generate
+	a sheet containing all filled fields, adjust the filter hiding empty
+	fields.
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</body>
+</html>
