@@ -51,6 +51,7 @@ import javax.swing.event.PopupMenuListener;
 
 import net.sourceforge.fixpusher.model.FIXMessageFilterListener;
 import net.sourceforge.fixpusher.model.log.LogTableModel;
+import net.sourceforge.fixpusher.view.ColoredCheckBoxIcon;
 import net.sourceforge.fixpusher.view.FIXPusher;
 import net.sourceforge.fixpusher.view.GradientPanel;
 import net.sourceforge.fixpusher.view.TopPanel;
@@ -117,6 +118,7 @@ public class LogPanel extends JPanel implements FIXMessageFilterListener {
 		hideHeartbeatsCheckBox.setOpaque(false);
 		hideHeartbeatsCheckBox.setSelected(topPanel.getFixProperties().getFixMessageFilter().isHideHeartbeats());
 		hideHeartbeatsCheckBox.setFont(new Font("Dialog", Font.PLAIN, 12));
+		hideHeartbeatsCheckBox.setIcon(new ColoredCheckBoxIcon(Color.WHITE));
 		hideHeartbeatsCheckBox.setFocusPainted(false);
 		final GridBagConstraints gbc_hideHeartbeatsCheckBox = new GridBagConstraints();
 		gbc_hideHeartbeatsCheckBox.insets = new Insets(5, 20, 5, 5);
@@ -138,6 +140,7 @@ public class LogPanel extends JPanel implements FIXMessageFilterListener {
 		hideReceivedCheckBox.setFocusPainted(false);
 		hideReceivedCheckBox.setSelected(topPanel.getFixProperties().getFixMessageFilter().isHideReceived());
 		hideReceivedCheckBox.setForeground(Color.WHITE);
+		hideReceivedCheckBox.setIcon(new ColoredCheckBoxIcon(Color.WHITE));
 		hideReceivedCheckBox.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_hideReceivedCheckBox = new GridBagConstraints();
 		gbc_hideReceivedCheckBox.insets = new Insets(5, 20, 5, 5);
@@ -158,6 +161,7 @@ public class LogPanel extends JPanel implements FIXMessageFilterListener {
 		hideSentCheckBox.setFocusPainted(false);
 		hideSentCheckBox.setSelected(topPanel.getFixProperties().getFixMessageFilter().isHideSent());
 		hideSentCheckBox.setForeground(Color.WHITE);
+		hideSentCheckBox.setIcon(new ColoredCheckBoxIcon(Color.WHITE));
 		hideSentCheckBox.setOpaque(false);
 		hideSentCheckBox.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_hideSentCheckBox = new GridBagConstraints();

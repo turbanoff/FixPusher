@@ -43,6 +43,8 @@ import javax.swing.UIManager;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.EmptyBorder;
 
+import com.jgoodies.looks.plastic.Plastic3DLookAndFeel;
+
 import net.sourceforge.fixpusher.control.FIXConnector;
 import net.sourceforge.fixpusher.model.FIXProperties;
 import net.sourceforge.fixpusher.model.log.LogTableModel;
@@ -60,7 +62,7 @@ public class FIXPusher extends JFrame {
 	int count = 0;
 
 	/** The version. */
-	public static String version = "1.0.1";
+	public static String version = "1.0.2";
 
 	/**
 	 * The main method.
@@ -76,9 +78,10 @@ public class FIXPusher extends JFrame {
 
 		try {
 
-			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			UIManager.setLookAndFeel(new Plastic3DLookAndFeel());
+			
 			UIManager.put("Panel.background", new Color(204, 216, 255));
-			UIManager.put("OptionPane.background", new Color(204, 216, 255));
+			UIManager.put("OptionPane.background", new Color(204, 216, 255));			
 
 			Locale.setDefault(Locale.ENGLISH);
 			JComponent.setDefaultLocale(Locale.ENGLISH);

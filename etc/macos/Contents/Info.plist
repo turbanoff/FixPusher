@@ -42,6 +42,8 @@
 			<string>$JAVAROOT/lib/jcommon-1.0.17.jar</string>
 			<string>$JAVAROOT/lib/jfreechart-1.0.14.jar</string>
 			<string>$JAVAROOT/lib/jsyntaxpane-0.9.5-b29.jar</string>
+			<string>$JAVAROOT/lib/jgoodies-looks-2.5.2.jar</string>
+			<string>$JAVAROOT/lib/jgoodies-common-1.4.0.jar</string>
 			</array>
 	</dict>
 </dict>

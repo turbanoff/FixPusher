@@ -28,6 +28,14 @@ EXTERNAL REFERENCES
     http://www.jfree.org/jfreechart/
     GNU Library or Lesser General Public License (LGPL)
     
+    JGoodies Common
+    http://www.jgoodies.com/downloads/libraries/
+    BSD Open Source License
+    
+    JGoodies Looks
+    http://www.jgoodies.com/downloads/libraries/
+    BSD Open Source License   
+    
     JSyntaxPane
     http://code.google.com/p/jsyntaxpane/
     Apache License 2.0

@@ -1,0 +1,9 @@
+20120202-07:36:22: Session FIX.4.4:FIXPUSHER->COUNTERPARTY schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20120202-07:36:22: Created session: FIX.4.4:FIXPUSHER->COUNTERPARTY
+20120202-07:36:26: Accepting session FIX.4.4:FIXPUSHER->COUNTERPARTY from /127.0.0.1:36135
+20120202-07:36:26: Acceptor heartbeat set to 60 seconds
+20120202-07:36:26: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20120202-07:36:26: Received logon
+20120202-07:36:26: Responding to logon request
+20120202-07:38:43: Initiated logout request
+20120202-07:38:43: Received logout response

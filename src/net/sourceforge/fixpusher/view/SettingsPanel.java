@@ -283,10 +283,10 @@ public class SettingsPanel extends AbstractMainPanelContent {
 		});
 
 		fileStorePathButton = new JButton("Browse ...");
-		fileStorePathButton.setOpaque(false);
 		fileStorePathButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/folder.png")));
 		fileStorePathButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_fileStorePathButton = new GridBagConstraints();
+		gbc_fileStorePathButton.fill = GridBagConstraints.VERTICAL;
 		gbc_fileStorePathButton.insets = new Insets(50, 0, 5, 5);
 		gbc_fileStorePathButton.gridx = 9;
 		gbc_fileStorePathButton.gridy = 0;
@@ -363,10 +363,10 @@ public class SettingsPanel extends AbstractMainPanelContent {
 		});
 
 		fileLogPathButton = new JButton("Browse ...");
-		fileLogPathButton.setOpaque(false);
 		fileLogPathButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/folder.png")));
 		fileLogPathButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_fileLogPathButton = new GridBagConstraints();
+		gbc_fileLogPathButton.fill = GridBagConstraints.VERTICAL;
 		gbc_fileLogPathButton.insets = new Insets(0, 0, 5, 5);
 		gbc_fileLogPathButton.gridx = 9;
 		gbc_fileLogPathButton.gridy = 1;
@@ -443,10 +443,10 @@ public class SettingsPanel extends AbstractMainPanelContent {
 		});
 
 		dataDictionaryButton = new JButton("Browse ...");
-		dataDictionaryButton.setOpaque(false);
 		dataDictionaryButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/folder.png")));
 		dataDictionaryButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_dataDictionaryButton = new GridBagConstraints();
+		gbc_dataDictionaryButton.fill = GridBagConstraints.VERTICAL;
 		gbc_dataDictionaryButton.insets = new Insets(0, 0, 5, 5);
 		gbc_dataDictionaryButton.gridx = 9;
 		gbc_dataDictionaryButton.gridy = 2;
@@ -657,9 +657,9 @@ public class SettingsPanel extends AbstractMainPanelContent {
 
 		transportDataDictionaryButton = new JButton("Browse ...");
 		transportDataDictionaryButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/folder.png")));
-		transportDataDictionaryButton.setOpaque(false);
 		transportDataDictionaryButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_transportDataDictionaryButton = new GridBagConstraints();
+		gbc_transportDataDictionaryButton.fill = GridBagConstraints.VERTICAL;
 		gbc_transportDataDictionaryButton.insets = new Insets(0, 0, 5, 5);
 		gbc_transportDataDictionaryButton.gridx = 9;
 		gbc_transportDataDictionaryButton.gridy = 4;
@@ -1200,18 +1200,16 @@ public class SettingsPanel extends AbstractMainPanelContent {
 		nextTargetSeqNumberField.setText(fixProperties.getNextTargetSequenceNumber());
 
 		changeSenderButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/configure.png")));
-		changeSenderButton.setOpaque(false);
 		changeSenderButton.setPreferredSize(new Dimension(93, 25));
 		changeSenderButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_changeSenderButton = new GridBagConstraints();
-		gbc_changeSenderButton.fill = GridBagConstraints.HORIZONTAL;
+		gbc_changeSenderButton.fill = GridBagConstraints.BOTH;
 		gbc_changeSenderButton.insets = new Insets(0, 0, 5, 5);
 		gbc_changeSenderButton.gridx = 9;
 		gbc_changeSenderButton.gridy = 9;
 		contentPanel.add(changeSenderButton, gbc_changeSenderButton);
 
 		cleanMessageStoreButton = new JButton("Clean");
-		cleanMessageStoreButton.setOpaque(false);
 		cleanMessageStoreButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/edit-delete.png")));
 		cleanMessageStoreButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 
@@ -1222,7 +1220,7 @@ public class SettingsPanel extends AbstractMainPanelContent {
 
 				final Object[] options = { "Yes", "No" };
 				final int n = JOptionPane.showOptionDialog(SettingsPanel.this, "Are you sure you want to remove the files in the message store from disk?",
-						"Confirm Delte", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+						"Confirm Delete", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
 						new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/22x22/messagebox_warning.png")), options, options[1]);
 
 				if (n == 0) {
@@ -1242,7 +1240,7 @@ public class SettingsPanel extends AbstractMainPanelContent {
 		gbc_messageStoreLabel.gridy = 10;
 		contentPanel.add(messageStoreLabel, gbc_messageStoreLabel);
 		final GridBagConstraints gbc_cleanMessageStoreButton = new GridBagConstraints();
-		gbc_cleanMessageStoreButton.fill = GridBagConstraints.HORIZONTAL;
+		gbc_cleanMessageStoreButton.fill = GridBagConstraints.BOTH;
 		gbc_cleanMessageStoreButton.insets = new Insets(0, 0, 5, 5);
 		gbc_cleanMessageStoreButton.gridx = 9;
 		gbc_cleanMessageStoreButton.gridy = 10;

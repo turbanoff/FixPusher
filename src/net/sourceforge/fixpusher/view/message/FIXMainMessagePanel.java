@@ -48,6 +48,7 @@ import net.sourceforge.fixpusher.control.FIXConnectionListener.Status;
 import net.sourceforge.fixpusher.model.FIXProperties;
 import net.sourceforge.fixpusher.model.message.FIXMessage;
 import net.sourceforge.fixpusher.view.AbstractMainPanelContent;
+import net.sourceforge.fixpusher.view.ColoredCheckBoxIcon;
 import net.sourceforge.fixpusher.view.FIXPusher;
 import net.sourceforge.fixpusher.view.GradientPanel;
 import net.sourceforge.fixpusher.view.MainPanel;
@@ -131,6 +132,7 @@ public class FIXMainMessagePanel extends AbstractMainPanelContent {
 		hideOptionalFieldsCheckBox = new JCheckBox("Hide optional fields");
 		hideOptionalFieldsCheckBox.setEnabled(false);
 		hideOptionalFieldsCheckBox.setForeground(Color.WHITE);
+		hideOptionalFieldsCheckBox.setIcon(new ColoredCheckBoxIcon(Color.WHITE));
 		hideOptionalFieldsCheckBox.setFocusPainted(false);
 		hideOptionalFieldsCheckBox.setOpaque(false);
 		hideOptionalFieldsCheckBox.setSelected(fixProperties.getFixMessageFilter().isHideOptionalFields());
@@ -156,6 +158,7 @@ public class FIXMainMessagePanel extends AbstractMainPanelContent {
 		hideEmptyFieldsCheckBox.setOpaque(false);
 		hideEmptyFieldsCheckBox.setEnabled(false);
 		hideEmptyFieldsCheckBox.setForeground(Color.WHITE);
+		hideEmptyFieldsCheckBox.setIcon(new ColoredCheckBoxIcon(Color.WHITE));
 		hideEmptyFieldsCheckBox.setFocusPainted(false);
 		hideEmptyFieldsCheckBox.setSelected(fixProperties.getFixMessageFilter().isHideEmptyFields());
 		hideEmptyFieldsCheckBox.setFont(new Font("Dialog", Font.PLAIN, 12));
@@ -179,7 +182,8 @@ public class FIXMainMessagePanel extends AbstractMainPanelContent {
 		hideHeaderCheckBox = new JCheckBox("Hide header/trailer");
 		hideHeaderCheckBox.setForeground(Color.WHITE);
 		hideHeaderCheckBox.setOpaque(false);
-		hideEmptyFieldsCheckBox.setEnabled(false);
+		hideHeaderCheckBox.setEnabled(false);
+		hideHeaderCheckBox.setIcon(new ColoredCheckBoxIcon(Color.WHITE));
 		hideHeaderCheckBox.setFocusPainted(false);
 		hideHeaderCheckBox.setFont(new Font("Dialog", Font.PLAIN, 12));
 		hideHeaderCheckBox.setSelected(fixProperties.getFixMessageFilter().isHideHeader());
@@ -255,11 +259,12 @@ public class FIXMainMessagePanel extends AbstractMainPanelContent {
 		});
 
 		final JButton searchButton = new JButton("Search");
-		searchButton.setOpaque(false);
+		searchButton.setOpaque(true);
 		searchButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/search.png")));
 		searchButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		final GridBagConstraints gbc_btnNewButton = new GridBagConstraints();
 		gbc_btnNewButton.anchor = GridBagConstraints.WEST;
+		gbc_btnNewButton.fill = GridBagConstraints.VERTICAL;
 		gbc_btnNewButton.insets = new Insets(5, 5, 5, 5);
 		gbc_btnNewButton.gridx = 5;
 		gbc_btnNewButton.gridy = 0;

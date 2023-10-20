@@ -1,0 +1,7 @@
+20120202-07:36:25: Session FIX.4.4:COUNTERPARTY->FIXPUSHER schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20120202-07:36:25: Created session: FIX.4.4:COUNTERPARTY->FIXPUSHER
+20120202-07:36:26: Initiated logon request
+20120202-07:36:26: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20120202-07:36:26: Received logon
+20120202-07:38:43: Received logout request
+20120202-07:38:43: Sent logout response

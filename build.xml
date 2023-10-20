@@ -5,7 +5,7 @@
 	<property location="/home/alex/dist" name="destination" />
 	<property location="${destination}/build" name="build" />
 	<property location="${destination}/dist" name="dist" />
-	<property name="version" value="1.0.1" />
+	<property name="version" value="1.0.2" />
 
 	<target name="init">
 		<mkdir dir="${build}" />
@@ -93,7 +93,7 @@
 
 		<copy file="etc/linux/fixpusher.sh" todir="${dist}/linux/fixpusher" />
 
-		<replace file="${dist}/linux/fixpusher/fixpusher.sh" token="@lib@" value="./lib/jfreechart-1.0.14.jar:./lib/jcommon-1.0.17.jar:./lib/poi-3.7-20101029.jar:./lib/jsyntaxpane-0.9.5-b29.jar:./lib/jcalendar-1.4.jar:./lib/mina-core-1.1.7.jar:./lib/quickfixj-all-1.2.5-sp2-patch.jar:./lib/slf4j-api-1.6.3.jar:./lib/japura-1.14.3.jar:./lib/slf4j-jdk14-1.6.3.jar:./lib/fixpusher-${version}.jar" />
+		<replace file="${dist}/linux/fixpusher/fixpusher.sh" token="@lib@" value="./lib/jgoodies-looks-2.5.2.jar:./lib/jgoodies-common-1.4.0.jar:./lib/jfreechart-1.0.14.jar:./lib/jcommon-1.0.17.jar:./lib/poi-3.7-20101029.jar:./lib/jsyntaxpane-0.9.5-b29.jar:./lib/jcalendar-1.4.jar:./lib/mina-core-1.1.7.jar:./lib/quickfixj-all-1.2.5-sp2-patch.jar:./lib/slf4j-api-1.6.3.jar:./lib/japura-1.14.3.jar:./lib/slf4j-jdk14-1.6.3.jar:./lib/fixpusher-${version}.jar" />
 
 		<replace file="${dist}/mac/FIX Pusher.app/Contents/Info.plist" token="@version@" value="${version}" />
 

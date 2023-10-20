@@ -397,7 +397,7 @@ public class FIXFieldPanel extends AbstractFIXPanel {
 							textField.setText(decimalFormat.format(fieldMap.getDouble(abstractFIXElement.getNumber())));
 
 						}
-						catch (final FieldNotFound e1) {
+						catch (final Exception e1) {
 
 							ExceptionDialog.showException(e1);
 						}
@@ -408,7 +408,7 @@ public class FIXFieldPanel extends AbstractFIXPanel {
 							textField.setText(decimalFormat.format(fieldMap.getInt(abstractFIXElement.getNumber())));
 
 						}
-						catch (final FieldNotFound e1) {
+						catch (final Exception e1) {
 
 							ExceptionDialog.showException(e1);
 						}
@@ -418,7 +418,7 @@ public class FIXFieldPanel extends AbstractFIXPanel {
 							textField.setText(Character.toString(fieldMap.getChar(abstractFIXElement.getNumber())));
 
 						}
-						catch (final FieldNotFound e1) {
+						catch (final Exception e1) {
 
 							ExceptionDialog.showException(e1);
 						}
@@ -428,7 +428,7 @@ public class FIXFieldPanel extends AbstractFIXPanel {
 							textField.setText(fieldMap.getString(abstractFIXElement.getNumber()));
 
 						}
-						catch (final FieldNotFound e1) {
+						catch (final Exception e1) {
 
 							ExceptionDialog.showException(e1);
 						}

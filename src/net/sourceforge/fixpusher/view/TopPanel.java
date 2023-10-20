@@ -457,8 +457,8 @@ public class TopPanel extends JPanel implements FIXConnectionListener, MainPanel
 			public void paintComponent(final Graphics g) {
 
 				super.paintComponent(g);
-				for (int i = 0; i < g.getClipBounds().getWidth(); i = i + backImage.getIconWidth())
-					g.drawImage(image, i, 0, this);
+				for (int i = 0; i < getWidth(); i = i + backImage.getIconWidth())
+					g.drawImage(image, i, 0, null);
 			}
 		};
 
@@ -925,7 +925,7 @@ public class TopPanel extends JPanel implements FIXConnectionListener, MainPanel
 	}
 
 	private void initDesktop() {
-
+		
 		if (java.awt.Desktop.isDesktopSupported()) {
 			desktop = java.awt.Desktop.getDesktop();
 

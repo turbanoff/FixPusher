@@ -159,7 +159,6 @@ public abstract class AbstractProjectDialog extends JDialog {
 
 		okButton = new JButton("Create");
 		okButton.setFont(new Font("Dialog", Font.PLAIN, 12));
-		okButton.setOpaque(false);
 		okButton.setPreferredSize(new Dimension(100, 25));
 		okButton.setActionCommand("OK");
 		buttonPane.add(okButton);
@@ -180,7 +179,6 @@ public abstract class AbstractProjectDialog extends JDialog {
 		cancelButton.setFont(new Font("Dialog", Font.PLAIN, 12));
 		cancelButton.setPreferredSize(new Dimension(100, 25));
 		cancelButton.setActionCommand("Cancel");
-		cancelButton.setOpaque(false);
 		cancelButton.setIcon(new ImageIcon(FIXPusher.class.getResource("/net/sourceforge/fixpusher/view/images/16x16/fileclose.png")));
 		cancelButton.addActionListener(new ActionListener() {
 
